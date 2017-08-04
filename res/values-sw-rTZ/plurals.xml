@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d skrini katika Muhtasari</item>
+        <item quantity="one">Skrini 1 iko katika Muhtasari</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Umeandika msimbo wa PIN usio sahihi, umesalia na majaribio %d.</item>
+        <item quantity="one">Umeandika msimbo wa PIN ya SIM usio sahihi, umesalia na majaribio %d kabla ulazimike kuwasiliana na mtoa huduma wako ili kifaa chako kifunguliwe.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Msimbo wa PUK ya SIM si sajojo, umesalia na jaribio %d kabla SIM iache kutumika kabisa.</item>
+        <item quantity="one">Msimbo wa PUK ya SIM si sajojo, umesalia na jaribio %d kabla SIM iache kutumika kabisa.</item>
+    </plurals>
+</resources>

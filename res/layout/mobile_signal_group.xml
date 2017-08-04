@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/mobile_network_combo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mobile_combo" android:layout_width="@dimen/mobile_type_container_width" android:layout_height="@dimen/mobile_type_container_height">
+        <ImageView android:layout_gravity="right" android:id="@id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:layout_width="@dimen/mobile_type_container_width" android:layout_height="@dimen/mobile_type_container_height">
+            <ImageView android:id="@id/network_type" android:paddingTop="@dimen/mobile_type_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/mobile_type_margin_end" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/mobile_type" android:paddingTop="@dimen/mobile_type_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/mobile_type_margin_end" android:layout_alignParentEnd="true" />
+            <com.android.systemui.statusbar.AnimatedImageView android:id="@id/mobile_inout" android:paddingTop="@dimen/mobile_inout_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/mobile_inout_margin_end" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d layar dalam Ikhtisar</item>
+        <item quantity="one">1 layar dalam Ikhtisar</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Kode PIN SIM salah, Anda memiliki %d kesempatan tersisa.</item>
+        <item quantity="one">Kode PIN SIM salah, Anda memiliki %d kesempatan tersisa sebelum Anda harus menghubungi operator Anda untuk membuka kunci perangkat Anda.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Kode PUK SIM salah, Anda memiliki %d kesempatan tersisa sebelum SIM tersebut menjadi tidak dapat digunakan selamanya.</item>
+        <item quantity="one">Kode PUK SIM salah, Anda memiliki %d kesempatan tersisa sebelum SIM tersebut menjadi tidak dapat digunakan selamanya.</item>
+    </plurals>
+</resources>

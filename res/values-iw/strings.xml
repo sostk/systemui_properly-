@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">הגדרות</string>
+    <string name="file_selected_number">%1$s קבצים נבחרו, ‎%2$s MB בסך הכל</string>
+    <string name="mz_share_view_checkbox_text">מחק לאחר שיתוף</string>
+    <string name="mz_share_view_title">שתף עם</string>
+    <string name="wechat_friends">חבר WeChat</string>
+    <string name="wechat_pengyouquan">WeChat Moments</string>
+    <string name="wechat_shoucang">המועדפים של WeChat</string>
+    <string name="weibo_app">Weibo</string>
+    <string name="mc_allow">אישור</string>
+    <string name="mc_alway_allow">אפשר תמיד</string>
+    <string name="mc_cancel">ביטול</string>
+    <string name="mc_cancel_button_text">ביטול</string>
+    <string name="mc_cancel_collected_message">בטל מהמועדפים</string>
+    <string name="mc_cancel_praised_message">בטל אהבתי</string>
+    <string name="mc_change_num">עדכון</string>
+    <string name="mc_collected_message">מצב מועדף</string>
+    <string name="mc_custom_date_time_gregorian">גרגוריאני</string>
+    <string name="mc_custom_date_time_lunar">ירחי</string>
+    <string name="mc_date_time_day">d</string>
+    <string name="mc_date_time_hour">שעה</string>
+    <string name="mc_date_time_min">דק</string>
+    <string name="mc_date_time_month">דק</string>
+    <string name="mc_date_time_sec">ש</string>
+    <string name="mc_date_time_set">הגדר</string>
+    <string name="mc_date_time_year">ש</string>
+    <string name="mc_description_target_answer">תשובה</string>
+    <string name="mc_description_target_decline">דחייה</string>
+    <string name="mc_disable">השבת</string>
+    <string name="mc_downloading_patch_prefix">הורד קובץ שהועלה</string>
+    <string name="mc_downloading_prefix">ההורדה נסתיימה</string>
+    <string name="mc_enhanceseekbar">משתמש בפקד מחוון. מוגדר כעת ל %1$s</string>
+    <string name="mc_every_day">כול יום</string>
+    <string name="mc_friday">ו</string>
+    <string name="mc_go_Refreshing">בצע רענון</string>
+    <string name="mc_hour">שעה</string>
+    <string name="mc_is_Refreshing">מרענן</string>
+    <string name="mc_last_refresh">הרענון האחרון</string>
+    <string name="mc_last_refresh_hour">שעות לפני</string>
+    <string name="mc_last_refresh_just_now">עכשיו</string>
+    <string name="mc_last_refresh_minute">דקות קודם</string>
+    <string name="mc_last_refresh_second">שניות קודם</string>
+    <string name="mc_loading_animation_alert">שומר את התמונה</string>
+    <string name="mc_loading_view_text">טוען</string>
+    <string name="mc_minute">דק</string>
+    <string name="mc_monday">"ב'"</string>
+    <string name="mc_never">חד פעמית</string>
+    <string name="mc_permission_apply">הרשאות יישומים</string>
+    <string name="mc_permission_message_content">%1$s בקשות %3$d הרשאות, כולל %2$s</string>
+    <string name="mc_pm_allow_check_app">אישור</string>
+    <string name="mc_pm_allow_dialog_push">אפשר דחיפה</string>
+    <string name="mc_pm_bluetooth">Bluetooth</string>
+    <string name="mc_pm_call">התקשר</string>
+    <string name="mc_pm_call_log">קרא יומן שיחות</string>
+    <string name="mc_pm_camera">מצלמה (תמונה/וידאו)</string>
+    <string name="mc_pm_close">סגור</string>
+    <string name="mc_pm_contacts">קרא אנשי קשר</string>
+    <string name="mc_pm_dialog_push">ח.קופצים בדחיפה</string>
+    <string name="mc_pm_dlg_cancel">ביטול</string>
+    <string name="mc_pm_dlg_ok">אישור</string>
+    <string name="mc_pm_location">אתר</string>
+    <string name="mc_pm_network">נתונים סלולריים</string>
+    <string name="mc_pm_nfc">NFC</string>
+    <string name="mc_pm_not_allow_check_app">יציאה</string>
+    <string name="mc_pm_not_allow_dialog_push">השבת</string>
+    <string name="mc_pm_online_intenert">אינטרנט</string>
+    <string name="mc_pm_open">פתוח</string>
+    <string name="mc_pm_r_mms">קרא MMS</string>
+    <string name="mc_pm_r_sms">קרא סמס</string>
+    <string name="mc_pm_recordaudio_local">רשומת שיחה/מקומית</string>
+    <string name="mc_pm_recordaudio_phone">רשומת שיחה</string>
+    <string name="mc_pm_s_mms">שליחת הודעת מולטימדיה</string>
+    <string name="mc_pm_s_sms">שליחת הודעה</string>
+    <string name="mc_pm_set_bluetooth_on">הפעל Bluetooth</string>
+    <string name="mc_pm_set_gprs_on">הפעל רשת סלולרית</string>
+    <string name="mc_pm_set_wifi_on">הפעל WLAN</string>
+    <string name="mc_pm_wlan">WLAN</string>
+    <string name="mc_praised_message">אוהב</string>
+    <string name="mc_pull_refresh">משוך למטה לרענן</string>
+    <string name="mc_reject">יציאה</string>
+    <string name="mc_saturday">"ש'"</string>
+    <string name="mc_search">חפש</string>
+    <string name="mc_search_button_text">חפש</string>
+    <string name="mc_search_icon">חיפוש</string>
+    <string name="mc_search_icon_input_clear">מחק</string>
+    <string name="mc_search_text">חפש</string>
+    <string name="mc_second">ש</string>
+    <string name="mc_sunday">"א'"</string>
+    <string name="mc_thursday">"ה'"</string>
+    <string name="mc_time_picker_dialog_title">תזמן</string>
+    <string name="mc_time_picker_leap">חודש מעובר</string>
+    <string name="mc_tuesday">"ג'"</string>
+    <string name="mc_updating_prefix">מעדכן</string>
+    <string name="mc_value_checked">נבחרו</string>
+    <string name="mc_value_not_checked">לא נבחרו</string>
+    <string name="mc_voice_icon">חיפוש קולי</string>
+    <string name="mc_wednesday">"ד'"</string>
+    <string name="mc_weekend">סוף שבוע</string>
+    <string name="mc_working_day">ימי שבוע</string>
+    <string name="mc_yes">אישור</string>
+    <string name="more_item_label">עוד</string>
+    <string name="mc_pattern_a_hour_before">לפני שעה 1</string>
+    <string name="mc_pattern_a_minute_before">לפני דקה 1</string>
+    <string name="mc_pattern_hour_before">שעות עברו</string>
+    <string name="mc_pattern_minute_before">דקות עברו</string>
+    <string name="mc_pattern_today">היום</string>
+    <string name="mc_pattern_yesterday">אתמול</string>
+    <string name="alwaysUse">השתמש באפשרות זו כברירת מחדל</string>
+    <string name="date_time_set">הגדר</string>
+    <string name="mz_date_time_day">יום</string>
+    <string name="mz_date_time_hour">שעות</string>
+    <string name="mz_date_time_min">"דק'"</string>
+    <string name="mz_date_time_month">"חוד'"</string>
+    <string name="mz_date_time_sec">שניות</string>
+    <string name="mz_date_time_year">שנים</string>
+    <string name="mz_network_unavailable_hint">רשת לא זמינה, בדוק הגדרות רשת</string>
+    <string name="mz_wif_setting_dialog_message">אין חיבור לרשת. אנא בדוק את הגדרות הרשת.</string>
+    <string name="mz_wif_setting_dialog_set">הגדר</string>
+    <string name="status_bar_settings_wlan">WLAN</string>
+    <string name="status_bar_settings_vpn">VPN</string>
+    <string name="status_bar_settings_autobrightness">בהירות אוטומטית</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_smarttouch">SmartTouch</string>
+    <string name="status_bar_settings_dndmode">DND</string>
+    <string name="status_bar_settings_mute">השתק</string>
+    <string name="status_bar_settings_vibrate">רטט</string>
+    <string name="status_bar_settings_powersave">חיסכון בצריכת חשמל</string>
+    <string name="status_bar_settings_rotation">סיבוב אוטומטי</string>
+    <string name="mobile">נתונים סלולריים</string>
+    <string name="status_bar_settings_screenshot">צילום מסך</string>
+    <string name="status_bar_settings_datasave">חוסך נתונים</string>
+    <string name="status_bar_settings_hotspot">נקודה חמה</string>
+    <string name="status_bar_settings_drivemode">עוזר הנהיגה</string>
+    <string name="status_bar_settings_eyeprotective">ידידותי לעיניים</string>
+    <string name="status_bar_settings_accelerator">חיישן תאוצה</string>
+    <string name="status_bar_settings_screenrecord">הקלטת מסך</string>
+    <string name="quick_settings_connecting_label">מתחבר...</string>
+    <string name="quick_settings_bluetooth_devices_label">Bluetooth %d</string>
+    <string name="qs_tiles_edit_tips_text">גרור כלפי מעלה כדי להוסיף</string>
+    <string name="mobile_data_disabled_message">נתונים סלולריים לא מוכנים. נסה שוב מאוחר יותר.</string>
+    <string name="flash_light_disabled">סגור את המצלמה או הפנס קודם</string>
+    <string name="tile_powersave_standard">חכם</string>
+    <string name="tile_powersave_user_defined">מוגדר על ידי המשתמש</string>
+    <string name="tile_powersave_super">מצב סופר</string>
+    <string name="tile_mobiledata_2g_only">דור 2 בלבד</string>
+    <string name="tile_mobiledata_3g_first">עדיפות לדור 3</string>
+    <string name="tile_mobiledata_3g_only">דור 3 בלבד</string>
+    <string name="tile_mobiledata_4g_first">עדיפות לדור 4</string>
+    <string name="tile_bluetooth_detail_empty_text">לא נמצאו התקני Bluetooth בקרבת מקום.</string>
+    <string name="wifi_password">סיסמא</string>
+    <string name="wifi_connect">התחבר</string>
+    <string name="WidgetLayoutExtend_Description_smarttouch">נגיעה חכמה</string>
+    <string name="smarttouch_help_title">אודות SmartTouch</string>
+    <string name="smarttouch_help_button_close">התעלם</string>
+    <string name="smarttouch_help_button_modify">שנה</string>
+    <string name="smarttouch_help_button_title_1">לחיצה</string>
+    <string name="smarttouch_help_button_summary_1">הקודם</string>
+    <string name="smarttouch_help_button_title_2">הקש פעמיים</string>
+    <string name="smarttouch_help_button_summary_2">הזזת מסך</string>
+    <string name="smarttouch_help_button_title_3">החזק</string>
+    <string name="smarttouch_help_button_summary_3">העבר</string>
+    <string name="smarttouch_help_button_title_4">החלק מעלה</string>
+    <string name="smarttouch_help_button_summary_4">חזרה למסך הבית</string>
+    <string name="smarttouch_help_button_title_5">החלק מטה</string>
+    <string name="smarttouch_help_button_summary_5">פתח פס התראות</string>
+    <string name="smarttouch_help_button_title_6">החלק ימינה ושמאלה</string>
+    <string name="smarttouch_help_button_summary_6">החלף בין משימות</string>
+    <string name="smarttouch_help_button_summary_lock_screen">נעל את המסך</string>
+    <string name="carrier_no_sim">אין SIM</string>
+    <string name="demo_device">התקן תצוגה</string>
+    <string name="carrier_airplane_mode">מצב טיסה</string>
+    <string name="multi_choose_app">בחר יישום</string>
+    <string name="multi_activity_lable">חלונות מרובים</string>
+    <string name="recents_close_all_title">סגור הכל</string>
+    <string name="recents_close_all_mem">פינוי של ‎%1$dMB</string>
+    <string name="recents_close_all_mem_nothing">אין מה למחוק</string>
+    <string name="recents_start_multi">ריבוי</string>
+    <string name="recents_extend_lock">נעל</string>
+    <string name="recents_extend_secret">סודי</string>
+    <string name="recents_extend_multi">מרובה</string>
+    <string name="recents_mem">זכרון</string>
+    <string name="keyguard_camera_hint">החלק מעלה למצלמה</string>
+    <string name="fake_notification_tip">%1$d התראות חדשות</string>
+    <string name="fake_notification_tips">%1$d התראות חדשות</string>
+    <string name="qs_header_date_main_pattern12">%s EEE a</string>
+    <string name="qs_header_date_main_pattern24">%s EEE</string>
+    <string name="qs_header_date_local_pattern">MMMd</string>
+    <string name="notification_reply">מענה</string>
+    <string name="allow_notification">אפשר הודעות</string>
+    <string name="not_remind">אפשר הודעות אך לא התראות</string>
+    <string name="no_display_notification">אל תרשה הודעות</string>
+    <string name="priority_display">תצוגה מועדפת</string>
+    <string name="intercepted_notification">הודעות פחות חשובות</string>
+    <string name="filter_notification_tips">בדוק כאן הודעות לא חשובות</string>
+    <string name="filter_notification_manage">נהל</string>
+    <string name="filter_notification_clear">נקה</string>
+    <string name="qs_tile_config_cue_line_text">גרור כלפי מעלה כדי להוסיף</string>
+    <string name="qs_tile_config_title">ניהול מתגים</string>
+    <string name="screenshot_share_lable">שתף</string>
+    <string name="screenshot_share_delete_after_share">מחק לאחר שיתוף</string>
+    <string name="external_storage_mounted_title">הקש כדי להסיר או להציג</string>
+    <string name="external_storage_mounted_ticker">%s חובר</string>
+    <string name="external_storage_checking_title">מכין התקן USB</string>
+    <string name="external_storage_checking_ticker">מכין התקן USB</string>
+    <string name="external_storage_unmounting_title">מסיר התקן חיצוני, נא להמתין...</string>
+    <string name="external_storage_unmounting_ticker">מסיר התקן חיצוני, נא להמתין...</string>
+    <string name="open_usb_device">להציג התקן חיצוני עכשיו?</string>
+    <string name="unmount_externalstorage">להסיר או לפתוח את %1$s?</string>
+    <string name="external_storage_open_button">פתוח</string>
+    <string name="external_storage_remove_button">הסרה</string>
+    <string name="open_sdcard">לפתוח כרטיס SD עכשיו?</string>
+    <string name="battery_low_message">רמת הסוללה נמוכה מאשר %d%%.</string>
+    <string name="battery_low_poweroff">סוללה נמוכה, המכשיר ייכבה אוטומטית.</string>
+    <string name="usb_debugging_title">לאפשר איתור באגים של USB?</string>
+    <string name="usb_debugging_message">טביעת האצבע של מקש RSA של מחשב זה היא: %1$s</string>
+    <string name="mz_screenshot_saved_title">צילום מסך</string>
+    <string name="mz_screenshot_saved_text">הקש כדי להציג פרטים</string>
+    <string name="usb_debugging_always">אפשר תמיד למחשב זה לאתר באגים</string>
+    <string name="location_is_in_using">שימוש ב-GPS ברקע</string>
+    <string name="location_kill_process">סגור יישום</string>
+    <string name="location_disallow_location">אל תאפשר</string>
+    <string name="volume_icon_description_system">מערכת</string>
+    <string name="volume_icon_description_media">מוזיקה וסרטוני ווידיאו</string>
+    <string name="volume_icon_description_notification">הודעות</string>
+    <string name="volume_icon_description_ring">רינגטונים</string>
+    <string name="ext_media_mounted_notification_title">אותר כרטיס SD</string>
+    <string name="ext_media_mounted_notification_message">לחץ לצפייה</string>
+    <string name="ext_sdcard_description">נפח כרטיס ה-SD</string>
+    <string name="ext_media_nofs_notification_title">כרטיס SD ריק</string>
+    <string name="ext_media_nofs_notification_message">כרטיס ה-SD ריק או משתמש במערכת קבצים לא מזוהה</string>
+    <string name="extmedia_format_title">אתחל את כרטיס ה-SD</string>
+    <string name="extmedia_format_message">כל הנתונים בכרטיס יאבדו.</string>
+    <string name="extmedia_format_button_format">תבנית</string>
+    <string name="cancel">ביטול</string>
+    <string name="usb_charge_hight_temperature">הטעינה הופסקה עקב התחממות יתר. בדוק את החיבור ופנה לשירות אם יש צורך</string>
+    <string name="lock_month_day">MMM d</string>
+    <string name="lock_tips_dialing">מחייג</string>
+    <string name="calling">מתבצעת שיחה</string>
+    <string name="enter_pin_tips">הזן PIN</string>
+    <string name="enter_puk_tips">הזן PUK</string>
+    <string name="enter_pin_times">PIN שגוי, נותר(ו) %d ניסיון(ות)</string>
+    <string name="enter_puk_times">קוד PUK שגוי, נותר(ו) %d ניסיון(ות)</string>
+    <string name="enter_new_pin_tips">הזן PIN חדש</string>
+    <string name="confirm_new_pin_tips">אשר PIN חדש</string>
+    <string name="enter_password">הזן סיסמה</string>
+    <string name="dont_match_enter_new_pin">ה-PIN לא תואם, הזן שוב</string>
+    <string name="lockscreen_unlock_progress_dialog_message">מסיר נעילה</string>
+    <string name="lock_password_left_times">%s ניסיונות נותרו להזנת סיסמה!</string>
+    <string name="emergency_call">שיחת חירום</string>
+    <string name="dial_emergency_error">השיחה אינה מתבצעת בגלל ש-%s אינו מספר חירום!</string>
+    <string name="lockscreen_visitor_mode">מצב מבקר</string>
+    <string name="sim_damage_due_to_puk_fail_title">כרטיס ה- SIM ניזוק</string>
+    <string name="sim_damage_due_to_puk_fail_msg">עקב הכנסת קוד PUK שגוי</string>
+    <string name="enter_password_error">סיסמה שגויה. הזן מחדש.</string>
+    <string name="lockscreen_sim_locked_message">‏כרטיס הסים נעול.</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">‏מבטל נעילה של כרטיס SIM…</string>
+    <string name="lockscreen_return_to_call">חזור לשיחה</string>
+    <string name="lockscreen_slide_right_tips">בחר את היישומים בהחלקה ימינה</string>
+    <string name="keyguard_security_password_ok">אישור</string>
+    <string name="unlock_text">החלק לפתיחה</string>
+    <string name="keyguard_palm_rejection_text">אין לכסות את החלק העליון של הטלפון בעת ביטול נעילת המכשיר</string>
+    <string name="keyguard_palm_rejection_exit">ליציאה לחץ פעמיים על לחצן עוצמת השמע</string>
+    <string name="enter_tccm_pwd_tips">הזן קוד נעילה</string>
+    <string name="keyguard_fingerprint_not_match">טביעת האצבע לא תואמת</string>
+    <string name="keyguard_palm_rejection_title">דחיית כף יד</string>
+    <string name="gemini_enter_pin">הזן PIN של SIM‏ %d</string>
+    <string name="gemini_enter_puk">הזן PUK של SIM‏ %d</string>
+    <string name="exit">יציאה</string>
+    <string name="remainingstandbytime">זמן נותר</string>
+    <string name="remainingbattery">רמת סוללה שנותרה</string>
+    <string name="day">ימים</string>
+    <string name="hour">שעות</string>
+    <string name="percentage">%</string>
+    <string name="mouth">חודשים</string>
+    <string name="date">ימים</string>
+    <string name="minute">דקה</string>
+    <string name="find_phone_tips_unknown_flyme">חשבון flyme</string>
+    <string name="find_phone_tips_enter_flyme">המכשיר נעול</string>
+    <string name="find_phone_tips_flyme_password_error">סיסמה שגויה. הזן מחדש.</string>
+    <string name="lockscreen_flyme_unlock_progress_dialog_message">מאמת חשבון Flyme</string>
+    <string name="find_phone_tips_flyme_unknown_error">שגיאה לא מוכרת</string>
+    <string name="find_phone_tips_flyme_time_out">זמן החיבור ארוך מהמותר!</string>
+    <string name="find_phone_tips_flyme_network_unusable">שגיאת חיבור לרשת, אנא המתינו ונסו שוב</string>
+    <string name="find_phone_tips_flyme_no_accountname">לא היה ניתן להשיג שם חשבון Flyme</string>
+    <string name="find_phone_tips_flyme_no_SN">לא היה ניתן לשחזר מספר סידורי</string>
+    <string name="find_phone_tips_account_no_match_sn">שם משתמש וסיסמא לא נכונים, אנא נסו שוב!</string>
+    <string name="find_phone_tips_flyme_disable_today">נא לנסות שוב לאחר %d דקות.</string>
+    <string name="find_phone_tips_enter_password">סיסמת חשבון Meizu</string>
+    <string name="find_phone_chat_button">מענה</string>
+    <string name="find_phone_wifi_button">WLAN</string>
+    <string name="find_phone_wifi_back_button">הקודם</string>
+    <string name="find_phone_number_tips">טלפון זה אבד, נא צור קשר עם</string>
+    <string name="find_phone_unlock">שחרר נעילה</string>
+    <string name="find_phone_owner">בעלים:</string>
+    <string name="unknown_artist">זמר לא ידוע</string>
+    <string name="unknown_albumTitle">אלבום לא ידוע</string>
+    <string name="playstate_buffering_text">טוען במאגר</string>
+    <string name="sim_permanently_locked">הוכנס קוד PUK שגוי יותר מ-10 פעמים כרטיס הסים ננעל, יש ליצור קשר עם המפעיל הסלולארי</string>
+    <string name="band_connected">פס מחובר</string>
+    <string name="mz_kg_invalid_sim_puk_hint">קוד PUK צריך להיות 8 ספרות או יותר</string>
+    <string name="mz_kg_invalid_sim_pin_hint">הכנס PIN בין 4 ל-8 ספרות</string>
+    <string name="mz_keyguard_code_length_prompt">קלט 4-8 ספרות</string>
+    <string name="keyguard_palm_rejection_calibrate">כיול</string>
+    <string name="kg_fp_too_many_failed_attempts_countdown">נא לוודא שוב טביעת אצבע בעוד %d שניות</string>
+    <string name="find_phone_finderMessage_hints">אין הודעות</string>
+    <string name="mz_fp_used_unlock">לחץ על דף הבית כדי לבטל נעילה</string>
+    <string name="keyboardview_forget_password">שכחת סיסמה</string>
+    <string name="app_label">ממשק משתמש של המערכת</string>
+    <string name="status_bar_clear_all_button">מחק</string>
+    <string name="status_bar_recent_remove_item_title">הסר מהרשימה</string>
+    <string name="status_bar_recent_inspect_item_title">פרטי יישום</string>
+    <string name="status_bar_no_recent_apps">המסכים האחרונים מופיעים כאן</string>
+    <string name="status_bar_accessibility_dismiss_recents">התעלם מיישומים אחרונים</string>
+    <string name="status_bar_no_notifications_title">אין הודעות</string>
+    <string name="status_bar_ongoing_events_title">מתמשך</string>
+    <string name="status_bar_latest_events_title">התראות</string>
+    <string name="battery_low_title">טעינת הסוללה נמוכה</string>
+    <string name="battery_low_percent_format">%s נותרו</string>
+    <string name="battery_low_percent_format_saver_started">"%s נותרו. 'חיסכון בסוללה' מופעל."</string>
+    <string name="invalid_charger">"טעינה באמצעות USB אינה נתמכת.
+השתמש אך ורק במטען שסופק."</string>
+    <string name="invalid_charger_title">‏טעינה בחיבור USB אינה נתמכת.</string>
+    <string name="invalid_charger_text">השתמש רק במטען שסופק.</string>
+    <string name="battery_low_why">הגדרות</string>
+    <string name="battery_saver_confirmation_title">להפעיל חיסכון בסוללה?</string>
+    <string name="battery_saver_confirmation_ok">הפעל</string>
+    <string name="battery_saver_start_action">הפעל חיסכון בסוללה</string>
+    <string name="status_bar_settings_settings_button">הגדרות</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="status_bar_settings_airplane">מטוס</string>
+    <string name="status_bar_settings_auto_rotation">סיבוב מסך אוטומטי</string>
+    <string name="status_bar_settings_mute_label">השתק</string>
+    <string name="status_bar_settings_auto_brightness_label">אוטומטי</string>
+    <string name="status_bar_settings_notifications">התראות</string>
+    <string name="bluetooth_tethered">Bluetooth קשור</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">הגדר שיטות קלט</string>
+    <string name="status_bar_use_physical_keyboard">מקלדת פיזית</string>
+    <string name="usb_device_permission_prompt">לאפשר ליישום %1$s גישה להתקן USB?</string>
+    <string name="usb_accessory_permission_prompt">לאפשר ליישום %1$s גישה לאביזר USB?</string>
+    <string name="usb_device_confirm_prompt">האם לפתוח %1$s כאשר ההתקן USB הזה מחובר?</string>
+    <string name="usb_accessory_confirm_prompt">האם לפתוח %1$s כאשר האביזר USB הזה מחובר?</string>
+    <string name="usb_accessory_uri_prompt">אין יישומים מותקנים הפועלים עם האביזר USB הזה. למידע נוסף על אביזר זה בקר בכתובת %1$s</string>
+    <string name="title_usb_accessory">‏אביזר USB</string>
+    <string name="label_view">הצג</string>
+    <string name="always_use_device">‏השתמש כברירת מחדל עבור מכשיר USB זה</string>
+    <string name="always_use_accessory">‏השתמש כברירת מחדל עבור אביזר USB זה</string>
+    <string name="compat_mode_on">הגדל תצוגה כדי למלא את המסך</string>
+    <string name="compat_mode_off">מתח כדי למלא את המסך</string>
+    <string name="screenshot_saving_ticker">שומר צילום מסך...</string>
+    <string name="screenshot_saving_title">שומר צילום מסך...</string>
+    <string name="screenshot_saving_text">מתבצעת שמירה של צילום המסך.</string>
+    <string name="screenshot_saved_title">צילום המסך בוצע.</string>
+    <string name="screenshot_saved_text">גע כדי להציג את צילום המסך שלך</string>
+    <string name="screenshot_failed_title">לא ניתן לבצע צילום מסך.</string>
+    <string name="screenshot_failed_text">לא ניתן לצלם את המסך מפני שמקום האחסון מוגבל או מפני שהאפליקציה או הארגון שלך אינם מתירים זאת.</string>
+    <string name="usb_preference_title">‏אפשרויות העברת קבצים ב-USB</string>
+    <string name="use_mtp_button_title">‏טען כנגן מדיה (MTP)</string>
+    <string name="use_ptp_button_title">‏טען כמצלמה (PTP)</string>
+    <string name="installer_cd_button_title">התקן את יישום העברת הקבצים של Android עבור Mac</string>
+    <string name="accessibility_back">הקודם</string>
+    <string name="accessibility_home">בית</string>
+    <string name="accessibility_menu">תפריט</string>
+    <string name="accessibility_recent">סקירה</string>
+    <string name="accessibility_search_light">חפש</string>
+    <string name="accessibility_camera_button">מצלמה</string>
+    <string name="accessibility_phone_button">טלפון</string>
+    <string name="accessibility_unlock_button">שחרר נעילה</string>
+    <string name="unlock_label">שחרר נעילה</string>
+    <string name="phone_label">הפעל את הטלפון</string>
+    <string name="camera_label">פתח את המצלמה</string>
+    <string name="accessibility_compatibility_zoom_button">לחצן מרחק מתצוגה לתאימות.</string>
+    <string name="accessibility_compatibility_zoom_example">שנה מרחק מתצוגה של מסך קטן לגדול יותר.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth מחובר.</string>
+    <string name="accessibility_bluetooth_disconnected">ה-Bluetooth מנותק.</string>
+    <string name="accessibility_no_battery">אין סוללה.</string>
+    <string name="accessibility_battery_one_bar">פס אחד של סוללה.</string>
+    <string name="accessibility_battery_two_bars">שני פסים של סוללה.</string>
+    <string name="accessibility_battery_three_bars">שלושה פסים של סוללה.</string>
+    <string name="accessibility_battery_full">הסוללה מלאה.</string>
+    <string name="accessibility_no_phone">אין קליטה סלולארית</string>
+    <string name="accessibility_phone_one_bar">פס אחד של אות טלפון.</string>
+    <string name="accessibility_phone_two_bars">שני פסים של טלפון.</string>
+    <string name="accessibility_phone_three_bars">שלושה פסים של טלפון.</string>
+    <string name="accessibility_phone_signal_full">אות הטלפון מלא.</string>
+    <string name="accessibility_no_data">אין נתונים.</string>
+    <string name="accessibility_data_one_bar">פס אחד של נתונים.</string>
+    <string name="accessibility_data_two_bars">שני פסים של נתונים.</string>
+    <string name="accessibility_data_three_bars">שלושה פסים של נתונים.</string>
+    <string name="accessibility_data_signal_full">אות הנתונים מלא.</string>
+    <string name="accessibility_wifi_off">‏WLAN כבוי.</string>
+    <string name="accessibility_no_wifi">‏WLAN מנותק.</string>
+    <string name="accessibility_wifi_one_bar">‏עוצמת פס אחד של WLAN.</string>
+    <string name="accessibility_wifi_two_bars">‏שני פסים של WLAN.</string>
+    <string name="accessibility_wifi_three_bars">‏שלושה פסים של WLAN.</string>
+    <string name="accessibility_wifi_signal_full">עוצמה מרבית של אות ה-WLAN.</string>
+    <string name="accessibility_wifi_name">מחובר אל %s.</string>
+    <string name="accessibility_bluetooth_name">מחובר אל %s.</string>
+    <string name="accessibility_no_wimax">‏ללא WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">‏פס אחד של עוצמת אות WiMAX.</string>
+    <string name="accessibility_wimax_two_bars">‏שני פסים של WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">‏שלושה פסים של WiMAX.</string>
+    <string name="accessibility_wimax_signal_full">‏אות ה-WiMAX מלא.</string>
+    <string name="accessibility_no_signal">אין אות.</string>
+    <string name="accessibility_not_connected">מנותק</string>
+    <string name="accessibility_zero_bars">אפס פסים.</string>
+    <string name="accessibility_one_bar">פס אחד.</string>
+    <string name="accessibility_two_bars">שני פסים של נתונים.</string>
+    <string name="accessibility_three_bars">שלושה פסים של נתונים.</string>
+    <string name="accessibility_signal_full">אות הנתונים מלא.</string>
+    <string name="accessibility_desc_on">פועל.</string>
+    <string name="accessibility_desc_off">כבוי</string>
+    <string name="accessibility_desc_connected">מחובר.</string>
+    <string name="accessibility_desc_connecting">מתחבר.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">‎1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">דור 3</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">דור 4</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">נדידה</string>
+    <string name="accessibility_data_connection_edge">קצה</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_no_sim">‏אין כרטיס SIM.</string>
+    <string name="accessibility_bluetooth_tether">‏שיתוף אינטרנט דרך Bluetooth</string>
+    <string name="accessibility_airplane_mode">מצב טיסה.</string>
+    <string name="accessibility_settings_button">הגדרות מערכת</string>
+    <string name="accessibility_notifications_button">התראות</string>
+    <string name="accessibility_remove_notification">מחק התראה.</string>
+    <string name="accessibility_gps_enabled">‏GPS מופעל.</string>
+    <string name="accessibility_gps_acquiring">מתחבר ל-GPS.</string>
+    <string name="accessibility_tty_enabled">‏TeleTypewriter מופעל</string>
+    <string name="accessibility_ringer_vibrate">צלצול ורטט.</string>
+    <string name="accessibility_ringer_silent">צלצול שקט.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">התעלם מ-%s.</string>
+    <string name="accessibility_recents_item_dismissed">%s כבוי.</string>
+    <string name="accessibility_recents_item_launched">מפעיל %s.</string>
+    <string name="accessibility_notification_dismissed">הודעה נדחתה.</string>
+    <string name="accessibility_desc_notification_shade">התראות</string>
+    <string name="accessibility_desc_quick_settings">הגדרות מהירות.</string>
+    <string name="accessibility_desc_lock_screen">מסך נעילה.</string>
+    <string name="accessibility_desc_settings">הגדרות</string>
+    <string name="accessibility_desc_recent_apps">סקירה.</string>
+    <string name="accessibility_quick_settings_user">משתמש: %s</string>
+    <string name="accessibility_quick_settings_wifi">%1$s</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">‏WLAN כבוי.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">‏WLAN מופעל.</string>
+    <string name="accessibility_quick_settings_mobile">רשת נתונים סלולרית: %1$s, %2$s, %3$s</string>
+    <string name="accessibility_quick_settings_battery">טעינת סוללה: %s</string>
+    <string name="accessibility_quick_settings_airplane_off">מצב טיסה כבוי.</string>
+    <string name="accessibility_quick_settings_airplane_on">מצב טיסה מופעל.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">מצב הטיסה כבוי.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">מצב הטיסה מופעל.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth כבוי.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth מופעל.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth מתחבר.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth מחובר.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth כבוי.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth מופעל.</string>
+    <string name="accessibility_quick_settings_location_off">דיווח מיקום כבוי.</string>
+    <string name="accessibility_quick_settings_location_on">דיווח מיקום מופעל.</string>
+    <string name="accessibility_quick_settings_location_changed_off">דיווח מיקום כובה.</string>
+    <string name="accessibility_quick_settings_location_changed_on">דיווח מיקום הופעל.</string>
+    <string name="accessibility_quick_settings_alarm">ההתרעה נקבעה לשעה %s</string>
+    <string name="accessibility_quick_settings_close">סגור לוח.</string>
+    <string name="accessibility_quick_settings_more_time">יותר זמן.</string>
+    <string name="accessibility_quick_settings_less_time">פחות זמן.</string>
+    <string name="accessibility_quick_settings_flashlight_off">הפנס כבוי.</string>
+    <string name="accessibility_quick_settings_flashlight_on">הפנס פועל.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">הפנס כובה.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">הפנס מופעל.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">היפוך צבעים כבוי.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">היפוך צבעים מופעל.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">נקודה לשיתוף אינטרנט בנייד כבויה.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">נקודה לשיתוף אינטרנט בנייד מופעלת.</string>
+    <string name="accessibility_casting_turned_off">העברת המסך הופסקה.</string>
+    <string name="accessibility_brightness">בהירות תצוגה</string>
+    <string name="data_usage_disabled_dialog_3g_title">נתונים בחיבור דור 2-3 כובו</string>
+    <string name="data_usage_disabled_dialog_4g_title">נתונים בחיבור 4G כובו</string>
+    <string name="data_usage_disabled_dialog_mobile_title">נתונים סלולריים כבויים</string>
+    <string name="data_usage_disabled_dialog_title">נתונים כבויים</string>
+    <string name="data_usage_disabled_dialog">"המכשיר שלך כיבה את חיבור הנתונים מפני שהוא הגיע למגבלה שהגדרת.
+
+הפעלה מחדש עלוה לגרור לחיובים ממפעיל הרשת שלך."</string>
+    <string name="data_usage_disabled_dialog_enable">הפעל חיבור נתונים</string>
+    <string name="status_bar_settings_signal_meter_disconnected">אין חיבור אינטרנט</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">‏WLAN מחובר</string>
+    <string name="gps_notification_searching_text">‏מחפש GPS</string>
+    <string name="gps_notification_found_text">המיקום מוגדר על ידי GPS</string>
+    <string name="accessibility_location_active">יישום שלח בקשת מיקום פעיל</string>
+    <string name="accessibility_clear_all">מחק את כל ההתראות.</string>
+    <string name="status_bar_notification_inspect_item_title">הגדרות התראה</string>
+    <string name="status_bar_notification_app_settings_title">הגדרות של %s</string>
+    <string name="accessibility_rotation_lock_off">המסך יסתובב באופן אוטומטי.</string>
+    <string name="accessibility_rotation_lock_on_landscape">המסך נעול כעת לרוחב.</string>
+    <string name="accessibility_rotation_lock_on_portrait">המסך נעול כעת לאורך.</string>
+    <string name="accessibility_rotation_lock_off_changed">המסך יסתובב כעת באופן אוטומטי.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">המסך נעול כעת לרוחב.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">המסך נעול כעת לאורך.</string>
+    <string name="dessert_case">קופסת קינוחים</string>
+    <string name="start_dreams">שומר מסך אינטראקטיבי</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">מטוס</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d מכשירים)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth כבוי</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">אין מכשירים מותאמים זמינים</string>
+    <string name="quick_settings_brightness_label">בהירות</string>
+    <string name="quick_settings_rotation_unlocked_label">סיבוב אוטומטי</string>
+    <string name="quick_settings_rotation_locked_label">נעילת כיוון: מופעל</string>
+    <string name="quick_settings_rotation_locked_portrait_label">פורטרט</string>
+    <string name="quick_settings_rotation_locked_landscape_label">נוף</string>
+    <string name="quick_settings_ime_label">שיטת קלט</string>
+    <string name="quick_settings_location_label">מיקום</string>
+    <string name="quick_settings_location_off_label">מיקום כבוי</string>
+    <string name="quick_settings_media_device_label">מכשיר מדיה</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">שיחות חירום בלבד</string>
+    <string name="quick_settings_settings_label">הגדרות</string>
+    <string name="quick_settings_time_label">שעה</string>
+    <string name="quick_settings_user_label">אני</string>
+    <string name="quick_settings_user_title">משתמשים</string>
+    <string name="quick_settings_user_new_user">משתמש חדש</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_not_connected">מנותק</string>
+    <string name="quick_settings_wifi_no_network">אין רשת</string>
+    <string name="quick_settings_wifi_off_label">‏WLAN כבוי</string>
+    <string name="quick_settings_wifi_detail_empty_text">אין רשתות שמורות זמינות</string>
+    <string name="quick_settings_cast_title">העברת מסך</string>
+    <string name="quick_settings_casting">העברה</string>
+    <string name="quick_settings_cast_device_default_name">מכשיר ללא שם</string>
+    <string name="quick_settings_cast_device_default_description">מוכן להעביר</string>
+    <string name="quick_settings_cast_detail_empty_text">אין מכשירים זמינים</string>
+    <string name="quick_settings_brightness_dialog_title">בהירות</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">אוטומטי</string>
+    <string name="quick_settings_inversion_label">היפוך צבעים</string>
+    <string name="quick_settings_color_space_label">מצב תיקון צבע</string>
+    <string name="quick_settings_more_settings">הגדרות נוספות</string>
+    <string name="quick_settings_done">בוצע</string>
+    <string name="quick_settings_connected">מחובר</string>
+    <string name="quick_settings_connected_via_wfa">מחובר דרך סייען WLAN</string>
+    <string name="quick_settings_connecting">מתחבר...</string>
+    <string name="quick_settings_tethering_label">קשירה</string>
+    <string name="quick_settings_hotspot_label">נקודה חמה</string>
+    <string name="quick_settings_notifications_label">התראות</string>
+    <string name="quick_settings_flashlight_label">פנס</string>
+    <string name="quick_settings_cellular_detail_title">נתונים סלולריים</string>
+    <string name="quick_settings_cellular_detail_data_usage">שימוש בנתונים</string>
+    <string name="quick_settings_cellular_detail_remaining_data">נתונים שנותרו</string>
+    <string name="quick_settings_cellular_detail_over_limit">אירעה חריגה מהמגבלה</string>
+    <string name="quick_settings_cellular_detail_data_used">%s בשימוש</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s גבול</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s אזהרה</string>
+    <string name="recents_empty_message">המסכים האחרונים מופיעים כאן</string>
+    <string name="recents_app_info_button_label">פרטי יישום</string>
+    <string name="recents_lock_to_app_button_label">נעל ליישום</string>
+    <string name="recents_search_bar_label">חפש</string>
+    <string name="recents_launch_error_message">לא ניתן להפעיל את %s.</string>
+    <string name="expanded_header_battery_charged">טעונה במלואה</string>
+    <string name="expanded_header_battery_charging">בטעינה</string>
+    <string name="expanded_header_battery_charging_with_time">%s עד לטעינה מלאה</string>
+    <string name="expanded_header_battery_not_charging">לא טוען</string>
+    <string name="ssl_ca_cert_warning">"ייתכן שהרשת 
+נמצאת במעקב"</string>
+    <string name="description_target_search">חפש</string>
+    <string name="description_direction_up">נא להחליק מעלה עבור %s.</string>
+    <string name="description_direction_left">החלק שמאלה עבור %s.</string>
+    <string name="zen_no_interruptions_with_warning">ללא הפרעות. גם לא התראות.</string>
+    <string name="zen_no_interruptions">ללא הפרעות</string>
+    <string name="zen_important_interruptions">רק הפרעות בעדיפות גבוהה</string>
+    <string name="zen_alarm_information_time">ההתרעה הבאה שלך היא בשעה %s</string>
+    <string name="zen_alarm_information_day_time">ההתרעה הבאה שלך היא %s</string>
+    <string name="zen_alarm_warning">לא תשמע(י) את ההתרעה שלך ב- %s</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">התראות בדחיפות נמוכה יותר למטה</string>
+    <string name="notification_tap_again">הקש שוב כדי לפתוח</string>
+    <string name="keyguard_unlock">החלק לפתיחה</string>
+    <string name="phone_hint">החלק ימינה להפעלת הטלפון</string>
+    <string name="camera_hint">החלק ימינה להפעלת המצלמה</string>
+    <string name="interruption_level_none">ללא</string>
+    <string name="interruption_level_priority">עדיפות גבוהה</string>
+    <string name="interruption_level_all">הכול</string>
+    <string name="keyguard_indication_charging_time">בטעינה (%s עד שמלא)</string>
+    <string name="accessibility_multi_user_switch_switcher">החלפת משתמש</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">החלפת משתמש, משתמש נוכחי %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">הצג פרופיל</string>
+    <string name="user_add_user">הוסף משתמש</string>
+    <string name="user_new_user_name">משתמש חדש</string>
+    <string name="guest_nickname">אורח</string>
+    <string name="guest_new_guest">הוסף אורח</string>
+    <string name="guest_exit_guest">הסר אורח</string>
+    <string name="guest_exit_guest_dialog_title">להסיר אורח?</string>
+    <string name="guest_exit_guest_dialog_message">כל היישומים והנתונים של הפעלה זו יימחקו.</string>
+    <string name="guest_exit_guest_dialog_remove">הסרה</string>
+    <string name="guest_wipe_session_title">ברוך שובך, אורח!</string>
+    <string name="guest_wipe_session_message">האם ברצונך להמשיך בפעילות באתר?</string>
+    <string name="guest_wipe_session_wipe">התחל מחדש</string>
+    <string name="guest_wipe_session_dontwipe">כן, המשך</string>
+    <string name="user_add_user_title">להוסיף משתמש חדש?</string>
+    <string name="user_add_user_message_short">"בעת הוספת משתמש חדש, על משתמש זה להגדיר את השטח שלו.
+
+כל משתמש יכול לעדכן יישומים עבור כל המשתמשים."</string>
+    <string name="battery_saver_notification_title">חיסכון בסוללה מופעל</string>
+    <string name="battery_saver_notification_text">מפחית את הביצועים ונתונים ברקע</string>
+    <string name="battery_saver_notification_action_text">כבה את החיסכון בסוללה</string>
+    <string name="notification_hidden_text">יש לך הודעה אחת</string>
+    <string name="media_projection_dialog_text">%s יתחיל ללכוד את כל מה שמוצג במסך שלך.</string>
+    <string name="media_projection_remember_text">אל תציג שוב</string>
+    <string name="clear_all_notifications_text">מחק הכל</string>
+    <string name="media_projection_action_text">התחל כעת</string>
+    <string name="empty_shade_text">אין הודעות</string>
+    <string name="device_owned_footer">ייתכן שהמכשיר נמצא במעקב</string>
+    <string name="profile_owned_footer">ייתכן שהפרופיל נתון למעקב</string>
+    <string name="vpn_footer">ייתכן שהרשת נמצאת במעקב</string>
+    <string name="monitoring_title_device_owned">מעקב אחר המכשיר</string>
+    <string name="monitoring_title_profile_owned">מעקב אחר פרופיל</string>
+    <string name="monitoring_title">ניטור רשתות</string>
+    <string name="disable_vpn">השבת VPN</string>
+    <string name="disconnect_vpn">נתק את ה-VPN</string>
+    <string name="monitoring_description_device_owned">"ההתקן הזה מנוהל על ידי:
+%1$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים.
+
+למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך."</string>
+    <string name="monitoring_description_vpn">"נתת לזה \"%1$s\" הרשאה להקמת חיבור VPN.
+
+יישום זה יכול לעקוב אחר המכשיר והפעילות שלך ברשת, כולל אימייל, יישומים ואתרים מאובטחים."</string>
+    <string name="monitoring_description_legacy_vpn">"המכשיר מחובר לשירותVPN (\"%1$s\").
+
+ספק השירות VPN שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים."</string>
+    <string name="monitoring_description_vpn_device_owned">"ההתקן הזה מנוהל על ידי:
+%1$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים. למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך.
+
+בנוסף, נתת לזה (\"%2$s\" הרשאה להקים חיבור VPN. היישום הזה יכול לנטר פעילות רשת גם."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"ההתקן הזה מנוהל על ידי:
+%1$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים. למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך.
+
+בנוסף, את(ה) מחובר(ת) גם לשירות VPN (\"%2$s\"). גם ספק השירות VPN שלך יכול לנטר את פעילות הרשת שלך."</string>
+    <string name="monitoring_description_profile_owned">"הפרופיל הזה מנוהל על ידי:
+%1$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים.
+
+למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך."</string>
+    <string name="monitoring_description_device_and_profile_owned">"ההתקן הזה מנוהל על ידי:
+%1$s
+הפרופיל שלך מנוהל על ידי:
+%2$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים.
+
+למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך."</string>
+    <string name="monitoring_description_vpn_profile_owned">"הפרופיל הזה מנוהל על ידי:
+%1$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים. למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך.
+
+בנוסף, נתת לזה (\"%2$s\" הרשאה להקים חיבור VPN. היישום הזה יכול לנטר פעילות רשת גם."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"הפרופיל הזה מנוהל על ידי:
+%1$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים. למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך.
+
+בנוסף, את(ה) מחובר(ת) גם לשירות VPN (\"%2$s\"). גם ספק השירות VPN שלך יכול לנטר את פעילות הרשת שלך."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"ההתקן הזה מנוהל על ידי:
+%1$s
+הפרופיל שלך מנוהל על ידי:
+%2$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים. למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך.
+
+בנוסף, נתת לזה (\"%3$s\" הרשאה להקים חיבור VPN. היישום הזה יכול לנטר פעילות רשת גם."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"ההתקן הזה מנוהל על ידי:
+%1$s
+הפרופיל שלך מנוהל על ידי:
+%2$s
+
+מנהל הרשת שלך יכול לנטר את המכשיר שלך את פעילות הרשת כולל אימייל, יישומים ואתרים מאובטחים. למידע נוסף, נא ליצור קשר עם מנהל הרשת שלך.
+
+בנוסף, את(ה) מחובר(ת) גם לשירות VPN (\"%3$s\"). גם ספק השירות VPN שלך יכול לנטר את פעילות הרשת שלך."</string>
+    <string name="keyguard_indication_trust_disabled">המכשיר יישאר נעול עד שתבטל את נעילתו באופן ידני</string>
+    <string name="hidden_notifications_title">קבל התראות מהר יותר</string>
+    <string name="hidden_notifications_text">צפה בהן לפני שתבטל נעילה</string>
+    <string name="hidden_notifications_cancel">לא, תודה</string>
+    <string name="hidden_notifications_setup">קבע</string>
+    <string name="zen_mode_and_condition">%1$s（%2$s）</string>
+    <string name="screen_pinning_title">המסך מוצמד</string>
+    <string name="screen_pinning_description">"שומר בתצוגה עד לביטול ההצמדה. גע והחזק בו-זמנית ב'הקודם' ו'סקירה' כדי לבטל הצמדה."</string>
+    <string name="screen_pinning_description_accessible">"שומר בתצוגה עד לביטול ההצמדה. גע והחזק בו-זמנית ב'הקודם' ו'סקירה' כדי לבטל הצמדה."</string>
+    <string name="screen_pinning_positive">הבנתי</string>
+    <string name="screen_pinning_negative">לא, תודה</string>
+    <string name="quick_settings_reset_confirmation_title">להסתיר את %1$s?</string>
+    <string name="quick_settings_reset_confirmation_message">הוא יופיע מחדש בפעם הבאה שתפעיל את האפשרות בהגדרות.</string>
+    <string name="quick_settings_reset_confirmation_button">הסתר</string>
+    <string name="accessibility_ime_switch_button">לחצן החלפת שיטת קלט.</string>
+    <string name="app_name">מגן מקלדת</string>
+    <string name="keyguard_password_enter_pin_code">‏הקלד קוד PIN</string>
+    <string name="keyguard_password_enter_puk_code">‏הקלד קוד PUK של כרטיס SIM וקוד PIN חדש</string>
+    <string name="keyguard_password_enter_puk_prompt">‏קוד PUK של כרטיס SIM</string>
+    <string name="keyguard_password_enter_pin_prompt">‏מספר PIN חדש של כרטיס SIM</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">גע כדי להזין סיסמה</font></string>
+    <string name="keyguard_password_enter_password_code">הזן סיסמה כדי לבטל את הנעילה</string>
+    <string name="keyguard_password_enter_pin_password_code">‏הקלד קוד PIN לביטול הנעילה</string>
+    <string name="keyguard_password_wrong_pin_code">קוד PIN שגוי.</string>
+    <string name="keyguard_label_text">"כדי לבטל את הנעילה, לחץ על 'תפריט' ולאחר מכן על 0."</string>
+    <string name="faceunlock_multiple_failures">חרגת ממספר הניסיונות המרבי של זיהוי פנים</string>
+    <string name="keyguard_charged">טעונה במלואה</string>
+    <string name="keyguard_plugged_in">בטעינה</string>
+    <string name="keyguard_low_battery">חבר את המטען.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">"לחץ על 'תפריט' כדי לבטל את הנעילה."</string>
+    <string name="keyguard_network_locked_message">רשת נעולה</string>
+    <string name="keyguard_missing_sim_message_short">אין כרטיס SIM</string>
+    <string name="keyguard_missing_sim_message">אין כרטיס SIM</string>
+    <string name="keyguard_missing_sim_instructions">הכנס כרטיס SIM.</string>
+    <string name="keyguard_missing_sim_instructions_long">אין כרטיס SIM, הכנס כרטיס SIM</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">‏לא ניתן להשתמש בכרטיס SIM זה.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"הכרטיס SIM שלך הושבת לצמיתות.
+נא לפנות למפעיל הרשת שלך לקבלת כרטיס SIM אחר."</string>
+    <string name="keyguard_sim_locked_message">‏כרטיס הסים נעול.</string>
+    <string name="keyguard_sim_puk_locked_message">‏כרטיס SIM נעול באמצעות PUK.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">‏מבטל נעילה של כרטיס SIM…</string>
+    <string name="keyguard_accessibility_widget_changed">"%1$s. ווידג'ט %2$d מתוך %3$d."</string>
+    <string name="keyguard_accessibility_add_widget">"הוסף וידג'ט."</string>
+    <string name="keyguard_accessibility_widget_empty_slot">ריק</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">אזור ביטול הנעילה הורחב.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">אזור ביטול הנעילה כווץ.</string>
+    <string name="keyguard_accessibility_widget">"%1$s וידג'ט."</string>
+    <string name="keyguard_accessibility_user_selector">בוחר משתמשים</string>
+    <string name="keyguard_accessibility_camera">מצלמה</string>
+    <string name="keygaurd_accessibility_media_controls">פקדי מדיה</string>
+    <string name="keyguard_accessibility_widget_reorder_start">"‏סידור מחדש של ויג'טים התחיל."</string>
+    <string name="keyguard_accessibility_widget_reorder_end">"‏סידור מחדש של ויג'טים הסתיים."</string>
+    <string name="keyguard_accessibility_widget_deleted">יישומון %1$s נמחק.</string>
+    <string name="keyguard_accessibility_expand_lock_area">הרחב את אזור ביטול הנעילה.</string>
+    <string name="keyguard_accessibility_slide_unlock">ביטול נעילה באמצעות הסטה.</string>
+    <string name="keyguard_accessibility_pattern_unlock">ביטול נעילה באמצעות ציור קו.</string>
+    <string name="keyguard_accessibility_face_unlock">ביטול נעילה באמצעות זיהוי פנים.</string>
+    <string name="keyguard_accessibility_pin_unlock">‏ביטול נעילה באמצעות מספר PIN.</string>
+    <string name="keyguard_accessibility_password_unlock">ביטול נעילה באמצעות סיסמא.</string>
+    <string name="keyguard_accessibility_pattern_area">אזור ציור קו.</string>
+    <string name="keyguard_accessibility_slide_area">אזור הסטה.</string>
+    <string name="keyguard_accessibility_pin_area">‏אזור עבור קוד PIN</string>
+    <string name="keyguard_accessibility_sim_pin_area">‏אזור עבור קוד PIN של SIM</string>
+    <string name="keyguard_accessibility_sim_puk_area">‏אזור עבור קוד PUK של SIM</string>
+    <string name="keyguard_accessibility_transport_prev_description">"לחצן 'הרצועה הקודמת'"</string>
+    <string name="keyguard_accessibility_transport_next_description">"לחצן 'הרצועה הבאה'"</string>
+    <string name="keyguard_accessibility_transport_pause_description">"לחצן 'השהה'"</string>
+    <string name="keyguard_accessibility_transport_play_description">"לחצן 'הפעל'"</string>
+    <string name="keyguard_accessibility_transport_stop_description">"לחצן 'הפסק'"</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">אהבתי</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">לא אהבתי</string>
+    <string name="keyguard_accessibility_transport_heart_description">לב</string>
+    <string name="keyguard_accessibility_show_bouncer">בטל נעילה כדי להמשיך</string>
+    <string name="keyguard_accessibility_hide_bouncer">ההפעלה בוטלה</string>
+    <string name="keyguard_accessibility_delete_widget_start">למחיקה, שחרר את %1$s to delete.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s לא יימחק.</string>
+    <string name="keyguard_accessibility_next_alarm">ההתרעה הבאה קבוע לזמן %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">אבג</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">ביטול</string>
+    <string name="keyboardview_keycode_delete">מחק</string>
+    <string name="keyboardview_keycode_done">בוצע</string>
+    <string name="keyboardview_keycode_mode_change">שינוי מצב</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">הזן</string>
+    <string name="description_target_unlock">שחרר נעילה</string>
+    <string name="description_target_camera">מצלמה</string>
+    <string name="description_target_silent">השתק</string>
+    <string name="description_target_soundon">קול פועל</string>
+    <string name="description_direction_down">נא להחליק מטה עבור %s.</string>
+    <string name="description_direction_right">נא להחליק ימינה עבור %s.</string>
+    <string name="user_switched">המשתמש הנוכחי הוא %1$s.</string>
+    <string name="kg_emergency_call_label">שיחת חירום</string>
+    <string name="kg_forgot_pattern_button_text">שכחת את התבנית</string>
+    <string name="kg_wrong_pattern">קו ביטול נעילה שגוי</string>
+    <string name="kg_wrong_password">סיסמא שגויה</string>
+    <string name="kg_wrong_pin">‏מספר PIN שגוי</string>
+    <string name="kg_too_many_failed_attempts_countdown">נא להזין את הסיסמה שוב בתוך %d שניות</string>
+    <string name="kg_pattern_instructions">שרטט את התבנית</string>
+    <string name="kg_sim_pin_instructions">הזן PIN של SIM</string>
+    <string name="kg_sim_pin_instructions_multi">הזן PIN של SIM עבור \"%1$s\"</string>
+    <string name="kg_pin_instructions">הזן PIN</string>
+    <string name="kg_password_instructions">הזן סיסמה</string>
+    <string name="kg_puk_enter_puk_hint">‏כרטיס הסים מושבת כעת. הזן קוד PUK כדי להמשיך. פנה אל הספק לפרטים.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM \"%1$s\" מושבת כעת. נא להזין קוד PUK כדי להמשיך. נא לפנות למפעיל הרשת לפרטים.</string>
+    <string name="kg_puk_enter_pin_hint">הזן את קוד ה-PIN הרצוי</string>
+    <string name="kg_enter_confirm_pin_hint">אשר את קוד ה-PIN הרצוי</string>
+    <string name="kg_sim_unlock_progress_dialog_message">‏מבטל נעילה של כרטיס SIM…</string>
+    <string name="kg_invalid_sim_pin_hint">הכנס קוד PIN בין 4 ל-8 ספרות</string>
+    <string name="kg_invalid_sim_puk_hint">‏קוד PUK צריך להיות בן 8 ספרות או יותר.</string>
+    <string name="kg_invalid_puk">‏הזן מחדש את קוד PUK הנכון. ניסיונות חוזרים ישביתו לצמיתות את כרטיס הסים.</string>
+    <string name="kg_invalid_confirm_pin_hint">‏קודי ה-PIN אינם תואמים</string>
+    <string name="kg_login_too_many_attempts">ניסיונות רבים מדי לשרטוט קו ביטול נעילה.</string>
+    <string name="kg_login_instructions">‏כדי לבטל את הנעילה, היכנס באמצעות חשבון גוגל שלך.</string>
+    <string name="kg_login_username_hint">שם משתמש (אימייל)</string>
+    <string name="kg_login_password_hint">סיסמא</string>
+    <string name="kg_login_submit_button">היכנס</string>
+    <string name="kg_login_invalid_input">שם משתמש או סיסמה לא חוקיים.</string>
+    <string name="kg_login_account_recovery_hint">"שכחת את שם המשתמש או את הסיסמה?
+היכנס אל "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">בדיקת חשבון…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"הקלדת את המספר PIN שלך לא נכון %d פעמים.
+
+נא לנסות שוב בתוך %d שניות."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"הקלדת סיסמה שגויה %d פעמים .
+
+נא לנסות שוב לאחר %d שניות."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"ציירת לא נכון את תבנית הפתיחה שלך %d פעמים .
+
+נא לנסות שוב לאחר %d שניות."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">ניסית לשחרר את נעילת הטלפון באופן שגוי %d פעמים. לאחר עוד %d ניסיונות כושלים, הטלפון הזה יתאפס, דבר שימחק את כל הנתונים שלו.</string>
+    <string name="kg_failed_attempts_now_wiping">ניסית לשחרר את נעילת הטלפון באופן שגוי %d פעמים. הטלפון הזה יתאפס, דבר שימחק את כל הנתונים שלו.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">ניסית לשחרר את נעילת הטלפון באופן שגוי %d פעמים. לאחר עוד %d ניסיונות כושלים, המשתמש הזה יוסר, דבר שימחק את כל נתוני המשתמש.</string>
+    <string name="kg_failed_attempts_now_erasing_user">ניסית לשחרר את נעילת הטלפון באופן שגוי %d פעמים. המשתמש הזה יוסר, דבר שימחק את כל נתוני המשתמש.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">ניסית לשחרר את נעילת הטלפון באופן שגוי %d פעמים. לאחד עוד %d ניסיונות כושלים, פרופיל העבודה יוסר, דבר שימחק את כל נתוני הפרופיל.</string>
+    <string name="kg_failed_attempts_now_erasing_profile">ניסית לשחרר את נעילת הטלפון באופן שגוי %d פעמים. פרופיל העבודה יוסר, דבר שימחק את כל נתוני הפרופיל.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"ציירת לא נכון את תבנית הפתיחה %d פעמים.
+לאחר עוד %d ניסיונות כושלים, תתבקש(י) לשחרר את הטלפון שלך באמצעות חשבון אימייל.
+
+נא לנסות שוב לאחר %d שניות."</string>
+    <string name="kg_reordering_delete_drop_target_text">הסרה</string>
+    <string name="kg_password_wrong_pin_code_pukked">קוד PIN שגוי של כרטיס ה-SIM. עליך ליצור קשר עם המפעיל מיד כדי לבטל את נעילת המכשיר.</string>
+    <string name="kg_password_wrong_puk_code_dead">‏לא ניתן להשתמש בכרטיס ה- SIM. צור קשר עם הספק.</string>
+    <string name="kg_password_pin_failed">‏פעולת מספר ה-PIN של כרטיס הסים נכשלה!</string>
+    <string name="kg_password_puk_failed">‏פעולת קוד ה-PUK של כרטיס ה- SIM נכשלה!</string>
+    <string name="kg_pin_accepted">הקוד התקבל!</string>
+    <string name="keyguard_transport_prev_description">"לחצן 'הרצועה הקודמת'"</string>
+    <string name="keyguard_transport_next_description">"לחצן 'הרצועה הבאה'"</string>
+    <string name="keyguard_transport_pause_description">"לחצן 'השהה'"</string>
+    <string name="keyguard_transport_play_description">"לחצן 'הפעל'"</string>
+    <string name="keyguard_transport_stop_description">"לחצן 'הפסק'"</string>
+    <string name="keyguard_carrier_default">אין שרות</string>
+</resources>

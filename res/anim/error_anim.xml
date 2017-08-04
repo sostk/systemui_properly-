@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="64" android:valueFrom="0" android:valueTo="35.8" android:propertyName="translationX" />
+    <objectAnimator android:duration="64" android:valueFrom="35.8" android:valueTo="-24.2" android:propertyName="translationX" />
+    <objectAnimator android:duration="80" android:valueFrom="-24.2" android:valueTo="20.8" android:propertyName="translationX" />
+    <objectAnimator android:duration="80" android:valueFrom="20.8" android:valueTo="-15.3" android:propertyName="translationX" />
+    <objectAnimator android:duration="96" android:valueFrom="-15.3" android:valueTo="10" android:propertyName="translationX" />
+    <objectAnimator android:duration="128" android:valueFrom="10" android:valueTo="0" android:propertyName="translationX" />
+</set>

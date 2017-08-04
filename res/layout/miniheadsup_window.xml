@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyme.systemui.miniheadsup.MiniHeadsupWindow android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.flyme.systemui.miniheadsup.MiniHeadsupThirdGroup android:id="@id/third_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/third_icon" android:layout_width="@dimen/miniheadsup_icon_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/miniheadsup_first_icon_marge_left" android:scaleType="center" />
+            <Chronometer android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/third_clock" android:paddingLeft="4.0dip" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/third_text" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+    </com.flyme.systemui.miniheadsup.MiniHeadsupThirdGroup>
+    <com.flyme.systemui.miniheadsup.MiniHeadsupSecondGroup android:id="@id/second_group_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/second_icon_1" android:layout_width="@dimen/miniheadsup_icon_width" android:layout_height="fill_parent" android:scaleType="center" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/second_text_1" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+    </com.flyme.systemui.miniheadsup.MiniHeadsupSecondGroup>
+    <com.flyme.systemui.miniheadsup.MiniHeadsupSecondGroup android:id="@id/second_group_2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/second_icon_2" android:layout_width="@dimen/miniheadsup_icon_width" android:layout_height="fill_parent" android:scaleType="center" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/second_text_2" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+    </com.flyme.systemui.miniheadsup.MiniHeadsupSecondGroup>
+    <com.flyme.systemui.miniheadsup.MiniHeadsupFirstGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/first_group" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/first_icon" android:layout_width="@dimen/miniheadsup_icon_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/miniheadsup_first_icon_marge_left" android:scaleType="center" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/first_text" android:paddingLeft="4.0dip" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+    </com.flyme.systemui.miniheadsup.MiniHeadsupFirstGroup>
+</com.flyme.systemui.miniheadsup.MiniHeadsupWindow>

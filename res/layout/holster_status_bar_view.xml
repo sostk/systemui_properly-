@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/holster_status_bar" android:layout_width="@dimen/view_pager_width" android:layout_height="25.0dip" android:paddingStart="6.0dip" android:paddingEnd="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.flyme.systemui.statusbar.phone.FlymeLinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/holster_header" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/keyguard_text_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/keyguard_carrier_text_margin" android:layout_marginEnd="@dimen/status_bar_area_padding">
+            <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/holster_carrier_text" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="160.0dip" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </FrameLayout>
+        <include layout="@layout/notification_icon_area" />
+        <LinearLayout android:gravity="right" android:id="@id/system_icons_super_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/system_icons_keyguard_padding_end" android:layout_marginStart="1.5dip">
+            <FrameLayout android:layout_gravity="center|right" android:id="@id/system_icons_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <include layout="@layout/system_icons" />
+            </FrameLayout>
+            <com.flyme.systemui.statusbar.FlymeBatteryTextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/battery_percent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:importantForAccessibility="noHideDescendants" android:layout_marginStart="@dimen/header_battery_margin_keyguard" />
+        </LinearLayout>
+    </com.flyme.systemui.statusbar.phone.FlymeLinearLayout>
+    <ViewStub android:id="@id/ticker_stub" android:layout="@layout/status_bar_ticker" android:inflatedId="@id/ticker" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_month_day">MMM d</string>
+    <string name="lock_week">yyyy MMM d (E)</string>
+    <string name="mz_date_format">E, MMM d</string>
+</resources>

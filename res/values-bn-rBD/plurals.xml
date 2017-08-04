@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%dটি স্ক্রিন ওভারভিউয়ের মধ্যে আছে</item>
+        <item quantity="one">ওভারভিউর মধ্যে 1টি স্ক্রিন</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ভুল SIM PIN কোড, আপনার %dটি প্রয়াস বাকি আছে।</item>
+        <item quantity="one">ভুল SIM PIN কোড, আপনার ডিভাইস আনলক করার জন্য আপনি আপনার কেরিয়ারের সাথে যোগাযোগ করার আগে আপনার কাছে %dটি প্রচেষ্টা বাকি আছে।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ভুল SIM PUK কোড, আপনি আর %d বার চেষ্টা করতে পারবেন এবং তারপরে SIM স্থায়ীভাবে অব্যবহারযোগ্য হয়ে যাবে।</item>
+        <item quantity="one">ভুল SIM PUK কোড, আপনি আর %d বার চেষ্টা করতে পারবেন এবং তারপরে SIM স্থায়ীভাবে অব্যবহারযোগ্য হয়ে যাবে।</item>
+    </plurals>
+</resources>

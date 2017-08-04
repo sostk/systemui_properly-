@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyme.systemui.statusbar.ConnectionRateView android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/rate" android:paddingLeft="4.0dip" android:paddingTop="@dimen/stat_sys_text_padding_top" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:alpha="1.0" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/unit" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</com.flyme.systemui.statusbar.ConnectionRateView>

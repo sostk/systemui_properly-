@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.flyme.systemui.recents.views.WallpaperView android:id="@id/recents_wallpaper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <include layout="@layout/recents_clear_all" />
+    <com.flyme.systemui.recents.views.EnterAnimateFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/enter_taskstack" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.flyme.systemui.recents.views.EnterAnimateFrameLayout>
+</FrameLayout>

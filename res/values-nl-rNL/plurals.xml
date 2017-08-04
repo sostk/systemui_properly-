@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d schermen in Overzicht</item>
+        <item quantity="one">1 scherm in Overzicht</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">De pincode van de simkaart is onjuist. Er zijn nog %d pogingen resterend.</item>
+        <item quantity="one">De pincode voor de simkaart is onjuist. U hebt nog %d poging resterend. Daarna moet u het apparaat laten ontgrendelen door de provider.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">De PUK-code van de simkaart is onjuist. U hebt %d resterende poging voordat de simkaart permanent onbruikbaar wordt.</item>
+        <item quantity="one">De PUK-code van de simkaart is onjuist. U hebt %d resterende poging voordat de simkaart permanent onbruikbaar wordt.</item>
+    </plurals>
+</resources>

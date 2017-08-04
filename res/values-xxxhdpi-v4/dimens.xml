@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="battery_core_charge_left">15.0dip</dimen>
+    <dimen name="filter_num_offset_y">9.669983dip</dimen>
+</resources>

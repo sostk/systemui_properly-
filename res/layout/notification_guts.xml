@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.NotificationGuts android:id="@id/notification_guts" android:background="@drawable/notification_guts_background" android:paddingTop="@flyme:dimen/mz_template_base_notification_padding_top" android:paddingBottom="@dimen/mz_notification_guts_padding_bottom" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:id="@android:id/icon" android:layout_width="@flyme:dimen/mz_notification_small_icon_width" android:layout_height="@flyme:dimen/mz_notification_small_icon_height" android:layout_marginLeft="@flyme:dimen/mz_template_base_large_icon_padding_left" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="top" android:layout_gravity="fill_vertical" android:orientation="vertical" android:id="@id/notification_inspect_item" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@flyme:dimen/mz_template_base_marging_top" android:layout_marginStart="@flyme:dimen/notification_large_icon_width">
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textAppearance="@flyme:style/TextAppearance.StatusBar.EventContent.Title" android:layout_gravity="start" android:id="@id/pkgname" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <TextView android:id="@id/debug_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <DateTimeView android:id="@id/timestamp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="end" android:id="@id/notification_inspect_app_provided_settings" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings" />
+            <Button android:textAppearance="@flyme:style/TextAppearance.StatusBar.EventContent.Title" android:textSize="@android:dimen/notification_text_size" android:gravity="center" android:layout_gravity="end" android:id="@id/save_settings" android:background="@null" android:layout_width="56.0dip" android:layout_height="22.0dip" android:text="@android:string/ok" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/other_app_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/allow_item" android:clickable="false" android:layout_width="fill_parent" android:layout_height="34.0dip">
+                <TextView android:textAppearance="@flyme:style/TextAppearance.StatusBar.EventContent" android:layout_gravity="center|left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/allow_notification" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/allow_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_select" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/not_remind_item" android:clickable="true" android:layout_width="fill_parent" android:layout_height="34.0dip">
+                <TextView android:textAppearance="@flyme:style/TextAppearance.StatusBar.EventContent" android:layout_gravity="center|left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/not_remind" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/not_remind_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_select" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/no_display_item" android:clickable="false" android:layout_width="fill_parent" android:layout_height="34.0dip">
+                <TextView android:textAppearance="@flyme:style/TextAppearance.StatusBar.EventContent" android:layout_gravity="center|left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/no_display_notification" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/no_display_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_select" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/priority_display_item" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textAppearance="@flyme:style/TextAppearance.StatusBar.EventContent" android:layout_gravity="center|left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/priority_display" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/priority_display_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_select" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.systemui.statusbar.NotificationGuts>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.PhoneStatusBarView android:orientation="vertical" android:id="@id/status_bar" android:background="@drawable/system_bar_background" android:focusable="true" android:descendantFocusability="afterDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <ImageView android:id="@id/notification_lights_out" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/ic_sysbar_lights_out_dot_small" android:scaleType="center" android:paddingStart="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/status_bar_contents" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/stat_sys_clock_and_percent_padding" android:paddingEnd="@dimen/stat_sys_clock_and_percent_padding">
+        <com.flyme.systemui.statusbar.phone.AdvertSwitcherView android:id="@id/status_bar_switcher" android:layout_width="wrap_content" android:layout_height="fill_parent" android:inAnimation="@anim/slide_in_bottom" android:outAnimation="@anim/slide_out_up" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/left_icons" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@id/clock" android:paddingTop="@dimen/stat_sys_text_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/status_bar_area_padding" android:singleLine="true" android:includeFontPadding="false" systemui:amPmStyle="normal" />
+                <ViewStub android:id="@id/date_stub" android:layout="@layout/status_bar_date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/status_bar_area_padding" android:layout_marginRight="@dimen/status_bar_area_padding" />
+                <include layout="@layout/notification_icon_area" />
+                <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/status_bar_area_padding">
+                    <LinearLayout android:gravity="center|right" android:id="@id/system_icons" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <include android:id="@id/connection_rate" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/connection_rate_view" />
+                        <com.flyme.systemui.statusbar.phone.FlymeIconLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/statusIcons" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </com.android.keyguard.AlphaOptimizedLinearLayout>
+            </LinearLayout>
+            <include layout="@layout/status_bar_ticker_ext" />
+        </com.flyme.systemui.statusbar.phone.AdvertSwitcherView>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include android:id="@id/signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="0.0dip" layout="@layout/signal_cluster_view" />
+            <com.flyme.systemui.FlymeBatteryMeterView android:id="@id/battery" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/stat_sys_battery_margin_start" android:layout_marginEnd="@dimen/stat_sys_battery_margin_end" />
+            <com.flyme.systemui.statusbar.FlymeBatteryTextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/battery_percent" android:paddingTop="@dimen/stat_sys_text_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="@dimen/header_battery_margin_keyguard" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/ticker_stub" android:layout="@layout/status_bar_ticker" android:inflatedId="@id/ticker" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/back_more_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.policy.KeyButtonView android:layout_gravity="right" android:id="@id/back_button" android:background="@drawable/back_area_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentLeft="true" android:contentDescription="@string/accessibility_menu" systemui:keyCode="4" />
+        <com.android.systemui.statusbar.policy.KeyButtonView android:layout_gravity="right" android:id="@id/menu_button" android:background="@drawable/more_area_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_menu" systemui:keyCode="82" />
+    </RelativeLayout>
+</com.android.systemui.statusbar.phone.PhoneStatusBarView>

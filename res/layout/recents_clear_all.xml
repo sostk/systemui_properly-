@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyme.systemui.recents.views.TaskViewClearAll android:layout_gravity="bottom|center" android:id="@id/clear_all" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="112.0dip" android:layout_height="wrap_content">
+        <com.flyme.systemui.recents.views.TaskViewClearAllBackground android:id="@id/clear_all_progress" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="36.0dip" android:layout_marginBottom="@dimen/recents_task_clearall_padding_bottom" clearall:size="19.0dip" clearall:strokeWidth="2.0dip"
+          xmlns:clearall="http://schemas.android.com/apk/res/com.android.systemui" />
+        <ImageView android:id="@id/clear_all_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/recents_ic_clear_all" android:scaleType="center" android:layout_alignLeft="@id/clear_all_progress" android:layout_alignTop="@id/clear_all_progress" />
+        <TextView android:textSize="12.0sp" android:textColor="#66ffffff" android:gravity="center" android:id="@id/clear_all_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="true" android:layout_below="@id/clear_all_icon" android:fontFamily="sans-serif-medium" android:textAlignment="center" />
+    </RelativeLayout>
+</com.flyme.systemui.recents.views.TaskViewClearAll>

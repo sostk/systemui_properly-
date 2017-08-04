@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.keyguard.DigitalClockAndWeatherForLockScreen android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/time" android:paddingTop="69.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/clock1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <LinearLayout android:orientation="horizontal" android:id="@id/hour" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/colon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lock_time_num_colon" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/minute" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/date_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gap_between_date_time">
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:gravity="center_horizontal" android:id="@id/lock_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ampm_margin_to_left" />
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:gravity="center_horizontal" android:id="@id/lock_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gap_between_date_week" />
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gap_between_week_ampm" />
+    </LinearLayout>
+</com.meizu.keyguard.DigitalClockAndWeatherForLockScreen>

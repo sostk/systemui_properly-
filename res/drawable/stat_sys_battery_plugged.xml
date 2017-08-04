@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/stat_sys_battery_background_charge" />
+    <item android:id="@id/battery_core" android:left="@dimen/battery_core_charge_left" android:top="@dimen/battery_core_charge_top" android:right="@dimen/battery_core_charge_right" android:bottom="@dimen/battery_core_charge_bottom">
+        <scale android:drawable="@drawable/stat_sys_battery_core_normal_full" android:scaleWidth="100%" android:scaleHeight="0%" android:scaleGravity="right" />
+    </item>
+</layer-list>

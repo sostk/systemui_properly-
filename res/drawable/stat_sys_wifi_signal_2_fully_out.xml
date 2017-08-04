@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/stat_sys_wifi_signal_2_fully" />
+    <item android:drawable="@drawable/stat_sys_wifi_out" android:left="@dimen/stat_sys_wifi_inout_left" android:top="@dimen/stat_sys_wifi_inout_top" android:right="@dimen/stat_sys_wifi_inout_right" android:bottom="@dimen/stat_sys_wifi_inout_bottom" />
+</layer-list>

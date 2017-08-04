@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d szaslonov v pregledu</item>
+        <item quantity="one">En zaslon v Pregledu</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Napačna koda PIN kartice SIM. Poskusite lahko še %d-krat.</item>
+        <item quantity="one">Napačna koda PIN kartice SIM. Na voljo imate še toliko poskusov: %d. Potem se boste morali za odklepanje naprave obrniti na operaterja.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Napačna koda PUK kartice SIM. Na voljo imate še toliko poskusov: %d, preden kartica SIM postane trajno neuporabna.</item>
+        <item quantity="one">Napačna koda PUK kartice SIM. Na voljo imate še toliko poskusov: %d, preden kartica SIM postane trajno neuporabna.</item>
+    </plurals>
+</resources>

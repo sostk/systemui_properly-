@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardSimpleHostView android:id="@id/keyguard_host_view" android:fitsSystemWindows="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <com.android.keyguard.KeyguardSecurityContainer android:layout_gravity="center" android:id="@id/keyguard_security_container" android:padding="0.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" androidprv:layout_maxHeight="@dimen/keyguard_security_max_height">
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/power_save_stub" android:layout="@layout/mz_keyguard_screen_weather_and_date_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/battery_info" android:layout="@layout/battery_info_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" />
+        <com.android.keyguard.KeyguardSecurityViewFlipper android:gravity="center" android:id="@id/view_flipper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.keyguard.KeyguardSecurityContainer>
+</com.android.keyguard.KeyguardSimpleHostView>

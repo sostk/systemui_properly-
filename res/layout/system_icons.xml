@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right" android:id="@id/system_icons" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/connection_rate" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/connection_rate_view" />
+    <com.flyme.systemui.statusbar.phone.FlymeIconLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/statusIcons" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <include android:id="@id/signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="0.0dip" layout="@layout/signal_cluster_view" />
+    <com.flyme.systemui.FlymeBatteryMeterView android:id="@id/battery" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/stat_sys_battery_margin_start" android:layout_marginEnd="@dimen/stat_sys_battery_margin_end" />
+</LinearLayout>

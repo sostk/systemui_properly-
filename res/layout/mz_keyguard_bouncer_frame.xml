@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/keyguard_bouncer_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/keyguard_message_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tips_easy_margin_to_top" layout="@layout/keyguard_message_area" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/inputBox" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/keyguard_message_area">
+            <com.android.keyguard.PasswordTextView android:id="@id/passwordEntry" android:layout_width="@dimen/width_of_password_input" android:layout_height="@dimen/height_of_password_input" android:layout_centerHorizontal="true" android:layout_centerVertical="true" androidprv:scaledTextSize="20" androidprv:mzPasswordMaxNum="4" style="@style/Widget.PasswordTextView" />
+            <ImageView android:id="@id/delete" android:padding="@dimen/password_input_delete_pading" android:layout_width="@dimen/clickable_size_of_password_input_delete" android:layout_height="@dimen/clickable_size_of_password_input_delete" android:layout_marginLeft="@dimen/password_input_delete_margin_to_left" android:src="@drawable/lock_password_btn_delete" android:layout_toRightOf="@id/passwordEntry" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.meizu.widget.LockDigitView android:layout_gravity="center_horizontal" android:id="@id/lockPattern" android:visibility="visible" android:layout_width="@dimen/width_of_password_keypad" android:layout_height="@dimen/height_of_password_keypad" android:layout_below="@id/inputBox" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" layout="@layout/mz_keyguard_emergency_carrier_area" />
+    <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/keyguard_selector_fade_container_pin_puk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="23.0dip" layout="@layout/mz_keyguard_emergency_carrier_area_pin_puk" />
+</FrameLayout>

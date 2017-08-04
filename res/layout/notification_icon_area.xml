@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyme.systemui.statusbar.phone.FlymeNotificationLayout android:orientation="horizontal" android:id="@id/notification_icon_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/status_bar_area_padding" android:layout_marginRight="@dimen/status_bar_area_padding" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.keyguard.AlphaOptimizedLinearLayout android:id="@id/notification_icon_area_inner" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.StatusBarIconView android:id="@id/app_ongoing_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/stat_sys_third_app_ongoing" />
+        <com.android.systemui.statusbar.StatusBarIconView android:id="@id/app_notification_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/stat_sys_third_app_notify" />
+        <com.flyme.systemui.statusbar.phone.FlymeIconMerger android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notificationIcons" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentStart="true" />
+        <com.android.systemui.statusbar.StatusBarIconView android:id="@id/moreIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/stat_notify_more" />
+    </com.android.keyguard.AlphaOptimizedLinearLayout>
+</com.flyme.systemui.statusbar.phone.FlymeNotificationLayout>

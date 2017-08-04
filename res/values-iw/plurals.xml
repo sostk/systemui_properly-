@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">"%d מסכים ב'סקירה'"</item>
+        <item quantity="one">"מסך אחד ב'סקירה כללית'"</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">קוד PIN שגוי של כרטיס SIM, נותרו עוד %d ניסיונות.</item>
+        <item quantity="one">קוד PIN שגוי של כרטיס SIM, נותר עוד ניסיון %d לפני שיהיה עליך ליצור קשר עם המפעיל כדי לבטל את נעילת המכשיר.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">קוד PUK שגוי של כרטיס SIM, נותר לך ניסיון %d לפני שה-SIM יהיה בלתי-שמיש לצמיתות.</item>
+        <item quantity="one">קוד PUK שגוי של כרטיס SIM, נותר לך ניסיון %d לפני שה-SIM יהיה בלתי-שמיש לצמיתות.</item>
+    </plurals>
+</resources>

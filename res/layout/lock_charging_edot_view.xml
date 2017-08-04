@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/glsl_container" android:background="@drawable/keyguard_charging_view_mask" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/charging_view" android:layout_width="@dimen/glsl_width_of_charging_view" android:layout_height="@dimen/glsl_height_of_charging_view" />
+</LinearLayout>

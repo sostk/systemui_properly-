@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center|top" android:orientation="vertical" android:id="@id/time_core_intl" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/clock1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr">
+            <LinearLayout android:orientation="horizontal" android:id="@id/hour" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/minute" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gap_between_week_ampm" android:layout_marginBottom="7.0dip" android:layout_toRightOf="@id/clock1" android:layout_alignBottom="@id/clock1" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/date_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/distance_between_clock_and_date">
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:gravity="center_horizontal" android:id="@id/lock_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ampm_margin_to_left" />
+        <TextView android:textSize="@dimen/font_size_lock_date" android:textColor="@color/lock_date_foreground" android:gravity="center_horizontal" android:id="@id/lock_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gap_between_date_week" />
+    </LinearLayout>
+</merge>

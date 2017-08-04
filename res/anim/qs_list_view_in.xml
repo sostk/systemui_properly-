@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:duration="@integer/qs_list_anim_in_time" android:fillAfter="true" android:startOffset="@integer/qs_list_anim_out_time" android:fillEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:fromYDelta="-69.0" android:toYDelta="0.0" />
+    <alpha android:fromAlpha="0.0" android:toAlpha="1.0" />
+</set>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">လႊမ္းၿခံဳၾကည့္႐ႈမႈရွိ ဖန္သားျပင္ %d ခု</item>
+        <item quantity="one">ၿခံဳငံုခ်က္ထဲက ဖန္သားျပင္ 1 ခု</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">မမွန္ေသာ SIM PIN ကုဒ္၊ သင့္အေနႏွင့္ %d ခါ အားထုတ္ရန္ က်န္ေသးသည္။</item>
+        <item quantity="one">မမွန္ေသာ SIM PIN ကုဒ္၊ သင့္ဝန္ေဆာင္မႈေပးသူသို႔ ကိရိယာေသာ့ဖြင့္ဖို႔ မဆက္သြယ္မီ၊ သင့္အေနႏွင့္ %d ခါ အားထုတ္ရန္ က်န္ေသးသည္။</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">မမွန္ေသာ SIM PUK ကုဒ္၊ SIM က အၿမဲတမ္း သုံးမရေတာ့ေသာအရာအျဖစ္ မျဖစ္လာမီ၊ သင့္အေနႏွင့္ %d ခါ အားထုတ္ရန္ က်န္ေသးသည္။</item>
+        <item quantity="one">မမွန္ေသာ SIM PUK ကုဒ္၊ SIM က အၿမဲတမ္း သုံးမရေတာ့ေသာအရာအျဖစ္ မျဖစ္လာမီ၊ သင့္အေနႏွင့္ %d ခါ အားထုတ္ရန္ က်န္ေသးသည္။</item>
+    </plurals>
+</resources>

@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ayarlar</string>
+    <string name="file_selected_number">%1$s dosya seçildi, toplamda %2$s MB</string>
+    <string name="mz_share_view_title">Paylaş</string>
+    <string name="wechat_friends">WeChat arkadaşları</string>
+    <string name="wechat_pengyouquan">WeChat Moments</string>
+    <string name="wechat_shoucang">WeChat Favorileri</string>
+    <string name="weibo_app">Weibo</string>
+    <string name="mc_allow">Tamam</string>
+    <string name="mc_alway_allow">Her zaman izi ver</string>
+    <string name="mc_cancel">İptal et</string>
+    <string name="mc_cancel_button_text">İptal</string>
+    <string name="mc_cancel_collected_message">Sık Kullanılandan iptal edildi</string>
+    <string name="mc_cancel_praised_message">Beğeniyi iptal et</string>
+    <string name="mc_change_num">Güncelle</string>
+    <string name="mc_collected_message">Favori durumu</string>
+    <string name="mc_custom_date_time_gregorian">Gregoryen</string>
+    <string name="mc_custom_date_time_lunar">Aya ait</string>
+    <string name="mc_date_time_day">g</string>
+    <string name="mc_date_time_hour">h</string>
+    <string name="mc_date_time_min">d</string>
+    <string name="mc_date_time_month">d</string>
+    <string name="mc_date_time_sec">s</string>
+    <string name="mc_date_time_set">Ayarla</string>
+    <string name="mc_date_time_year">y</string>
+    <string name="mc_description_target_answer">Cevapla</string>
+    <string name="mc_description_target_decline">Reddet</string>
+    <string name="mc_disable">Devre dışı bırak</string>
+    <string name="mc_downloading_patch_prefix">Güncelleme Dosyasını İndir</string>
+    <string name="mc_downloading_prefix">İndirildi</string>
+    <string name="mc_enhanceseekbar">Kaydırıcı kontrolünü kullanma. Şu andaki ayarı %1$s</string>
+    <string name="mc_every_day">Her gün</string>
+    <string name="mc_friday">CUM</string>
+    <string name="mc_go_Refreshing">Yenile</string>
+    <string name="mc_hour">h</string>
+    <string name="mc_is_Refreshing">Yenileniyor</string>
+    <string name="mc_last_refresh">son yenileme</string>
+    <string name="mc_last_refresh_hour">saat önce</string>
+    <string name="mc_last_refresh_just_now">şimdi</string>
+    <string name="mc_last_refresh_minute">dakika önce</string>
+    <string name="mc_last_refresh_second">saniye önce</string>
+    <string name="mc_loading_animation_alert">Görüntüyü kaydediyor</string>
+    <string name="mc_loading_view_text">Yükleniyor</string>
+    <string name="mc_minute">d</string>
+    <string name="mc_monday">PZT</string>
+    <string name="mc_never">Bir kez</string>
+    <string name="mc_permission_apply">İzin talebi</string>
+    <string name="mc_permission_message_content">%1$s öğesi %2$s dâhil olmak üzere %3$d izin(ler)i talep ediyor</string>
+    <string name="mc_pm_allow_check_app">Tamam</string>
+    <string name="mc_pm_allow_dialog_push">Bildirime izin ver</string>
+    <string name="mc_pm_bluetooth">Bluetooth</string>
+    <string name="mc_pm_call">Ara</string>
+    <string name="mc_pm_call_log">CallLog oku</string>
+    <string name="mc_pm_camera">Kamera (Foto/Video)</string>
+    <string name="mc_pm_close">Kapat</string>
+    <string name="mc_pm_contacts">Kişileri Oku</string>
+    <string name="mc_pm_dialog_push">Açılır bildirim</string>
+    <string name="mc_pm_dlg_cancel">İptal et</string>
+    <string name="mc_pm_dlg_ok">Tamam</string>
+    <string name="mc_pm_location">Konum bul</string>
+    <string name="mc_pm_network">Hücresel veri</string>
+    <string name="mc_pm_nfc">NFC</string>
+    <string name="mc_pm_not_allow_check_app">Çık</string>
+    <string name="mc_pm_not_allow_dialog_push">Devre dışı bırak</string>
+    <string name="mc_pm_online_intenert">İnternet</string>
+    <string name="mc_pm_open">Aç</string>
+    <string name="mc_pm_r_mms">MMS oku</string>
+    <string name="mc_pm_r_sms">SMS oku</string>
+    <string name="mc_pm_recordaudio_local">Yerel/Arama Kaydı</string>
+    <string name="mc_pm_recordaudio_phone">Arama Kaydı</string>
+    <string name="mc_pm_s_mms">MMS gönder</string>
+    <string name="mc_pm_s_sms">SMS gönder</string>
+    <string name="mc_pm_set_bluetooth_on">"Bluetooth'u aç"</string>
+    <string name="mc_pm_set_gprs_on">Mobil ağı aç</string>
+    <string name="mc_pm_set_wifi_on">"WLAN'ı aç"</string>
+    <string name="mc_pm_wlan">WLAN</string>
+    <string name="mc_praised_message">Beğen</string>
+    <string name="mc_pull_refresh">Yenilemek için aşağı çekin</string>
+    <string name="mc_reject">Çıkış</string>
+    <string name="mc_saturday">CMT</string>
+    <string name="mc_search">Ara</string>
+    <string name="mc_search_button_text">Ara</string>
+    <string name="mc_search_icon">Ara</string>
+    <string name="mc_search_icon_input_clear">Temizle</string>
+    <string name="mc_search_text">Ara</string>
+    <string name="mc_second">s</string>
+    <string name="mc_sunday">PAZ</string>
+    <string name="mc_thursday">PER</string>
+    <string name="mc_time_picker_dialog_title">Planla</string>
+    <string name="mc_time_picker_leap">Ayı atla</string>
+    <string name="mc_tuesday">SAL</string>
+    <string name="mc_updating_prefix">Güncelliyor</string>
+    <string name="mc_value_checked">Seçildi</string>
+    <string name="mc_value_not_checked">Seçilmedi</string>
+    <string name="mc_voice_icon">Sesli Arama</string>
+    <string name="mc_wednesday">ÇAR</string>
+    <string name="mc_weekend">Hafta Sonu</string>
+    <string name="mc_working_day">Hafta içi</string>
+    <string name="mc_yes">Tamam</string>
+    <string name="more_item_label">Daha fazla</string>
+    <string name="alwaysUse">Varsayılan olarak bu seçeneği kullanın</string>
+    <string name="date_time_set">Ayarla</string>
+    <string name="mz_date_time_day">g</string>
+    <string name="mz_date_time_hour">s</string>
+    <string name="mz_date_time_min">dk</string>
+    <string name="mz_date_time_month">a</string>
+    <string name="mz_date_time_sec">sn</string>
+    <string name="mz_date_time_year">y</string>
+    <string name="mz_network_unavailable_hint">Ağ kullanılamaz. Lütfen ağ ayarlarını kontrol edin.</string>
+    <string name="mz_wif_setting_dialog_message">Ağ bağlantısı yok. Lütfen ağ ayarlarınızı kontrol edin.</string>
+    <string name="mz_wif_setting_dialog_set">Ayarla</string>
+    <string name="status_bar_settings_wlan">WLAN</string>
+    <string name="status_bar_settings_vpn">VPN</string>
+    <string name="status_bar_settings_autobrightness">OtomatikParlaklık</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_smarttouch">AkıllıDokunuş</string>
+    <string name="status_bar_settings_dndmode">DND</string>
+    <string name="status_bar_settings_mute">Sessiz</string>
+    <string name="status_bar_settings_vibrate">Titreşim</string>
+    <string name="status_bar_settings_powersave">Güç Tasarrufu</string>
+    <string name="status_bar_settings_rotation">Oto Döndür</string>
+    <string name="mobile">Hücresel Veri</string>
+    <string name="status_bar_settings_screenshot">Ekran Görüntüsü</string>
+    <string name="status_bar_settings_datasave">Veri Koruyucusu</string>
+    <string name="status_bar_settings_hotspot">Kablosuz Erişim Alanı</string>
+    <string name="status_bar_settings_drivemode">Sürücü Yardımcısı</string>
+    <string name="status_bar_settings_eyeprotective">Göze Dost</string>
+    <string name="status_bar_settings_accelerator">Hızlandırıcı</string>
+    <string name="status_bar_settings_screenrecord">Ekran Kaydı</string>
+    <string name="quick_settings_connecting_label">Bağlanıyor...</string>
+    <string name="quick_settings_bluetooth_devices_label">Bluetooth %d</string>
+    <string name="qs_tiles_edit_tips_text">Eklemek için yukarı sürükle</string>
+    <string name="mobile_data_disabled_message">Mobil veriler hazır değil, lütfen daha sonra tekrar deneyiniz.</string>
+    <string name="flash_light_disabled">Kamerayı ya da feneri önce kapatınız</string>
+    <string name="tile_powersave_standard">Smart</string>
+    <string name="tile_powersave_user_defined">Kullanıcı tanımlı</string>
+    <string name="tile_powersave_super">Süper</string>
+    <string name="tile_mobiledata_2g_only">Yalnızca 2G</string>
+    <string name="tile_mobiledata_3g_first">3G İlk</string>
+    <string name="tile_mobiledata_3g_only">"Yalnızca 3G "</string>
+    <string name="tile_mobiledata_4g_first">4G İlk</string>
+    <string name="tile_bluetooth_detail_empty_text">Yakınlarda Bluetooth cihazı bulunamadı.</string>
+    <string name="wifi_password">Şifre</string>
+    <string name="wifi_connect">Bağlan</string>
+    <string name="WidgetLayoutExtend_Description_smarttouch">AkıllıDokunuş</string>
+    <string name="smarttouch_help_title">SmartTouch Hakkında</string>
+    <string name="smarttouch_help_button_close">Reddet</string>
+    <string name="smarttouch_help_button_modify">Değiştir</string>
+    <string name="smarttouch_help_button_title_1">Tıkla</string>
+    <string name="smarttouch_help_button_summary_1">Geri</string>
+    <string name="smarttouch_help_button_title_2">İki kez dokun</string>
+    <string name="smarttouch_help_button_summary_2">Ekran kaydır</string>
+    <string name="smarttouch_help_button_title_3">Basılı tut</string>
+    <string name="smarttouch_help_button_summary_3">Taşı</string>
+    <string name="smarttouch_help_button_title_4">Yukarı kaydır</string>
+    <string name="smarttouch_help_button_summary_4">Ana ekrana dön</string>
+    <string name="smarttouch_help_button_title_5">Aşağı kaydır</string>
+    <string name="smarttouch_help_button_summary_5">Bildirim çubuğunu aç</string>
+    <string name="smarttouch_help_button_title_6">Sağa ve sola kaydır</string>
+    <string name="smarttouch_help_button_summary_6">görevler arasında geçiş yap</string>
+    <string name="smarttouch_help_button_summary_lock_screen">ekranı kilitle</string>
+    <string name="carrier_no_sim">SIM kart yok</string>
+    <string name="demo_device">Demo aygıtı</string>
+    <string name="carrier_airplane_mode">Uçak modu</string>
+    <string name="multi_choose_app">Uygulama seçin</string>
+    <string name="multi_activity_lable">Çoklu pencere</string>
+    <string name="recents_close_all_title">Tümünü kapat</string>
+    <string name="recents_close_all_mem">%1$d MB temizle</string>
+    <string name="recents_close_all_mem_nothing">Silinecek bir şey yok</string>
+    <string name="recents_start_multi">Çoklu</string>
+    <string name="recents_extend_lock">Kilit</string>
+    <string name="recents_extend_secret">Gizli</string>
+    <string name="recents_extend_multi">Çoklu</string>
+    <string name="recents_mem">"Bellek "</string>
+    <string name="keyguard_camera_hint">Kamera için yukarı kaydır</string>
+    <string name="fake_notification_tip">%1$d yeni bildirim</string>
+    <string name="fake_notification_tips">%1$d yeni bildirim</string>
+    <string name="qs_header_date_main_pattern12">%s a</string>
+    <string name="qs_header_date_main_pattern24">%s</string>
+    <string name="qs_header_date_local_pattern">E, MMM dd</string>
+    <string name="notification_reply">Yanıtla</string>
+    <string name="allow_notification">Bildirimlere izin ver</string>
+    <string name="not_remind">Bildirimlere izin ver, fakat uyarı verme</string>
+    <string name="no_display_notification">Bildirimlerin iznini kaldır</string>
+    <string name="priority_display">Öncelikli ekran</string>
+    <string name="intercepted_notification">Önemli olmayan bildirimler</string>
+    <string name="filter_notification_tips">Önemli olmayan bildirimler burada</string>
+    <string name="filter_notification_manage">Yönet</string>
+    <string name="qs_tile_config_cue_line_text">Eklemek için yukarı sürükle</string>
+    <string name="qs_tile_config_title">Anahtarlar yönetimi</string>
+    <string name="external_storage_mounted_title">Çıkarmak veya görüntülemek için dokunun</string>
+    <string name="external_storage_mounted_ticker">%s bağlandı</string>
+    <string name="external_storage_checking_title">USB cihazı hazırlama</string>
+    <string name="external_storage_checking_ticker">USB cihazı hazırlama</string>
+    <string name="external_storage_unmounting_title">Harici depolama çıkarılıyor, lütfen bekleyin...</string>
+    <string name="external_storage_unmounting_ticker">Harici depolama çıkarılıyor, lütfen bekleyin...</string>
+    <string name="open_usb_device">Harici cihazı şimdi görüntüle?</string>
+    <string name="unmount_externalstorage">%1$s kaldırsın mı veya açılsın mı?</string>
+    <string name="external_storage_open_button">Aç</string>
+    <string name="external_storage_remove_button">Kaldır</string>
+    <string name="open_sdcard">SD kart şimdi açılsın mı?</string>
+    <string name="battery_low_message">Pil seviyesi %d%% değerinin altında.</string>
+    <string name="battery_low_poweroff">Pil gücü düşük. Telefonunuz otomatik olarak kapanacak.</string>
+    <string name="usb_debugging_title">USB hata ayıklamasına izin verilsin mi?</string>
+    <string name="usb_debugging_message">Bilgisayarın RSA anahtar parmak izi: %1$s</string>
+    <string name="mz_screenshot_saved_title">Ekran görüntüsü</string>
+    <string name="mz_screenshot_saved_text">Ayrıntıları görüntülemek için dokunun</string>
+    <string name="usb_debugging_always">Bu bilgisayarın hata ayıklamasına her zaman izin ver</string>
+    <string name="location_is_in_using">Arkaplanda GPS kullanımı</string>
+    <string name="location_kill_process">Uygulamayı Kapat</string>
+    <string name="location_disallow_location">İzin verme</string>
+    <string name="volume_icon_description_system">Sistem ses seviyesi</string>
+    <string name="volume_icon_description_media">Medya</string>
+    <string name="volume_icon_description_notification">Bildirimler</string>
+    <string name="volume_icon_description_ring">Zil sesi</string>
+    <string name="ext_media_mounted_notification_title">SD kart algılandı</string>
+    <string name="ext_media_mounted_notification_message">Göstermek için tıklayınız</string>
+    <string name="ext_sdcard_description">SD kart</string>
+    <string name="ext_media_nofs_notification_title">Boş SD kart</string>
+    <string name="ext_media_nofs_notification_message">SD kart boş ya da desteklenmeyen dosya sistemi kullanıyor.</string>
+    <string name="extmedia_format_title">SD kartı formatla</string>
+    <string name="extmedia_format_message">Kartınızdaki tüm veriler silinecek.</string>
+    <string name="extmedia_format_button_format">Formatla</string>
+    <string name="cancel">İptal Et</string>
+    <string name="usb_charge_hight_temperature">pilin aşırı ısınması nedeniyle şarj durduruldu. Lütfen bağlantınızı kontrol edin ve gerekiyorsa müşteri hizmetleri ile iletişim kurun</string>
+    <string name="lock_tips_dialing">Aranıyor</string>
+    <string name="calling">Arama devam ediyor</string>
+    <string name="enter_pin_tips">PIN girin</string>
+    <string name="enter_puk_tips">PUK girin</string>
+    <string name="enter_pin_times">Yanlış PIN, %d deneme hakkı kaldı</string>
+    <string name="enter_puk_times">Yanlış PUK, %d deneme hakkı kaldı.</string>
+    <string name="enter_new_pin_tips">Yeni Pin girin</string>
+    <string name="confirm_new_pin_tips">Yeni PIN kodunu doğrula</string>
+    <string name="enter_password">Şifre girin</string>
+    <string name="dont_match_enter_new_pin">"PIN'ler eşleşmedi, lütfen tekrar girin."</string>
+    <string name="lockscreen_unlock_progress_dialog_message">Kilit açılıyor</string>
+    <string name="lock_password_left_times">Şifreyi girmek için %s deneme hakkınız kaldı!</string>
+    <string name="emergency_call">Acil arama</string>
+    <string name="dial_emergency_error">Aramadı yapılamadı, %s bir acil durum numarası değil!</string>
+    <string name="lockscreen_visitor_mode">Ziyaretçi modu</string>
+    <string name="sim_damage_due_to_puk_fail_title">Sim kart bozuk</string>
+    <string name="sim_damage_due_to_puk_fail_msg">Maksimum yanlış PUK girme sayısına ulaşıldı</string>
+    <string name="enter_password_error">Yanlış parola, lütfen tekrar girin</string>
+    <string name="lockscreen_sim_locked_message">SIM kart kilitli.</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">SIM kart kilidi açılıyor</string>
+    <string name="lockscreen_return_to_call">Aramaya dön</string>
+    <string name="lockscreen_slide_right_tips">Sağa kaydırınca açılacak uygulamayı seç</string>
+    <string name="keyguard_security_password_ok">Tamam</string>
+    <string name="unlock_text">Kilidi açmak için kaydırın</string>
+    <string name="keyguard_palm_rejection_text">Kilidi açarken telefonun üstünü örtmeyin</string>
+    <string name="keyguard_palm_rejection_exit">(Çıkmak için ses düğmesine çift dokunun)</string>
+    <string name="enter_tccm_pwd_tips">Kilit Kodunu Girin</string>
+    <string name="keyguard_fingerprint_not_match">Parmak izi eşleşmiyor</string>
+    <string name="keyguard_palm_rejection_title">Avuç içi reddetme</string>
+    <string name="gemini_enter_pin">"%d SIM'in PIN'ini gir"</string>
+    <string name="gemini_enter_puk">"%d SIM'ine ait PUK'u gir"</string>
+    <string name="exit">Çık</string>
+    <string name="remainingstandbytime">Kalan zaman</string>
+    <string name="remainingbattery">Kalan pil seviyesi</string>
+    <string name="day">Gün</string>
+    <string name="hour">Saat</string>
+    <string name="percentage">%</string>
+    <string name="mouth">Ay</string>
+    <string name="date">Gün</string>
+    <string name="minute">Dk.</string>
+    <string name="find_phone_tips_unknown_flyme">Flyme Hesabı</string>
+    <string name="find_phone_tips_enter_flyme">Telefon kilitlendi</string>
+    <string name="find_phone_tips_flyme_password_error">Yanlış parola, lütfen tekrar girin</string>
+    <string name="lockscreen_flyme_unlock_progress_dialog_message">Flyme kimliği doğrulanıyor</string>
+    <string name="find_phone_tips_flyme_unknown_error">Bilinmeyen hata!</string>
+    <string name="find_phone_tips_flyme_time_out">Ağ hatası, lütfen ayarlarınızı kontrol edin</string>
+    <string name="find_phone_tips_flyme_network_unusable">Ağ kullanılamıyor, lütfen bağlantı kurulduğunda tekrar deneyin.</string>
+    <string name="find_phone_tips_flyme_no_accountname">Flyme hesap adına ulaşılamadı</string>
+    <string name="find_phone_tips_flyme_no_SN">Seri numarasına ulaşılamadı</string>
+    <string name="find_phone_tips_account_no_match_sn">S/N ve kullanıcı adı eşleşmedi, tekrar deneyin!</string>
+    <string name="find_phone_tips_flyme_disable_today">%d dakika sonra tekrar deneyin.</string>
+    <string name="find_phone_tips_enter_password">Şifre girin</string>
+    <string name="find_phone_chat_button">Yanıtla</string>
+    <string name="find_phone_wifi_button">WLAN</string>
+    <string name="find_phone_wifi_back_button">Geri</string>
+    <string name="find_phone_number_tips">Bu telefon kayıp, şununla temasa geçiniz</string>
+    <string name="find_phone_unlock">Kilidi Aç</string>
+    <string name="find_phone_owner">SAHİBİ:</string>
+    <string name="unknown_artist">Bilinmeyen sanatçı</string>
+    <string name="unknown_albumTitle">Bilinmeyen albüm</string>
+    <string name="playstate_buffering_text">Ara belleğe alınıyor</string>
+    <string name="sim_permanently_locked">Yanlış PUK kodunu 10 kezden fazla girdiniz, SIM kartı kalıcı olarak kilitlenecek.</string>
+    <string name="band_connected">Bant bağlı</string>
+    <string name="mz_kg_invalid_sim_puk_hint">PUK kodu 8 rakam veya daha fazla olmalıdır</string>
+    <string name="mz_kg_invalid_sim_pin_hint">4 ila 8 rakamdan oluşan bir PIN girin</string>
+    <string name="mz_keyguard_code_length_prompt">4 ila 8 rakam girin</string>
+    <string name="keyguard_palm_rejection_calibrate">Ayarlayın</string>
+    <string name="kg_fp_too_many_failed_attempts_countdown">Lütfen %d saniye içerisinde parmak izini doğrulayın.</string>
+    <string name="find_phone_finderMessage_hints">Mesaj yok</string>
+    <string name="mz_fp_used_unlock">Kilidi açmak için Anasayfaya basın</string>
+    <string name="app_label">Sistem Arabirimi</string>
+    <string name="status_bar_clear_all_button">Temizle</string>
+    <string name="status_bar_recent_remove_item_title">Listeden kaldır</string>
+    <string name="status_bar_recent_inspect_item_title">Uygulama bilgileri</string>
+    <string name="status_bar_no_recent_apps">Son ekranlarınız burada görünür</string>
+    <string name="status_bar_accessibility_dismiss_recents">Son uygulamalara son ver</string>
+    <string name="status_bar_no_notifications_title">Bildirim yok</string>
+    <string name="status_bar_ongoing_events_title">Sürüyor</string>
+    <string name="status_bar_latest_events_title">Bildirimler</string>
+    <string name="battery_low_title">Pil düşük</string>
+    <string name="battery_low_percent_format">%s kaldı</string>
+    <string name="battery_low_percent_format_saver_started">%s kaldı. Pil tasarrufu açık.</string>
+    <string name="invalid_charger">"USB şarjı desteklenmiyor.
+Yalnızca ürünle birlikte verilen şarj cihazını kullanın."</string>
+    <string name="invalid_charger_title">USB şarjı desteklenmiyor.</string>
+    <string name="invalid_charger_text">Yalnızca ürünle birlikte verilen şarj cihazını kullanın.</string>
+    <string name="battery_low_why">Ayarlar</string>
+    <string name="battery_saver_confirmation_title">Pil tasarrufu açılsın mı?</string>
+    <string name="battery_saver_confirmation_ok">Aç</string>
+    <string name="battery_saver_start_action">Pil tasarrufunu aç</string>
+    <string name="status_bar_settings_settings_button">Ayarlar</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="status_bar_settings_airplane">Uçak modu</string>
+    <string name="status_bar_settings_auto_rotation">Ekranı otomatik döndür</string>
+    <string name="status_bar_settings_mute_label">Sessize Al</string>
+    <string name="status_bar_settings_auto_brightness_label">Otomatik</string>
+    <string name="status_bar_settings_notifications">Bildirimler</string>
+    <string name="bluetooth_tethered">Bluetooth bağlı</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Giriş yöntemlerini ayarla</string>
+    <string name="status_bar_use_physical_keyboard">Fiziksel klavye</string>
+    <string name="usb_device_permission_prompt">%1$s uygulamasının USB cihazına erişmesine izin verilsin mi?</string>
+    <string name="usb_accessory_permission_prompt">%1$s uygulamasının USB aksesuarına erişmesine izin verilsin mi?</string>
+    <string name="usb_device_confirm_prompt">Bu USB cihaz bağlandığında %1$s açılsın mı?</string>
+    <string name="usb_accessory_confirm_prompt">Bu USB aksesuarı bağlandığında %1$s açılsın mı?</string>
+    <string name="usb_accessory_uri_prompt">Bu USB aksesuarıyla çalışan kurulu uygulama yok. Bu aksesuar hakkında bilgi için: %1$s</string>
+    <string name="title_usb_accessory">USB aksesuarı</string>
+    <string name="label_view">Görüntüle</string>
+    <string name="always_use_device">Bu USB cihazı için varsayılan olarak kullan</string>
+    <string name="always_use_accessory">Bu USB aksesuarı için varsayılan olarak kullan</string>
+    <string name="compat_mode_on">Tam ekran için yakınlaştır</string>
+    <string name="compat_mode_off">Tam ekran için uzatın</string>
+    <string name="screenshot_saving_ticker">Ekran görüntüsü kaydediliyor...</string>
+    <string name="screenshot_saving_title">Ekran görüntüsü kaydediliyor...</string>
+    <string name="screenshot_saving_text">Ekran görüntüsü kaydediliyor</string>
+    <string name="screenshot_saved_title">Ekran görüntüsü alındı.</string>
+    <string name="screenshot_saved_text">Ekran görüntünüzü görüntülemek için dokunun.</string>
+    <string name="screenshot_failed_title">Ekran görüntüsü alınamadı.</string>
+    <string name="screenshot_failed_text">Bellek alanı sınırlı olduğundan veya uygulamanız ya da kuruluşunuz tarafından izin verilmediğinden ekran görüntüsü alınamıyor.</string>
+    <string name="usb_preference_title">USB dosya aktarım seçenekleri</string>
+    <string name="use_mtp_button_title">Medya oynatıcı olarak ekle (MTP)</string>
+    <string name="use_ptp_button_title">Kamera olarak ekle (PTP)</string>
+    <string name="installer_cd_button_title">Mac için Android File Transfer uygulamasını yükle</string>
+    <string name="accessibility_back">Geri</string>
+    <string name="accessibility_home">Ev</string>
+    <string name="accessibility_menu">Menü</string>
+    <string name="accessibility_recent">Genel Bakış</string>
+    <string name="accessibility_search_light">Ara</string>
+    <string name="accessibility_camera_button">Kamera</string>
+    <string name="accessibility_phone_button">Telefon</string>
+    <string name="accessibility_unlock_button">Kilidi aç</string>
+    <string name="unlock_label">kilidi aç</string>
+    <string name="phone_label">Telefonu Başlat</string>
+    <string name="camera_label">kamerayı aç</string>
+    <string name="accessibility_compatibility_zoom_button">Uyumluluk yakınlaştırma düğmesi.</string>
+    <string name="accessibility_compatibility_zoom_example">Ekranı büyütmek için daha küçük yakınlaştır.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth bağlandı.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth bağlantısı kesildi.</string>
+    <string name="accessibility_no_battery">Pil yok.</string>
+    <string name="accessibility_battery_one_bar">Pil seviyesi bir çubuk.</string>
+    <string name="accessibility_battery_two_bars">Pil seviyesi iki çubuk.</string>
+    <string name="accessibility_battery_three_bars">Pil seviyesi üç çubuk.</string>
+    <string name="accessibility_battery_full">Pil tamamen dolu.</string>
+    <string name="accessibility_no_phone">Telefon yok.</string>
+    <string name="accessibility_phone_one_bar">Telefon sinyal kuvveti tek çubuk.</string>
+    <string name="accessibility_phone_two_bars">Telefon sinyal kuvveti iki çubuk.</string>
+    <string name="accessibility_phone_three_bars">Telefon sinyal kuvveti üç çubuk.</string>
+    <string name="accessibility_phone_signal_full">Telefon sinyal kuvveti tam.</string>
+    <string name="accessibility_no_data">Veri yok.</string>
+    <string name="accessibility_data_one_bar">Sinyal kuvveti bir çubuk.</string>
+    <string name="accessibility_data_two_bars">Sinyal kuvveti iki çubuk.</string>
+    <string name="accessibility_data_three_bars">Sinyal kuvveti üç çubuk.</string>
+    <string name="accessibility_data_signal_full">Sinyal kuvveti tam.</string>
+    <string name="accessibility_wifi_off">WLAN kapalı.</string>
+    <string name="accessibility_no_wifi">WLAN bağlantı kesildi.</string>
+    <string name="accessibility_wifi_one_bar">Bir çubuk WLAN gücü</string>
+    <string name="accessibility_wifi_two_bars">İki çubuk WLAN gücü</string>
+    <string name="accessibility_wifi_three_bars">WLAN gücü üç çubuk.</string>
+    <string name="accessibility_wifi_signal_full">WLAN gücü tam.</string>
+    <string name="accessibility_wifi_name">%s öğesine bağlandı.</string>
+    <string name="accessibility_bluetooth_name">%s öğesine bağlandı.</string>
+    <string name="accessibility_no_wimax">WiMAX yok.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX sinyal kuvveti tek çubuk.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX sinyal kuvveti iki çubuk.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX sinyal kuvveti üç çubuk.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX sinyal kuvveti tam.</string>
+    <string name="accessibility_no_signal">Sinyal yok.</string>
+    <string name="accessibility_not_connected">Bağlanmadı.</string>
+    <string name="accessibility_zero_bars">Sinyal kuvveti sıfır.</string>
+    <string name="accessibility_one_bar">Sinyal kuvveti bir çubuk.</string>
+    <string name="accessibility_two_bars">Sinyal kuvveti iki çubuk.</string>
+    <string name="accessibility_three_bars">Sinyal kuvveti üç çubuk.</string>
+    <string name="accessibility_signal_full">Sinyal kuvveti tam.</string>
+    <string name="accessibility_desc_on">Açık.</string>
+    <string name="accessibility_desc_off">Kapalı.</string>
+    <string name="accessibility_desc_connected">Bağlandı.</string>
+    <string name="accessibility_desc_connecting">Bağlanıyor.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Dolaşım</string>
+    <string name="accessibility_data_connection_edge">EDGE</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_no_sim">SIM kart yok.</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth internet paylaşımı</string>
+    <string name="accessibility_airplane_mode">Uçak modu.</string>
+    <string name="accessibility_settings_button">Sistem ayarları.</string>
+    <string name="accessibility_notifications_button">Bildirimler.</string>
+    <string name="accessibility_remove_notification">Bildirimi temizle.</string>
+    <string name="accessibility_gps_enabled">GPS etkin.</string>
+    <string name="accessibility_gps_acquiring">GPS alınıyor.</string>
+    <string name="accessibility_tty_enabled">TTY etkin.</string>
+    <string name="accessibility_ringer_vibrate">Telefon zili titreşimde.</string>
+    <string name="accessibility_ringer_silent">Telefon zili sessizde.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s uygulamasına son verildi.</string>
+    <string name="accessibility_recents_item_dismissed">%s öğesine son verildi.</string>
+    <string name="accessibility_recents_item_launched">%s başlatılıyor.</string>
+    <string name="accessibility_notification_dismissed">Bildirimler Kapatıldı.</string>
+    <string name="accessibility_desc_notification_shade">Bildirimler</string>
+    <string name="accessibility_desc_quick_settings">Hızlı ayarlar.</string>
+    <string name="accessibility_desc_lock_screen">Kilit ekranı</string>
+    <string name="accessibility_desc_settings">Ayarlar</string>
+    <string name="accessibility_desc_recent_apps">Genel Bakış.</string>
+    <string name="accessibility_quick_settings_user">Kullanıcı: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN kapatıldı.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN açıldı.</string>
+    <string name="accessibility_quick_settings_mobile">Mobil veri ağı: %1$s, %2$s, %3$s</string>
+    <string name="accessibility_quick_settings_battery">Pil Seviyesi:%s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Uçak modu kapalı.</string>
+    <string name="accessibility_quick_settings_airplane_on">Uçak modu AÇIK</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Uçak modu kapatıldı.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Uçak modu açıldı.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth kapalı.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth açık.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth bağlanıyor.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth bağlandı.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth kapatıldı.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth açıldı.</string>
+    <string name="accessibility_quick_settings_location_off">Konum bildirme kapalı.</string>
+    <string name="accessibility_quick_settings_location_on">Konum bildirme açık.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Konum bildirme kapatıldı.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Konum bildirme açıldı.</string>
+    <string name="accessibility_quick_settings_alarm">Sonraki alarm %s olarak ayarlandı</string>
+    <string name="accessibility_quick_settings_close">Paneli kapat.</string>
+    <string name="accessibility_quick_settings_more_time">Daha uzun süre.</string>
+    <string name="accessibility_quick_settings_less_time">Daha kısa süre.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Flaş kapalı.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Flaş açık.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Flaş kapatıldı.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Flaş açıldı.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Renkleri ters çevirme kapatıldı.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Renkleri ters çevirme açıldı.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Mobil erişim noktası kapatıldı.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Mobil erişim noktası açıldı.</string>
+    <string name="accessibility_casting_turned_off">Ekran yayını durddu.</string>
+    <string name="accessibility_brightness">Ekran parlaklığı</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G veri kullanımı kapalı</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G veri kullanımı kapalı</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Hücresel veri kapalı</string>
+    <string name="data_usage_disabled_dialog_title">Veri kullanımı kapalı</string>
+    <string name="data_usage_disabled_dialog">"Ayarladığınız sınıra erişildiğinden cihazınız veri kullanımını kapattı.
+
+Veri kullanımını tekrar açmanız durumunda operatörünüzün sizden ek ödemeler talep edebilir."</string>
+    <string name="data_usage_disabled_dialog_enable">Veri ağını aç</string>
+    <string name="status_bar_settings_signal_meter_disconnected">"
+        İnternet bağlantısı yok
+"</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN bağlandı</string>
+    <string name="gps_notification_searching_text">GPS aranıyor</string>
+    <string name="gps_notification_found_text">GPS ile belirlenen konum</string>
+    <string name="accessibility_location_active">Konum talebi etkin</string>
+    <string name="accessibility_clear_all">Tüm bildirimleri temizle.</string>
+    <string name="status_bar_notification_inspect_item_title">Bildirim ayarları</string>
+    <string name="status_bar_notification_app_settings_title">%s Ayarları</string>
+    <string name="accessibility_rotation_lock_off">Ekran otomatik olarak dönecektir.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Ekran yatay modunda kilitlendi.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Ekran dikey modunda kilitlendi.</string>
+    <string name="accessibility_rotation_lock_off_changed">Şimdi ekran otomatik olarak dönecek.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Ekran yatay yönde kilitlendi</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Ekran dikey yönde kilitlendi</string>
+    <string name="dessert_case">Çerezler Kutusu</string>
+    <string name="start_dreams">Etkileşimli ekran koruyucu</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Uçak</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d cihaz)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth Kapalı</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Kullanılabilir eşlenmiş cihaz yok</string>
+    <string name="quick_settings_brightness_label">Parlaklık</string>
+    <string name="quick_settings_rotation_unlocked_label">Otomatik döndür</string>
+    <string name="quick_settings_rotation_locked_label">Yönlendirme Kilidi: Açık</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Dikey</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Yatay</string>
+    <string name="quick_settings_ime_label">Giriş Yöntemi</string>
+    <string name="quick_settings_location_label">Konum Bilgileri</string>
+    <string name="quick_settings_location_off_label">Konum Kapalı</string>
+    <string name="quick_settings_media_device_label">Medya Cihazı</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Sadece Acil Aramalar</string>
+    <string name="quick_settings_settings_label">Ayarlar</string>
+    <string name="quick_settings_time_label">Zaman</string>
+    <string name="quick_settings_user_label">Ben</string>
+    <string name="quick_settings_user_title">Kullanıcı</string>
+    <string name="quick_settings_user_new_user">Yeni kullanıcı</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_not_connected">Bağlanmadı.</string>
+    <string name="quick_settings_wifi_no_network">Ağ yok</string>
+    <string name="quick_settings_wifi_off_label">WLAN Kapalı</string>
+    <string name="quick_settings_wifi_detail_empty_text">Kullanılabilir kaydedilmiş ağ yok</string>
+    <string name="quick_settings_cast_title">Ekranı yayınla</string>
+    <string name="quick_settings_casting">Yayınlanıyor</string>
+    <string name="quick_settings_cast_device_default_name">Adsız cihaz</string>
+    <string name="quick_settings_cast_device_default_description">Yayın için hazır</string>
+    <string name="quick_settings_cast_detail_empty_text">Kullanılabilir cihaz yok</string>
+    <string name="quick_settings_brightness_dialog_title">Parlaklık</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Otomatik</string>
+    <string name="quick_settings_inversion_label">Renkleri tersine çevir</string>
+    <string name="quick_settings_color_space_label">Renk düzeltme modu</string>
+    <string name="quick_settings_more_settings">Diğer ayarlar</string>
+    <string name="quick_settings_done">Tamamlandı</string>
+    <string name="quick_settings_connected">Bağlandı</string>
+    <string name="quick_settings_connected_via_wfa">WLAN yardımcısıyla bağlandı</string>
+    <string name="quick_settings_connecting">Bağlanıyor…</string>
+    <string name="quick_settings_tethering_label">İnternet Paylaşımı</string>
+    <string name="quick_settings_hotspot_label">Mobil erişim noktası</string>
+    <string name="quick_settings_notifications_label">Bildirimler</string>
+    <string name="quick_settings_flashlight_label">Flaş</string>
+    <string name="quick_settings_cellular_detail_title">Hücresel veri</string>
+    <string name="quick_settings_cellular_detail_data_usage">Veri kullanımı</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Kalan veri</string>
+    <string name="quick_settings_cellular_detail_over_limit">Sınırın üzerinde</string>
+    <string name="quick_settings_cellular_detail_data_used">%s kullanıldı</string>
+    <string name="quick_settings_cellular_detail_data_limit">Sınır: %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s uyarısı</string>
+    <string name="recents_empty_message">Son ekranlarınız burada görünür</string>
+    <string name="recents_app_info_button_label">Uygulama Bilgileri</string>
+    <string name="recents_lock_to_app_button_label">uygulamaya sabitle</string>
+    <string name="recents_search_bar_label">Ara</string>
+    <string name="recents_launch_error_message">%s başlatılamadı.</string>
+    <string name="expanded_header_battery_charged">Şarj oldu</string>
+    <string name="expanded_header_battery_charging">Şarj oluyor</string>
+    <string name="expanded_header_battery_charging_with_time">Tamamen şarj olmasına %s kaldı</string>
+    <string name="expanded_header_battery_not_charging">Şarj olmuyor</string>
+    <string name="ssl_ca_cert_warning">"Ağ izlen
+iyor olabilir"</string>
+    <string name="description_target_search">Ara</string>
+    <string name="description_direction_up">%s için yukarı kaydırın.</string>
+    <string name="description_direction_left">%s için sola kaydırın.</string>
+    <string name="zen_no_interruptions_with_warning">Kesinti yok. Alarm bile yok.</string>
+    <string name="zen_no_interruptions">Kesinti yok</string>
+    <string name="zen_important_interruptions">Sadece öncelikli kesintiler</string>
+    <string name="zen_alarm_information_time">Bir sonraki alarmınız: %s</string>
+    <string name="zen_alarm_information_day_time">Bir sonraki alarmınız: %s</string>
+    <string name="zen_alarm_warning">%s saatinde alarmı duymayacaksınız</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Daha az acil bildirimler aşağıdadır</string>
+    <string name="notification_tap_again">Açmak için tekrar dokunun</string>
+    <string name="keyguard_unlock">Kilidi açmak için yukarı kaydırın.</string>
+    <string name="phone_hint">Telefon için sağa kaydırın</string>
+    <string name="camera_hint">Kamera için sola kaydırın</string>
+    <string name="interruption_level_none">Hiçbiri</string>
+    <string name="interruption_level_priority">Öncelik</string>
+    <string name="interruption_level_all">Tümü</string>
+    <string name="keyguard_indication_charging_time">Şarj oluyor (tamamen şarj olmasına %s kaldı)</string>
+    <string name="accessibility_multi_user_switch_switcher">Kullanıcıyı değiştir</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Kullanıcı değiştir. Geçerli kullanıcı: %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Profili göster</string>
+    <string name="user_add_user">Kullanıcı ekle</string>
+    <string name="user_new_user_name">Yeni kullanıcı</string>
+    <string name="guest_nickname">Misafir</string>
+    <string name="guest_new_guest">Misafir ekle</string>
+    <string name="guest_exit_guest">Misafir oturumunu kaldır</string>
+    <string name="guest_exit_guest_dialog_title">Misafir oturumunu kaldır?</string>
+    <string name="guest_exit_guest_dialog_message">Bu oturumdaki tüm uygulamalar ve veriler silinecek.</string>
+    <string name="guest_exit_guest_dialog_remove">Kaldır</string>
+    <string name="guest_wipe_session_title">Tekrar hoş geldiniz sayın misafir!</string>
+    <string name="guest_wipe_session_message">Oturumunuza devam etmek istiyor musunuz?</string>
+    <string name="guest_wipe_session_wipe">Baştan başla</string>
+    <string name="guest_wipe_session_dontwipe">Evet, devam et</string>
+    <string name="user_add_user_title">Yeni kullanıcı eklensin mi?</string>
+    <string name="user_add_user_message_short">"Yeni bir kullanıcı eklediğinizde, bu kişinin kendi alanını ayarlaması gerekir.
+
+Herhangi bir kullanıcı, diğer tüm kullanıcılar için uygulamaları güncelleyebilir."</string>
+    <string name="battery_saver_notification_title">Pil tasarrufu açık</string>
+    <string name="battery_saver_notification_text">Performansı ve arka plan verilerini azaltır</string>
+    <string name="battery_saver_notification_action_text">Pil tasarrufunu kapat</string>
+    <string name="notification_hidden_text">Yeni 1 mesajınız var</string>
+    <string name="media_projection_dialog_text">%s, ekranınızda görüntülenen her şeyi yakalamaya başlayacak.</string>
+    <string name="media_projection_remember_text">Bir daha gösterme</string>
+    <string name="clear_all_notifications_text">Tümünü temizle</string>
+    <string name="media_projection_action_text">Şimdi başla</string>
+    <string name="empty_shade_text">Bildirim yok</string>
+    <string name="device_owned_footer">Cihaz izlenebilir</string>
+    <string name="profile_owned_footer">Profil izlenebilir</string>
+    <string name="vpn_footer">Ağ izlenebilir</string>
+    <string name="monitoring_title_device_owned">Cihaz izleme</string>
+    <string name="monitoring_title_profile_owned">Profil izleme</string>
+    <string name="monitoring_title">Ağ izleme</string>
+    <string name="disable_vpn">"VPN'yi devre dışı bırak"</string>
+    <string name="disconnect_vpn">VPN bağlantısını kes</string>
+    <string name="monitoring_description_device_owned">"Bu cihazı yöneten:
+%1$s
+
+Yöneticiniz e-postalar, uygulamalar ve güvenli web siteleri dahil olmak üzere ağ etkinliğinizi ve cihazınızı izleyebilir.
+
+Daha fazla bilgi edinmek için yöneticinizle iletişime geçin."</string>
+    <string name="monitoring_description_vpn">"\"%1$s\" uygulamasına bir VPN bağlantısı kurma izni verdiniz.
+
+Bu uygulama e-postalar, uygulamalar ve güvenli web siteleri dahil olmak üzere ağ etkinliğinizi ve cihazınızı izleyebilir."</string>
+    <string name="monitoring_description_legacy_vpn">"Bir VPN'ye (\"%1$s\") bağlandınız.
+
+VPN servis sağlayıcınız e-postalar, uygulamalar ve güvenli web siteleri dahil olmak üzere ağ etkinliğinizi izleyebilir."</string>
+    <string name="monitoring_description_vpn_device_owned">"Bu cihazı yöneten:
+%1$s
+
+Yöneticiniz e-postalar, uygulamalar ve güvenli web siteleri dahil olmak üzere ağ etkinliğinizi izleyebilir. Daha fazla bilgi için yönetinizle iletişime geçin.
+
+Ayrıca \"%2$s\" uygulamasına VPN bağlantısı kurma izni de verdiniz. Bu uygulama da ağ etkinliğini izleyebilir."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Bu cihazı:
+%1$s
+
+Yöneticiniz; e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere ağ etkinliğinizi izleyebilir. Daha fazla bilgi için yöneticinizle iletişime geçin.
+
+Ayrıca bir VPN (\"%2$s\") uygulamasına bağlısınız. Bu VPN hizmet sağlayıcısı da ağ etkinliğini izleyebilir."</string>
+    <string name="monitoring_description_profile_owned">"Bu profili yöneten:
+%1$s
+
+Yöneticiniz e-postalar, uygulamalar ve güvenli web siteleri dahil olmak üzere ağ etkinliğinizi ve cihazınızı izleyebilir.
+
+Daha fazla bilgi edinmek için yöneticinizle iletişime geçin."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Bu cihazı yöneten:
+%1$s
+Profilinizi yöneten:
+%2$s
+
+Yöneticiniz; e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere cihazınızı ve ağ etkinliğinizi izleyebilir.
+
+Daha fazla bilgi için yöneticinizle iletişime geçin."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Bu profili yöneten:
+%1$s
+
+Yöneticiniz e-postalar, uygulamalar ve güvenli web siteleri dahil olmak üzere ağ etkinliğinizi izleyebilir. Daha fazla bilgi için yönetinizle iletişime geçin.
+
+Ayrıca \"%2$s\" uygulamasına VPN bağlantısı kurma izni de verdiniz. Bu uygulama da ağ etkinliğini izleyebilir."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Bu profili yöneten:
+%1$s
+
+Yöneticiniz; e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere ağ etkinliğinizi izleyebilir. Daha fazla bilgi için yöneticinizle iletişime geçin.
+
+Ayrıca, bir VPN'ye (\"%2$s\") bağlısınız. VPN hizmet sağlayıcınız da ağ etkinliğini izleyebilir."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Bu cihazı yöneten:
+%1$s
+Profilinizi yöneten:
+%2$s
+
+Yöneticiniz; e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere ağ etkinliğinizi izleyebilir. Daha fazla bilgi için yöneticinizle iletişime geçin.
+
+Ayrıca \"%3$s\" uygulamasına VPN kurma izni verdiniz. Bu uygulama da ağ etkinliğini izleyebilir."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Bu cihazı:
+%1$s
+Profilinizi:
+%2$s
+
+Yöneticiniz; e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere ağ etkinliğinizi izleyebilir. Daha fazla bilgi için yöneticinizle iletişime geçin.
+
+Ayrıca bir VPN (\"%3$s\") uygulamasına bağlısınız. Bu VPN hizmet sağlayıcısı da ağ etkinliğini izleyebilir."</string>
+    <string name="keyguard_indication_trust_disabled">Cihaz kilidi siz manuel olarak açmadıkça cihaz kilitli kalacak</string>
+    <string name="hidden_notifications_title">Bildirimleri daha hızlı alın</string>
+    <string name="hidden_notifications_text">Kilidi açmadan görün</string>
+    <string name="hidden_notifications_cancel">Hayır, teşekkürler</string>
+    <string name="hidden_notifications_setup">Kur</string>
+    <string name="zen_mode_and_condition">%1$s (%2$s)</string>
+    <string name="screen_pinning_title">Ekran sabitlendi</string>
+    <string name="screen_pinning_description">"Böylece siz sabitlemesini kaldırana kadar görüntülenmeye devam eder. Sabitlemeyi kaldırmak için Geri ve Genel Bakış'a aynı anda dokunun ve basılı tutun."</string>
+    <string name="screen_pinning_description_accessible">"Böylece siz sabitlemesini kaldırana kadar görüntülenmeye devam eder. Sabitlemeyi kaldırmak için Genel Bakış'a dokunun ve basılı tutun."</string>
+    <string name="screen_pinning_positive">Aldım</string>
+    <string name="screen_pinning_negative">Hayır, teşekkürler</string>
+    <string name="quick_settings_reset_confirmation_title">%1$s gizlensin mi?</string>
+    <string name="quick_settings_reset_confirmation_message">Ayarlardan etkinleştirdiğiniz bir sonraki sefer tekrar görünür.</string>
+    <string name="quick_settings_reset_confirmation_button">Gizle</string>
+    <string name="accessibility_ime_switch_button">Giriş yöntemi düğmesini değiştir.</string>
+    <string name="app_name">Tuş kilidi</string>
+    <string name="keyguard_password_enter_pin_code">PIN kodunu girin</string>
+    <string name="keyguard_password_enter_puk_code">SIM PUK kodunu ve yeni bir PIN kodunu girin.</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM PUK kodu</string>
+    <string name="keyguard_password_enter_pin_prompt">Yeni SIM PIN kodu</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Şifre girmek için dokunun</font></string>
+    <string name="keyguard_password_enter_password_code">Kilidi açmak için şifre girin</string>
+    <string name="keyguard_password_enter_pin_password_code">Kilidi açmak için PIN kodunu girin</string>
+    <string name="keyguard_password_wrong_pin_code">Yanlış PIN kodu.</string>
+    <string name="keyguard_label_text">"Kilidi açmak için önce Menü'ye, sonra 0'a basın."</string>
+    <string name="faceunlock_multiple_failures">Maksimum Yüz Tanımayla Kilit Açma deneme sayısı aşıldı</string>
+    <string name="keyguard_charged">Şarj oldu</string>
+    <string name="keyguard_plugged_in">Şarj oluyor</string>
+    <string name="keyguard_low_battery">Şarj cihazınızı takın.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">"Kilidi açmak için Menü'ye basın."</string>
+    <string name="keyguard_network_locked_message">Ağ kilitli</string>
+    <string name="keyguard_missing_sim_message_short">SIM kart takılı değil</string>
+    <string name="keyguard_missing_sim_message">SIM kart takılı değil.</string>
+    <string name="keyguard_missing_sim_instructions">Bir SIM kart takın.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM kart yok veya okunamıyor. Bir SIM kart takın.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Kullanılamayan SIM kart.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM kartınız kalıcı olarak devre dışı bırakıldı.
+
+    Başka bir SIM kart için kablosuz hizmet sağlayıcınıza başvurun."</string>
+    <string name="keyguard_sim_locked_message">SIM kart kilitli.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM kart PUK kilidi devrede.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM kart kilidi açılıyor...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. %3$d widget %2$d.</string>
+    <string name="keyguard_accessibility_add_widget">Widget ekleyin.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Boş</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Kilit açma alanı genişletildi.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Kilit açma alanı daraltıldı.</string>
+    <string name="keyguard_accessibility_widget">"%1$s widget'ı."</string>
+    <string name="keyguard_accessibility_user_selector">Kullanıcı seçici</string>
+    <string name="keyguard_accessibility_camera">Kamera</string>
+    <string name="keygaurd_accessibility_media_controls">Medya kontrolleri</string>
+    <string name="keyguard_accessibility_widget_reorder_start">"Widget'ların yeniden sıralama işlemi başladı."</string>
+    <string name="keyguard_accessibility_widget_reorder_end">"Widget'ları yeniden sıralama işlemi bitti."</string>
+    <string name="keyguard_accessibility_widget_deleted">"%1$s widget'ı silindi."</string>
+    <string name="keyguard_accessibility_expand_lock_area">Kilit açma alanını genişletin.</string>
+    <string name="keyguard_accessibility_slide_unlock">Kaydırarak Kilit Açma.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Desenle Kilit Açma.</string>
+    <string name="keyguard_accessibility_face_unlock">Yüzle Kilit Açma.</string>
+    <string name="keyguard_accessibility_pin_unlock">"Pin'le kilit açma."</string>
+    <string name="keyguard_accessibility_password_unlock">Şifre Kilit Açma.</string>
+    <string name="keyguard_accessibility_pattern_area">Desen Alanı.</string>
+    <string name="keyguard_accessibility_slide_area">Kaydırma Alanı.</string>
+    <string name="keyguard_accessibility_pin_area">PIN alanı</string>
+    <string name="keyguard_accessibility_sim_pin_area">SIM PIN alanı</string>
+    <string name="keyguard_accessibility_sim_puk_area">SIM PUK alanı</string>
+    <string name="keyguard_accessibility_transport_prev_description">Önceki parça düğmesi</string>
+    <string name="keyguard_accessibility_transport_next_description">Sonraki parça düğmesi</string>
+    <string name="keyguard_accessibility_transport_pause_description">Duraklat düğmesi</string>
+    <string name="keyguard_accessibility_transport_play_description">Oynat düğmesi</string>
+    <string name="keyguard_accessibility_transport_stop_description">Durdur düğmesi</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Beğen</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Beğenme</string>
+    <string name="keyguard_accessibility_transport_heart_description">Kalp</string>
+    <string name="keyguard_accessibility_show_bouncer">Devam etmek için kilidi açın</string>
+    <string name="keyguard_accessibility_hide_bouncer">Başlatma iptal edildi</string>
+    <string name="keyguard_accessibility_delete_widget_start">Silmek için %1$s öğesini bırakın.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s silinmeyecek.</string>
+    <string name="keyguard_accessibility_next_alarm">Sonraki alarm %1$s için ayarlandı</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">İptal et</string>
+    <string name="keyboardview_keycode_delete">Sil</string>
+    <string name="keyboardview_keycode_done">Tamamlandı</string>
+    <string name="keyboardview_keycode_mode_change">Mod değiştirme</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Giriş</string>
+    <string name="description_target_unlock">Kilidi aç</string>
+    <string name="description_target_camera">Kamera</string>
+    <string name="description_target_silent">Sessize Al</string>
+    <string name="description_target_soundon">Ses açık</string>
+    <string name="description_direction_down">%s için aşağı kaydırın.</string>
+    <string name="description_direction_right">%s için sağa kaydırın.</string>
+    <string name="user_switched">Geçerli kullanıcı: %1$s.</string>
+    <string name="kg_emergency_call_label">Acil arama</string>
+    <string name="kg_forgot_pattern_button_text">Deseni Unuttum</string>
+    <string name="kg_wrong_pattern">Yanlış Desen</string>
+    <string name="kg_wrong_password">Yanlış Şifre</string>
+    <string name="kg_wrong_pin">Yanlış PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">Lütfen %d saniye içerisinde yeniden deneyin.</string>
+    <string name="kg_pattern_instructions">Deseninizi çizin</string>
+    <string name="kg_sim_pin_instructions">SIM PIN girin</string>
+    <string name="kg_sim_pin_instructions_multi">"\"%1$s\" için SIM PIN'ini girin"</string>
+    <string name="kg_pin_instructions">PIN girin</string>
+    <string name="kg_password_instructions">Şifre Girin</string>
+    <string name="kg_puk_enter_puk_hint">SIM kart devre dışı bırakıldı. Devam etmek için PUK kodunu girin. Ayrıntılı bilgi için operatörle iletişime geçin.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM \"%1$s\" artık devre dışı. Devam etmek için PUK kodunu girin. Ayrıntılı bilgi için operatörle iletişime geçin.</string>
+    <string name="kg_puk_enter_pin_hint">İstenen PIN kodunu girin</string>
+    <string name="kg_enter_confirm_pin_hint">İstenen PIN kodunu onaylayın</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM kart kilidi açılıyor...</string>
+    <string name="kg_invalid_sim_pin_hint">4 ila 8 haneli bir PIN girin.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK kodu 8 veya daha çok haneli bir sayı olmalıdır.</string>
+    <string name="kg_invalid_puk">Doğru PUK kodunu tekrar giriniz. Çok sayıda deneme yapılırsa SIM kart kalıcı olarak devre dışı bırakılacaktır.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN kodları eşleşmiyor</string>
+    <string name="kg_login_too_many_attempts">Çok fazla sayıda desen denemesi</string>
+    <string name="kg_login_instructions">Kilidi açmak için Google hesabınızla oturum açın.</string>
+    <string name="kg_login_username_hint">Kullanıcı adı (e-posta adresi)</string>
+    <string name="kg_login_password_hint">Şifre</string>
+    <string name="kg_login_submit_button">Oturum aç</string>
+    <string name="kg_login_invalid_input">Geçersiz kullanıcı adı veya şifre.</string>
+    <string name="kg_login_account_recovery_hint">"Kullanıcı adınızı veya şifrenizi mi unuttunuz?
+"<b>google.com/accounts/recovery</b> adresini ziyaret edin.</string>
+    <string name="kg_login_checking_password">Hesap denetleniyor...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"PIN kodunuzu %d kez yanlış girdiniz.
+
+%d saniye içinde tekrar deneyin."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Şifrenizi %d kez yanlış girdiniz.
+
+%d saniye içinde tekrar deneyin."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Kilit açma desenini %d kez yanlış çizdiniz. 
+
+%d saniye sonra tekrar deneyin."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Telefon kilidini %d kez yanlış bir şekilde açmaya çalıştınız. %d kez daha başarısız olursanız bu telefon sıfırlanacak ve tüm verisi silinecektir.</string>
+    <string name="kg_failed_attempts_now_wiping">"Telefon kilidini %d kez yanlış bir şekilde açmaya çalıştınız. Bu tablet sıfırlanacak ve tüm veriler silinecektir.
+"</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">"Telefon kilidini %d kez yanlış bir şekilde açmaya çalıştınız.
+%d kez daha başarısız olursanız
+       bu kullanıcı kaldırılacak ve tüm kullanıcı verileri silinecektir."</string>
+    <string name="kg_failed_attempts_now_erasing_user">"Telefon kilidini %d kez yanlış bir şekilde açmaya çalıştınız. Bu kullanıcı kaldırılacak ve tüm kullanıcı silinecektir.
+"</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">"Telefon kilidini %d kez yanlış bir şekilde açmaya çalıştınız.
+%d kez daha başarısız olursanız
+       iş profili kaldırılacak ve tüm profil verileri silinecektir."</string>
+    <string name="kg_failed_attempts_now_erasing_profile">"Telefonun kilidini %d kez yanlış bir şekilde açmaya çalıştınız.
+       İş profili kaldırılacak ve tüm profil verileri silinecektir."</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Kilit açma desenini %d kez yanlış girdiniz.
+Eğer %d kez daha başarısız olursanız telefonunuzu bir e-posta hesabı kullanarak açmanız istenecektir.
+
+Lütfen %d saniye sonra tekrar deneyin."</string>
+    <string name="kg_reordering_delete_drop_target_text">Kaldır</string>
+    <string name="kg_password_wrong_pin_code_pukked">Yanlış SIM PIN kodu. Cihazınızın kilidini açmak için artık operatörünüzle iletişime geçmeniz gerekiyor.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM kullanılamıyor. Operatörünüzle iletişime geçin.</string>
+    <string name="kg_password_pin_failed">SIM PIN işlemi başarısız oldu!</string>
+    <string name="kg_password_puk_failed">SIM PUK işlemi başarısız oldu!</string>
+    <string name="kg_pin_accepted">Kod Kabul Edildi!</string>
+    <string name="keyguard_transport_prev_description">Önceki parça düğmesi</string>
+    <string name="keyguard_transport_next_description">Sonraki parça düğmesi</string>
+    <string name="keyguard_transport_pause_description">Duraklat düğmesi</string>
+    <string name="keyguard_transport_play_description">Oynat düğmesi</string>
+    <string name="keyguard_transport_stop_description">Durdur düğmesi</string>
+    <string name="keyguard_carrier_default">Hizmet yok.</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
+</resources>

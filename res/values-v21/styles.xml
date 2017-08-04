@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Flyme.Light" parent="@style/Base.V17.Theme.Flyme.Light">
+        <item name="android:alertDialogTheme">@style/Theme.Flyme.Light.Dialog.Alert</item>
+        <item name="android:actionBarItemBackground">@drawable/mz_item_background_borderless</item>
+        <item name="android:actionOverflowMenuStyle">@style/Widget.Flyme.Light.PopupMenu.Overflow</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">?mzThemeColor</item>
+        <item name="android:selectableItemBackgroundBorderless">@drawable/mz_item_background_borderless</item>
+        <item name="android:colorEdgeEffect">@color/mz_edge_effect_color</item>
+    </style>
+    <style name="Theme.Flyme.Light.Dialog.Alert" parent="@style/Base.V17.Flyme.Light.Dialog.Alert">
+        <item name="android:alertDialogTheme">@style/Theme.Flyme.Light.Dialog.Alert</item>
+        <item name="android:windowElevation">6.5dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.ListPopupWindow" parent="@style/Base.Widget.Flyme.Light.ListPopupWindow">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:popupElevation">0.0dip</item>
+    </style>
+</resources>

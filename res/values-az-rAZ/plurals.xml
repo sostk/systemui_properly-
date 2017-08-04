@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">İcmalda %d ekran</item>
+        <item quantity="one">1 son tətbiq</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Səhv SIM PIN kodu, sizin %d cəhdiniz qalıb.</item>
+        <item quantity="one">Səhv SIM PIN kodu, cihaz kilidini açmaq üçün operatorunuzla əlaqə saxlamaqdan əvvəl sizin %d cəhdiniz qalır.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Səhv SIM PIN kodu, SIM birdəfəlik yararsız hala düşənə qədər sizin %d cəhdiniz qalıb.</item>
+        <item quantity="one">Səhv SIM PIN kodu, SIM birdəfəlik yararsız hala düşənə qədər sizin %d cəhdiniz qalıb.</item>
+    </plurals>
+</resources>

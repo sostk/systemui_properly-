@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyme.systemui.recents.views.TaskViewFoot android:gravity="bottom" android:id="@id/task_view_foot" android:layout_width="fill_parent" android:layout_height="@dimen/recents_task_foot_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp" android:textColor="#66ffffff" android:id="@id/meminfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="100.0dip" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_marginStart="10.0dip" />
+</com.flyme.systemui.recents.views.TaskViewFoot>

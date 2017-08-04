@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/btn_borderless_rect" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/qs_detail_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="8.0dip" android:layout_marginEnd="3.0dip">
+        <ImageView android:id="@android:id/icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="12.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textAppearance="@style/TextAppearance.QS.DetailItemPrimary" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/TextAppearance.QS.DetailItemSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip">
+            <ImageView android:id="@android:id/icon2" android:background="@null" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_qs_detail_select" android:scaleType="center" android:layout_marginStart="4.0dip" android:layout_marginEnd="5.0dip" style="@style/QSBorderlessButton" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@drawable/ic_panel_line" android:layout_width="fill_parent" android:layout_height="2.0px" />
+</FrameLayout>

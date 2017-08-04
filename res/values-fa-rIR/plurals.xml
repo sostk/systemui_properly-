@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d صفحه نمایش در نمای کلی</item>
+        <item quantity="one">1 صفحه نمایش در نمای کلی</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">پین کد سیم اشتباه است، %d تلاش باقیمانده دارید.</item>
+        <item quantity="one">پین کد سیم اشتباه است، شما %d تلاش باقیمانده قبل از اینکه با سرویس دهندهتان برای باز کردن قفل دستگاه تماس بگیرید، دارید.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">پوک کد سیم اشتباه است. شما %d تلاش باقیمانده قبل از اینکه سیم بطور دائمی غیرقابل استفاده شود، دارید.</item>
+        <item quantity="one">پوک کد سیم اشتباه است. شما %d تلاش باقیمانده قبل از اینکه سیم بطور دائمی غیرقابل استفاده شود، دارید.</item>
+    </plurals>
+</resources>

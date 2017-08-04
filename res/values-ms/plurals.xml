@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d skrin dalam Gambaran Keseluruhan</item>
+        <item quantity="one">1 skrin dalam Gambaran Keseluruhan</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Kod PIN SIM salah, anda mempunyai %d baki cubaan.</item>
+        <item quantity="one">Kod PIN SIM salah, anda mempunyai %d baki cubaan sebelum anda perlu menghubungi pembawa anda untuk membuka kunci peranti anda.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Kod PUK SIM salah, anda mempunyai %d baki cubaan sebelum SIM menjadi tidak boleh digunakan secara kekal.</item>
+        <item quantity="one">Kod PUK SIM salah, anda mempunyai %d baki cubaan sebelum SIM menjadi tidak boleh digunakan secara kekal.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">ဆက္တင္မ်ား</string>
+    <string name="file_selected_number">ဖိုင္(မ်ား) %1$s ဖိုင္ ေရြးခ်ယ္ထားသည္၊ စုစုေပါင္း %2$s MB</string>
+    <string name="mz_share_view_checkbox_text">မွ်ေဝၿပီးေနာက္ ဖ်က္ပါ</string>
+    <string name="mz_share_view_title">သို႔ မွ်ေဝပါ</string>
+    <string name="wechat_friends">WeChat သူငယ္ခ်င္း</string>
+    <string name="wechat_pengyouquan">WeChat Moments</string>
+    <string name="wechat_shoucang">WeChat ႏွစ္သက္ရာမ်ား</string>
+    <string name="weibo_app">Weibo</string>
+    <string name="mc_allow">အိုေခ</string>
+    <string name="mc_alway_allow">အၿမဲတမ္းခြင့္ျပဳပါ</string>
+    <string name="mc_cancel">ပယ္ဖ်က္ပါ</string>
+    <string name="mc_cancel_button_text">ပယ္ဖ်က္ပါ</string>
+    <string name="mc_cancel_collected_message">စိတ္ႀကိဳက္မွ ပယ္ဖ်က္ထားသည္</string>
+    <string name="mc_cancel_praised_message">ႏွစ္သစ္မႈကို ပယ္ဖ်က္ပါ</string>
+    <string name="mc_change_num">အပ္ဒိတ္</string>
+    <string name="mc_collected_message">စိတ္ႀကိဳက္ အေျခအေနမ်ား</string>
+    <string name="mc_custom_date_time_gregorian">ဂရီဂိုးရီးယန္း</string>
+    <string name="mc_custom_date_time_lunar">လူနာ</string>
+    <string name="mc_date_time_day">d</string>
+    <string name="mc_date_time_hour">နာရီ</string>
+    <string name="mc_date_time_min">မိနစ္</string>
+    <string name="mc_date_time_month">မိနစ္</string>
+    <string name="mc_date_time_sec">စကၠန္႔</string>
+    <string name="mc_date_time_set">သတ္မွတ္သည္္</string>
+    <string name="mc_date_time_year">ခုႏွစ္</string>
+    <string name="mc_description_target_answer">ေျဖပါ</string>
+    <string name="mc_description_target_decline">ပယ္ခ်မည္</string>
+    <string name="mc_disable">ပိတ္ထားပါ</string>
+    <string name="mc_downloading_patch_prefix">ေနာက္ဆံုးေပၚဖိုင္ကို ေဒါင္းလုတ္လုပ္ပါ</string>
+    <string name="mc_downloading_prefix">ေဒါင္းလုတ္လုပ္ၿပီး</string>
+    <string name="mc_enhanceseekbar">ဆလိုက္ဒါအထိန္းကိုအသံုးျပဳျခင္း။ လက္ရွိသတ္မွတ္ပါ %1$s</string>
+    <string name="mc_every_day">ေန႔တိုင္း</string>
+    <string name="mc_friday">FR</string>
+    <string name="mc_go_Refreshing">ျပန္လည္လန္းဆန္းေစပါ</string>
+    <string name="mc_hour">နာရီ</string>
+    <string name="mc_is_Refreshing">ျပန္လည္လန္းဆန္းေနသည္</string>
+    <string name="mc_last_refresh">ေနာက္ဆံုး ျပန္လည္လန္းဆန္းမႈလုပ္ထားသည္</string>
+    <string name="mc_last_refresh_hour">နာရီ အၾကာက</string>
+    <string name="mc_last_refresh_just_now">ယခုေလးတင္</string>
+    <string name="mc_last_refresh_minute">မိနစ္ အၾကာက</string>
+    <string name="mc_last_refresh_second">စကၠန္႔ အၾကာက</string>
+    <string name="mc_loading_animation_alert">ပံုကုိ သိမ္းေနသည္</string>
+    <string name="mc_loading_view_text">ဖြင့္ေနသည္</string>
+    <string name="mc_minute">မိနစ္</string>
+    <string name="mc_monday">MO</string>
+    <string name="mc_never">တစ္ႀကိမ္</string>
+    <string name="mc_permission_apply">ခြင့္ျပဳခ်က္အတြက္ ေတာင္ဆိုပါ</string>
+    <string name="mc_permission_message_content">%2$s အပါအဝင္ %3$d ခြင့္ျပဳခ်က္(မ်ား) ကို %1$s မွေတာင္းခံပါသည္</string>
+    <string name="mc_pm_allow_check_app">အိုေက</string>
+    <string name="mc_pm_allow_dialog_push">ဆာဗာမက္ေဆ့ခ်္ပြတ္ရွ္ကို ခြင့္ျပဳပါ</string>
+    <string name="mc_pm_bluetooth">ဘလူးတုသ္</string>
+    <string name="mc_pm_call">ေခၚဆိုမႈ</string>
+    <string name="mc_pm_call_log">ေခၚဆိုမႈ မွတ္တမ္းဖတ္ပါ</string>
+    <string name="mc_pm_camera">ကင္မရာ (ဓာတ္ပုံ/ဗီဒီယို)</string>
+    <string name="mc_pm_close">ပိတ္ပါ</string>
+    <string name="mc_pm_contacts">အဆက္အသြယ္မ်ားကို ဖတ္ပါ</string>
+    <string name="mc_pm_dialog_push">ေပါ့-အပ္ ဆာဗာမက္ေဆ့ခ်္ပြတ္ရွ္</string>
+    <string name="mc_pm_dlg_cancel">ပယ္ဖ်က္ပါ</string>
+    <string name="mc_pm_dlg_ok">အိုေက</string>
+    <string name="mc_pm_location">ေနရာျပပါ။</string>
+    <string name="mc_pm_network">မိုဘိုင္းေဒတာ</string>
+    <string name="mc_pm_nfc">NFC</string>
+    <string name="mc_pm_not_allow_check_app">ထြက္မည္</string>
+    <string name="mc_pm_not_allow_dialog_push">ပိတ္ထားပါ</string>
+    <string name="mc_pm_online_intenert">အင္တာနက္</string>
+    <string name="mc_pm_open">ဖြင့္ပါ</string>
+    <string name="mc_pm_r_mms">MMS ဖတ္သည္</string>
+    <string name="mc_pm_r_sms">SMS ဖတ္ပါ</string>
+    <string name="mc_pm_recordaudio_local">ျပည္တြင္း/ေခၚဆိုမႈ မွတ္တမ္း</string>
+    <string name="mc_pm_recordaudio_phone">ေခၚဆိုမႈ မွတ္တမ္း</string>
+    <string name="mc_pm_s_mms">MMS ပို႔ပါ</string>
+    <string name="mc_pm_s_sms">SMS ပို႔ပါ</string>
+    <string name="mc_pm_set_bluetooth_on">ဘလူးတုခ္ကို ဖြင့္မည္</string>
+    <string name="mc_pm_set_gprs_on">မိုဘိုင္းလ္ကြန္ယက္ကို ဖြင့္မည္</string>
+    <string name="mc_pm_set_wifi_on">WLAN ကို ဖြင့္မည္</string>
+    <string name="mc_pm_wlan">WLAN</string>
+    <string name="mc_praised_message">ႏွစ္သက္ပါသည္</string>
+    <string name="mc_pull_refresh">ရီဖရက္ရွ္လုပ္ရန္ ေအာက္သို႔ဆြဲခ်ပါ</string>
+    <string name="mc_reject">ထြက္ရန္</string>
+    <string name="mc_saturday">SA</string>
+    <string name="mc_search">ရွာပါ</string>
+    <string name="mc_search_button_text">ရွာပါ</string>
+    <string name="mc_search_icon">ရွာပါ</string>
+    <string name="mc_search_icon_input_clear">ရွင္းလင္းပါ</string>
+    <string name="mc_search_text">ရွာပါ</string>
+    <string name="mc_second">စကၠန္႔</string>
+    <string name="mc_sunday">SU</string>
+    <string name="mc_thursday">TH</string>
+    <string name="mc_time_picker_dialog_title">အစီအစဥ္</string>
+    <string name="mc_time_picker_leap">ၾကားလ</string>
+    <string name="mc_tuesday">TU</string>
+    <string name="mc_updating_prefix">အပ္ဒိတ္လုပ္ေနသည္။</string>
+    <string name="mc_value_checked">ေရြးခ်ယ္ထားသည္</string>
+    <string name="mc_value_not_checked">မေရြးခ်ယ္ထားေသာ</string>
+    <string name="mc_voice_icon">အသံျဖင့္ ရွာေဖြမႈ</string>
+    <string name="mc_wednesday">WE</string>
+    <string name="mc_weekend">စေန၊ တနဂၤေႏြ</string>
+    <string name="mc_working_day">စေန တနဂၤေႏြမွအပ ၾကားရက္</string>
+    <string name="mc_yes">အိုေက</string>
+    <string name="more_item_label">ေနာက္ထပ္</string>
+    <string name="alwaysUse">ဤ ေရြးခ်ယ္မႈကို ပံုေသအျဖစ္သံုးပါ</string>
+    <string name="date_time_set">သတ္မွတ္ပါ</string>
+    <string name="mz_date_time_day">ရက္</string>
+    <string name="mz_date_time_hour">နာရီ</string>
+    <string name="mz_date_time_min">မိနစ္</string>
+    <string name="mz_date_time_month">လ</string>
+    <string name="mz_date_time_sec">စကၠန္႔</string>
+    <string name="mz_date_time_year">ခုႏွစ္</string>
+    <string name="mz_network_unavailable_hint">ကြန္ယက္မရရွိႏိုင္ပါ၊ ကြန္ယက္သတ္မွတ္ခ်က္မ်ားကို စစ္ေဆးပါ။</string>
+    <string name="mz_wif_setting_dialog_message">ကြန္ယက္ ခ်ိတ္ဆက္မႈမရွိပါ၊ ေက်းဇူးျပဳ၍ ကြန္ယက္ဆက္တင္ကို စစ္ေဆးပါ</string>
+    <string name="mz_wif_setting_dialog_set">သတ္မွတ္ပါ</string>
+    <string name="status_bar_settings_wlan">WLAN</string>
+    <string name="status_bar_settings_vpn">VPN</string>
+    <string name="status_bar_settings_autobrightness">အလိုလိုေတာက္ပမႈ</string>
+    <string name="status_bar_settings_nfc">NFC</string>
+    <string name="status_bar_settings_smarttouch">အဆင့္ျမင့္တို႔ထိမႈ</string>
+    <string name="status_bar_settings_dndmode">DND</string>
+    <string name="status_bar_settings_mute">အသံေဖ်ာက္ပါ</string>
+    <string name="status_bar_settings_vibrate">တုန္ခါပါ</string>
+    <string name="status_bar_settings_powersave">ပါဝါေခၽြတာေရး</string>
+    <string name="status_bar_settings_rotation">အလိုုေလ်ာက္ လွည့္သည္</string>
+    <string name="mobile">ဆယ္လူလာ ေဒတာ</string>
+    <string name="status_bar_settings_screenshot">မ်က္ႏွာျပင္ရိုက္ခ်က္</string>
+    <string name="status_bar_settings_datasave">ေဒတာ ေဆဗာ</string>
+    <string name="status_bar_settings_hotspot">ေဟာ့စေပါ့ပ္</string>
+    <string name="status_bar_settings_drivemode">ဒရိုက္ အကူအညီ</string>
+    <string name="status_bar_settings_eyeprotective">မ်က္လုံးသက္သာေစေသာ</string>
+    <string name="status_bar_settings_accelerator">ဖုန္းလည္ပတ္မႈအရွိန္ျမႇင့္ေပးရန္</string>
+    <string name="status_bar_settings_screenrecord">မ်က္ႏွာမွတ္တမ္း</string>
+    <string name="quick_settings_connecting_label">ခ်ိတ္ဆက္ေနဆဲ...</string>
+    <string name="quick_settings_bluetooth_devices_label">ဘလူးတုသ္ %d</string>
+    <string name="qs_tiles_edit_tips_text">ထည့္ရန္ အေပၚသို႔ဆြဲပါ</string>
+    <string name="mobile_data_disabled_message">မိုဘိုင္းေဒတာ အဆင္သင့္မျဖစ္ပါ၊ ေနာက္မွထပ္မံႀကိဳးစားပါ။</string>
+    <string name="flash_light_disabled">ပထမဦးစြာ ကင္မရာ (သို႔) ဖလပ္ရွ္မီးကို ပိတ္ပါ</string>
+    <string name="tile_powersave_standard">အဆင့္ျမင့္</string>
+    <string name="tile_powersave_user_defined">သံုးစြဲသူ သတ္မွတ္ထားသည္</string>
+    <string name="tile_powersave_super">အဆင့္ျမင့္</string>
+    <string name="tile_mobiledata_2g_only">2G အတြက္သာ</string>
+    <string name="tile_mobiledata_3g_first">3G ပထမ</string>
+    <string name="tile_mobiledata_3g_only">3G အတြက္သာ</string>
+    <string name="tile_mobiledata_4g_first">4G ပထမ</string>
+    <string name="tile_bluetooth_detail_empty_text">အနီးအနားတြင္ ဘလူးတုသ္ကိရိယာမ်ား ရွာမေတြ႔ထားပါ။</string>
+    <string name="wifi_password">စကားဝွက္</string>
+    <string name="wifi_connect">ခ်ိတ္ဆက္ပါ</string>
+    <string name="WidgetLayoutExtend_Description_smarttouch">အဆင့္ျမင့္တို႔ထိမႈ</string>
+    <string name="smarttouch_help_title">အဆင့္ျမင့္တို႔ထိမႈ မိတ္ဆက္ျခင္း</string>
+    <string name="smarttouch_help_button_close">ဖယ္ပစ္ပါ</string>
+    <string name="smarttouch_help_button_modify">မြမ္းမံပါ</string>
+    <string name="smarttouch_help_button_title_1">ႏွိပ္ပါ</string>
+    <string name="smarttouch_help_button_summary_1">ေနာက္သို႔</string>
+    <string name="smarttouch_help_button_title_2">ႏွစ္ခါႏွိပ္ပါ</string>
+    <string name="smarttouch_help_button_summary_2">စခရင္ ပြတ္ဆြဲျခင္း</string>
+    <string name="smarttouch_help_button_title_3">ႏွိပ္ပါ</string>
+    <string name="smarttouch_help_button_summary_3">ေရႊ႕ပါ</string>
+    <string name="smarttouch_help_button_title_4">အေပၚသို႔-ပြတ္ဆြဲပါ</string>
+    <string name="smarttouch_help_button_summary_4">မူလဖန္သားျပင္သို႔ ျပန္သြားပါ</string>
+    <string name="smarttouch_help_button_title_5">ေအာက္သို႔-ပြတ္ဆြဲပါ</string>
+    <string name="smarttouch_help_button_summary_5">အသိေပးခ်က္ဘား ဖြင့္ပါ</string>
+    <string name="smarttouch_help_button_title_6">ညာႏွင့္ ဘယ္သို႔ ေဘးတိုက္ပြတ္ဆြဲပါ</string>
+    <string name="smarttouch_help_button_summary_6">လုပ္ငန္းမ်ားအၾကား ကူးေျပာင္းပါ</string>
+    <string name="smarttouch_help_button_summary_lock_screen">ဖန္သားျပင္ ေသာ့ခ်ပါ</string>
+    <string name="carrier_no_sim">SIM မရွိပါ</string>
+    <string name="demo_device">ဒီမို စက္ကိရိယာ</string>
+    <string name="carrier_airplane_mode">ပ်ံသန္းအေနအထား</string>
+    <string name="multi_choose_app">အက္ပ္ ေရြးခ်ယ္ပါ</string>
+    <string name="multi_activity_lable">မာတီဝင္းဒိုး</string>
+    <string name="recents_close_all_title">အားလံုး ပိတ္ပါ</string>
+    <string name="recents_close_all_mem">%1$d MB ကိုလြတ္ထားပါ</string>
+    <string name="recents_close_all_mem_nothing">ရွင္းလင္းရန္ မရွိပါ</string>
+    <string name="recents_start_multi">အမ်ားအျပား</string>
+    <string name="recents_extend_lock">ေသာ့ခတ္ပါ</string>
+    <string name="recents_extend_secret">လွ်ိဳ႕ဝွက္ခ်က္</string>
+    <string name="recents_extend_multi">မ်ဳိးစံုေသာ</string>
+    <string name="recents_mem">မွတ္ဉာဏ္</string>
+    <string name="keyguard_camera_hint">ကင္မရာအတြက္ ဆလိုက္ဆြဲပါ</string>
+    <string name="fake_notification_tip">%1$d သတိေပးခ်က္ အသစ္(မ်ား)</string>
+    <string name="fake_notification_tips">%1$d သတိေပးခ်က္ အသစ္(မ်ား)</string>
+    <string name="qs_header_date_main_pattern12">%s EEE a</string>
+    <string name="qs_header_date_main_pattern24">%s EEE</string>
+    <string name="qs_header_date_local_pattern">MMMd</string>
+    <string name="notification_reply">အေၾကာင္းျပန္ခ်က္</string>
+    <string name="allow_notification">သတိေပးခ်က္မ်ား ခြင့္ျပဳသည္</string>
+    <string name="not_remind">အသိေပးခ်က္မ်ား ခြင့္ျပဳပါ သို႔ေသာ္ သတိမေပးပါႏွင့္</string>
+    <string name="no_display_notification">သတိေပးခ်က္မ်ား ခြင့္မျပဳ</string>
+    <string name="priority_display">ဦးစားေပး ျပသမႈ</string>
+    <string name="intercepted_notification">အေရးမႀကီးေသာ အသိေပးခ်က္မ်ား</string>
+    <string name="filter_notification_tips">အေရးမႀကီးေသာ သတိေပးခ်က္မ်ားကို ဤေနရာတြင္စစ္ေဆးပါ</string>
+    <string name="filter_notification_manage">စီမံပါ</string>
+    <string name="filter_notification_clear">ရွင္းလင္းပါ</string>
+    <string name="qs_tile_config_cue_line_text">ထည့္ရန္ အေပၚသို႔ဆြဲပါ</string>
+    <string name="qs_tile_config_title">အဖြင့္အပိတ္ စီမံခန္႕ခြဲမႈ</string>
+    <string name="screenshot_share_lable">မွ်ေဝပါ</string>
+    <string name="screenshot_share_delete_after_share">မွ်ေဝၿပီးေနာက္ ဖ်က္ပါ</string>
+    <string name="external_storage_mounted_title">ျပင္ပ သိုေလွာင္ခန္းကို လံုၿခံဳစြာဖယ္ရွားပါ</string>
+    <string name="external_storage_mounted_ticker">%s ခ်ိတ္ဆက္ထားသည္</string>
+    <string name="external_storage_checking_title">USB ကိရိယာ ႀကိဳတင္ျပင္ဆင္ျခင္း</string>
+    <string name="external_storage_checking_ticker">USB ကိရိယာ ႀကိဳတင္ျပင္ဆင္ျခင္း</string>
+    <string name="external_storage_unmounting_title">ျပင္ပ သိုေလွာင္ခန္းကို ေရႊ႕ေနသည္၊ ခဏေစာင့္ပါ...</string>
+    <string name="external_storage_unmounting_ticker">ျပင္ပ သိုေလွာင္ခန္းကို ေရႊ႕ေနသည္၊ ခဏေစာင့္ပါ...</string>
+    <string name="open_usb_device">ျပင္ပကိရိယာကိုၾကည့္မလား?</string>
+    <string name="unmount_externalstorage">ျပင္ပ သိုေလွာင္ခန္း %1$s ကိုဖယ္ရွားမလား?</string>
+    <string name="external_storage_open_button">ဖြင့္ပါ</string>
+    <string name="external_storage_remove_button">ဖယ္ရွားပါ</string>
+    <string name="open_sdcard">ယခု SD ကဒ္ ဖြင့္မလား?</string>
+    <string name="battery_low_message">ဘက္ထရီ အဆင့္သည္ %d%% ထက္နည္းေနသည္။</string>
+    <string name="battery_low_poweroff">ဘက္ထရီ အားနည္းေနသည္။ သင့္ဖုန္း အလိုအေလ်ာက္ ပိတ္သြားမည္။</string>
+    <string name="usb_debugging_title">USB ခၽြတ္ယြင္းခ်က္ရွာျပင္ျခင္းကို ခြင့္ျပဳမလား။</string>
+    <string name="usb_debugging_message">ကြန္ပ်ဴတာ၏ RSA ကီး လက္ေဗြရာမွာ : %1$s</string>
+    <string name="mz_screenshot_saved_title">ဖန္သားျပင္႐ိုက္ခ်က္</string>
+    <string name="mz_screenshot_saved_text">အေသးစိတ္အခ်က္မ်ားကိုၾကည့္ရန္ႏွိပ္ပါ</string>
+    <string name="usb_debugging_always">အမွားရွာေဖြ ျပင္ဆင္ရန္ ဤကြန္ပ်ဴတာကို အၿမဲတမ္းခြင့္ျပဳပါ</string>
+    <string name="location_is_in_using">ေနာက္ခံတြင္ GPS တည္ေနရာရွာေဖြမႈ သံုးေနသည္</string>
+    <string name="location_kill_process">အက္ပ္ကိုပိတ္ပါ</string>
+    <string name="location_disallow_location">ခြင့္မျပဳပါ</string>
+    <string name="volume_icon_description_system">စနစ္</string>
+    <string name="volume_icon_description_media">သီခ်င္း နွင့္၊ဗီဒီယိုမ်ား</string>
+    <string name="volume_icon_description_notification">အသိေပးမႈမ်ား</string>
+    <string name="volume_icon_description_ring">ဖုန္းျမည္သံမ်ား</string>
+    <string name="ext_media_mounted_notification_title">SD ကဒ္ ရွာသိထားသည္</string>
+    <string name="ext_media_mounted_notification_message">ၾကည့္႐ႈရန္ ႏွိပ္ပါ</string>
+    <string name="ext_sdcard_description">SD ကဒ္</string>
+    <string name="ext_media_nofs_notification_title">SD ကဒ္ကို အလြတ္ထားလိုက္ပါ</string>
+    <string name="ext_media_nofs_notification_message">SD ကဒ္မွာ အလြတ္ျဖစ္ေနပါသည္ (သို႔မဟုတ္) အေထာက္အကူမျပဳေသာ ဖိုင္စနစ္ကို သံုးထားပါသည္</string>
+    <string name="extmedia_format_title">SD ကဒ္ကို ပံုစံခ်ပါ</string>
+    <string name="extmedia_format_message">သင့္ကဒ္ေပၚရွိ အခ်က္အလက္အားလံုး ေပ်ာက္ဆံုးသြားပါလိမ့္မည္</string>
+    <string name="extmedia_format_button_format">ပံုစံခ်ျခင္း</string>
+    <string name="cancel">ပယ္ဖ်က္ပါ</string>
+    <string name="usb_charge_hight_temperature">အပူလြန္ အားသြင္းျခင္းေၾကာင့္ အားသြင္းျခင္းအား ရပ္တန္႕လိုက္ပါသည္။ သင္၏ ခ်ိတ္ဆက္မႈအား ျပန္လည္စစ္ေဆးပါ သို႕မဟုတ္ လိုအပ္ပါက အသံုးျပဳသူ ၀န္ေဆာင္မႈ စင္တာအား ဆက္သြယ္ပါ။</string>
+    <string name="lock_tips_dialing">ေခၚဆိုေနသည္</string>
+    <string name="calling">ေခၚဆိုေနဆဲျဖစ္သည္</string>
+    <string name="enter_pin_tips">PIN ထည့္သြင္းပါ</string>
+    <string name="enter_puk_tips">PUK ထည့္သြင္းပါ</string>
+    <string name="enter_pin_times">PIN မွားယြင္းသည္၊ %d ႀကိမ္ ႀကိဳးစားခြင့္(မ်ား) က်န္ေသးသည္</string>
+    <string name="enter_puk_times">PUK မွားယြင္းသည္၊ ႀကိဳးစားခြင့္(မ်ား) %d ႀကိမ္ က်န္ရွိေသးသည္</string>
+    <string name="enter_new_pin_tips">PIN အသစ္တစ္ခု ထည့္သြင္းပါ</string>
+    <string name="confirm_new_pin_tips">PIN အသစ္ကို အတည္ျပဳပါ</string>
+    <string name="enter_password">စကားဝွက္ ထည့္ပါ</string>
+    <string name="dont_match_enter_new_pin">PIN မ်ားကိုက္ညီမႈမရွိပါ၊ ထပ္မံထည့္သြင္းပါ</string>
+    <string name="lockscreen_unlock_progress_dialog_message">ေသာ့ဖြင့္ေနသည္</string>
+    <string name="lock_password_left_times">စကားဝွက္ထည့္သြင္းရန္ %s ႀကိမ္ ႀကိဳးစားခြင့္(မ်ား) က်န္ပါေသးသည္!</string>
+    <string name="emergency_call">အေရးေပၚ ေခၚဆိုမႈ</string>
+    <string name="dial_emergency_error">%s သည္အေရးေပၚနံပါတ္တစ္ခု မဟုတ္သကဲသို႔၊ ေခၚဆိုမႈ ျပဳလုပ္မထားပါ!</string>
+    <string name="lockscreen_visitor_mode">လာေရာက္ၾကည့္႐ႈသူ အေနအထား</string>
+    <string name="sim_damage_due_to_puk_fail_title">SIM ကဒ္ ပ်က္ေနသည္</string>
+    <string name="sim_damage_due_to_puk_fail_msg">မွားယြင္းသည့္ PUK ႀကိဳးစားခြင့္မ်ား အမ်ားဆံုးသို႔ေရာက္ရွိထားသည္</string>
+    <string name="enter_password_error">လ်ိဳ႕ဝွက္စကားလုံး မမွန္ပါ၊ ေနာက္ထပ္ရိုက္ထည့္ပါ။</string>
+    <string name="lockscreen_sim_locked_message">SIM ကဒ္ကို ေသာ့ခ်ထားသည္။</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">SIM ကဒ္ ေသာ့ဖြင့္ေနသည္</string>
+    <string name="lockscreen_return_to_call">ေခၚဆိုမႈသို႔ ျပန္သြားပါ</string>
+    <string name="lockscreen_slide_right_tips">ညာဘက္သို႔ ပြတ္ဆြဲသည့္အခါ စတင္ရန္ အက္ပ္မ်ားကို ေရြးခ်ယ္ပါ</string>
+    <string name="keyguard_security_password_ok">အိုေက</string>
+    <string name="unlock_text">ေသာ့ဖြင့္ရန္ ပြတ္ဆြဲပါ</string>
+    <string name="keyguard_palm_rejection_text">ေသာ့ဖြင့္ေနသည့္အခါ ဖုန္း၏အေပၚပိုင္းကို မဖံုးကြယ္ပါႏွင့္</string>
+    <string name="keyguard_palm_rejection_exit">ထြက္ရန္ အသံခလုတ္အား ႏွစ္ခ်က္ႏွိပ္ပါ</string>
+    <string name="enter_tccm_pwd_tips">ေသာ့ကုဒ္ ထည့္သြင္းပါ</string>
+    <string name="keyguard_fingerprint_not_match">လက္ေဗြရာ မကိုက္ညီပါ</string>
+    <string name="keyguard_palm_rejection_title">လက္ဖဝါးျဖင့္ ပယ္ခ်ျခင္း</string>
+    <string name="gemini_enter_pin">sim %d ၏ PINအား ထည့္သြင္းပါ</string>
+    <string name="gemini_enter_puk">SIM %d ၏ PUK အား ထည့္သြင္းပါ</string>
+    <string name="exit">ထြက္ပါ</string>
+    <string name="remainingstandbytime">က်န္ရွိသည့္အခ်ိန္</string>
+    <string name="remainingbattery">က်န္ရွိေသးသည့္ ဘက္ထရီအဆင့္</string>
+    <string name="day">ေန႔ရက္</string>
+    <string name="hour">နာရီ</string>
+    <string name="percentage">%</string>
+    <string name="mouth">လမ်ား</string>
+    <string name="date">ေန႔ရက္</string>
+    <string name="minute">မိနစ္</string>
+    <string name="find_phone_tips_unknown_flyme">Flyme အေကာင့္</string>
+    <string name="find_phone_tips_enter_flyme">ဖုန္းကို ေသာ့ခ်ထားသည္</string>
+    <string name="find_phone_tips_flyme_password_error">လ်ိဳ႕ဝွက္စကားလုံး မမွန္ပါ၊ ေနာက္ထပ္ရိုက္ထည့္ပါ။</string>
+    <string name="lockscreen_flyme_unlock_progress_dialog_message">Flyme အေကာင့္ မွန္ကန္ေၾကာင္း အေထာက္အထားျပသေနသည္</string>
+    <string name="find_phone_tips_flyme_unknown_error">အမ်ိဳးအမည္မသိေသာ အမွား!</string>
+    <string name="find_phone_tips_flyme_time_out">ကြန္ယက္မွားယြင္းသည္၊ ေက်းဇူးျပဳ၍ သင္၏သတ္မွတ္ခ်က္မ်ားကို စစ္ေဆးပါ</string>
+    <string name="find_phone_tips_flyme_network_unusable">ကြန္ယက္မရရွိႏိုင္ပါ၊ ကြန္ယက္ရရွိသည့္အခါ ျပန္လည္ႀကိဳးစားပါ!</string>
+    <string name="find_phone_tips_flyme_no_accountname">Flyme အေကာင့္ အမည္မရရွိႏိုင္ပါ</string>
+    <string name="find_phone_tips_flyme_no_SN">အမွတ္စဥ္နံပါတ္ကို ယူလို႔မရပါ</string>
+    <string name="find_phone_tips_account_no_match_sn">S/N ႏွင့္ အသံုးျပဳသူအမည္ ကိုက္ညီမႈမရွိပါ၊ ျပန္လည္ႀကိဳးစားပါ!</string>
+    <string name="find_phone_tips_flyme_disable_today">%d မိနစ္ၾကာၿပီးေနာက္ ျပန္လည္ႀကိဳးစားပါ။</string>
+    <string name="find_phone_tips_enter_password">Meizu အေကာင့္စကားဝွက္</string>
+    <string name="find_phone_chat_button">အေၾကာင္းျပန္ပါ</string>
+    <string name="find_phone_wifi_button">WLAN</string>
+    <string name="find_phone_wifi_back_button">ေနာက္သို႔</string>
+    <string name="find_phone_number_tips">ဤဖုန္း ေပ်ာက္ဆံုးသြားသည္၊</string>
+    <string name="find_phone_unlock">ေသာ့ဖြင့္ပါ</string>
+    <string name="find_phone_owner">ပိုင္ရွင္ :</string>
+    <string name="unknown_artist">အမည္မသိ အႏုပညာရွင္</string>
+    <string name="unknown_albumTitle">အမည္မသိ အယ္လဘမ္</string>
+    <string name="playstate_buffering_text">ၾကားခံေဒတာယူျခင္း</string>
+    <string name="sim_permanently_locked">မမွန္ကန္သည့္ PUK ကုဒ္ကို 10 ႀကိမ္ႏွင့္ အထက္ထည့္သြင္းျခင္းေၾကာင့္၊ SIM ကဒ္ကို အၿပီးအပိုင္ေသာ့ခ်ထားသည္။</string>
+    <string name="band_connected">ဘန္ျဖင့္ ခ်ိတ္ဆက္ထားေသာ</string>
+    <string name="mz_kg_invalid_sim_puk_hint">PUK ကုတ်နံပါတ်မှာ ဂဏန်း ၈ လုံးနှင့်အထက် ရှိသင့်ပါသည်။</string>
+    <string name="mz_kg_invalid_sim_pin_hint">ဂဏန်း ၄ လုံးမှ ၈ လုံးအထိပါရှိသော စိစစ်ရေးအမှတ်စဉ်တစ်ခုကို ရိုက်ထည့်ပါ</string>
+    <string name="mz_keyguard_code_length_prompt">၄-၈ လုံးထိပါရှိသော အ၀င်ဂဏန်းများ</string>
+    <string name="keyguard_palm_rejection_calibrate">စံညွိပါ</string>
+    <string name="kg_fp_too_many_failed_attempts_countdown">ေက်းဇူးျပဳ၍ %d စကၠန္႔အၾကာတြင္ လက္ေဗြကို ေနာက္တစ္ႀကိမ္ အတည္ျပဳေပးပါ</string>
+    <string name="find_phone_finderMessage_hints">မက္ေဆ့ခ်္မ်ား မရွိ</string>
+    <string name="mz_fp_used_unlock">ျပန္ဖြင့္ရန္ မူလ ခလုတ္ကို ႏွိပ္ပါ</string>
+    <string name="keyboardview_forget_password">စကားဝွက္ကုိ ေမ့သြားသည္</string>
+    <string name="app_label">စနစ္ UI</string>
+    <string name="status_bar_clear_all_button">ရွင္းလင္းပါ</string>
+    <string name="status_bar_recent_remove_item_title">စာရင္းမွ ဖယ္ရွားပါ</string>
+    <string name="status_bar_recent_inspect_item_title">အက္ပ္ အင္ဖို</string>
+    <string name="status_bar_no_recent_apps">သင္၏ မၾကာမီက ဖန္သားျပင္မ်ား ဒီမွာ ေပၚလာမည္</string>
+    <string name="status_bar_accessibility_dismiss_recents">လတ္တေလာ အက္ပ္မ်ားကို ဖယ္ပစ္ပါ</string>
+    <string name="status_bar_no_notifications_title">သတိေပးခ်က္မ်ား မရွိပါ</string>
+    <string name="status_bar_ongoing_events_title">ဆက္ျဖစ္ေနသည္</string>
+    <string name="status_bar_latest_events_title">သတိေပးခ်က္မ်ား</string>
+    <string name="battery_low_title">ဘက္ထရီ အားနည္းေနသည္</string>
+    <string name="battery_low_percent_format">%s က်န္ေသးသည္</string>
+    <string name="battery_low_percent_format_saver_started">%s က်န္ေသးသည္။ ဘက္ထရီေခၽြတာေရးနည္း ဖြင့္ထားသည္။</string>
+    <string name="invalid_charger">"USB အားသြင္းျခင္းကို ပ့ံပိုးမႈမေပးပါ။
+ပ့ံပိုးေပးထားေသာ ခ်ာဂ်ာကိုသာ သုံးပါ။"</string>
+    <string name="invalid_charger_title">USB အားသြင္းျခင္းကို ပ့ံပိုးမႈမေပးပါ။</string>
+    <string name="invalid_charger_text">ပ့ံပိုးေပးထားေသာ ခ်ာဂ်ာကိုသာ သုံးပါ။</string>
+    <string name="battery_low_why">သတ္မွတ္ခ်က္မ်ား</string>
+    <string name="battery_saver_confirmation_title">ဘက္ထရီေခၽြတာနည္းကို ဖြင့္မလား။</string>
+    <string name="battery_saver_confirmation_ok">ဖြင့္ပါ</string>
+    <string name="battery_saver_start_action">ဘက္ထရီေခၽြတာနည္းကို ဖြင့္ပါ</string>
+    <string name="status_bar_settings_settings_button">သတ္မွတ္ခ်က္မ်ား</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="status_bar_settings_airplane">ေလယာဥ္ပ်ံပံုစံ</string>
+    <string name="status_bar_settings_auto_rotation">အလိုလို-လွည့္လည္ဖန္သားျပင္</string>
+    <string name="status_bar_settings_mute_label">အသံေဖ်ာက္ပါ</string>
+    <string name="status_bar_settings_auto_brightness_label">အလိုလုိ</string>
+    <string name="status_bar_settings_notifications">သတိေပးခ်က္မ်ား</string>
+    <string name="bluetooth_tethered">ဘလူးတုသ္ လိုင္းဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ထည့္သြင္း နည္းလမ္းမ်ား သတ္မွတ္ဖြဲ႔စည္းပါ</string>
+    <string name="status_bar_use_physical_keyboard">ကိုင္တြယ္၍ရသည့္ ကီးဘုတ္</string>
+    <string name="usb_device_permission_prompt">USB ကိရိယာသို႔ သံုးခြင့္ရရန္ %1$s အက္ပ္ကို ခြင့္ျပဳမလား?</string>
+    <string name="usb_accessory_permission_prompt">USB တြဲသံုးပစၥည္း သံုးခြင့္ရရန္ %1$s အက္ပ္ကို ခြင့္ျပဳမလား?</string>
+    <string name="usb_device_confirm_prompt">ဤ USB ကိရိယာ ခ်ိတ္ဆက္ထားသည့္အခါ %1$s ကိုဖြင့္ပါ?</string>
+    <string name="usb_accessory_confirm_prompt">ဒီ USB တြဲဖက္ပစၥည္းျဖင့္ ခ်ိတ္ဆက္ေနေသာအခါ၊ %1$s ကို ဖြင့္မလား။</string>
+    <string name="usb_accessory_uri_prompt">ထည့္သြင္းထားသည့္ အက္ပ္မ်ားသည္ ဤ USB တြဲသံုးပစၥည္းမ်ားျဖင့္ အလုပ္လုပ္ေဆာင္မႈမရွိပါ။ ဤတြဲသံုးပစၥည္းမ်ား အေၾကာင္းကို %1$s တြင္ ထပ္မံေလ့လာပါ</string>
+    <string name="title_usb_accessory">USB တြဲဖက္ပစၥည္း</string>
+    <string name="label_view">ျမင္ကြင္း</string>
+    <string name="always_use_device">ဒီ USB ကိရိယာအတြက္ သတ္မွတ္ပုံစံျဖင့္ အသုံးျပဳပါ</string>
+    <string name="always_use_accessory">ဤ USB တြဲသံုးပစၥည္းကို မူရင္းပါပံုစံအတိုင္း အသံုးျပဳပါ</string>
+    <string name="compat_mode_on">ဖန္သားျပင္ကို ျဖည့္ရန္ ဇူးမ္ဆြဲပါ</string>
+    <string name="compat_mode_off">ဖန္သားျပင္ကို ျဖည့္ရန္ ဆန္႔ထုတ္ပါ</string>
+    <string name="screenshot_saving_ticker">ဖန္သားျပင္ပုံ႐ိုက္ခ်က္ သိမ္းဆည္းေနဆဲ...</string>
+    <string name="screenshot_saving_title">ဖန္သားျပင္ပုံ႐ိုက္ခ်က္ သိမ္းဆည္းေနဆဲ...</string>
+    <string name="screenshot_saving_text">ဖန္သားျပင္႐ိုက္ခ်က္ကို သိမ္းဆည္းေနသည္</string>
+    <string name="screenshot_saved_title">ဖန္သားျပင္ပုံ႐ိုက္ခ်က္ကို ႐ိုက္ၿပီးၿပီ။</string>
+    <string name="screenshot_saved_text">သင္၏ ဖန္သားျပင္ပုံ႐ိုက္ခ်က္ကို ၾကည့္ရန္ တို႔ထိပါ။</string>
+    <string name="screenshot_failed_title">ဖန္သားျပင္ပုံ႐ိုက္ခ်က္ကို ႐ိုက္လို႔မရပါ</string>
+    <string name="screenshot_failed_text">ကန္႔သတ္ထားေသာ သိုေလွာင္ခန္းေနရာလြတ္ေၾကာင့္၊ ဖန္သားျပင္ပုံ႐ိုက္ခ်က္ကို ႐ိုက္ကူးလို႔မရပါ၊ (သို႔) ႐ိုက္ကူးရန္ အက္ပ္ (သို႔) သင့္အဖြဲ႕အစည္းက ခြင့္မျပဳပါ။</string>
+    <string name="usb_preference_title">USB ဖိုင္ လႊဲေျပာင္းရန္ ေရြးစရာမ်ား</string>
+    <string name="use_mtp_button_title">မီဒီယာ ဖြင့္စက္တစ္ခုအျဖစ္ ေရးဖတ္မႈထိန္းပါ (MTP)</string>
+    <string name="use_ptp_button_title">ကင္မရာတစ္ခုအျဖစ္ ေရးဖတ္မႈထိန္းပါ (PTP)</string>
+    <string name="installer_cd_button_title">Mac အတြက္ အန္ဒရြိဳက္ဖိုင္လႊဲေျပာင္းသည့္ အက္ပ္ကို တပ္ဆင္ပါ</string>
+    <string name="accessibility_back">ေနာက္သို႔</string>
+    <string name="accessibility_home">မူလ</string>
+    <string name="accessibility_menu">မီႏူး</string>
+    <string name="accessibility_recent">ၿခံဳငုံခ်က္</string>
+    <string name="accessibility_search_light">ရွာပါ</string>
+    <string name="accessibility_camera_button">ကင္မရာ</string>
+    <string name="accessibility_phone_button">ဖုန္း</string>
+    <string name="accessibility_unlock_button">ေသာ့ဖြင့္ပါ</string>
+    <string name="unlock_label">ေသာ့ဖြင့္ပါ</string>
+    <string name="phone_label">ဖုန္းကုိဖြင့္ပါ</string>
+    <string name="camera_label">ကင္မရာ ဖြင့္ပါ</string>
+    <string name="accessibility_compatibility_zoom_button">အံဝင္ခြင္က်သည့္ ခ်ံဳ႕ခ်ဲ႕ခလုတ္။</string>
+    <string name="accessibility_compatibility_zoom_example">ဖန္သားျပင္ အေသးမွ အႀကီးသို႔ ခ်ဲ႔ပါ။</string>
+    <string name="accessibility_bluetooth_connected">ဘလူးတုသ္ ခ်ိတ္ဆက္ထားသည္။</string>
+    <string name="accessibility_bluetooth_disconnected">ဘလူးတုသ္ ခ်ိတ္ဆက္ျပတ္ေနသည္။</string>
+    <string name="accessibility_no_battery">ဘက္ထရီ မရွိပါ။</string>
+    <string name="accessibility_battery_one_bar">ဘက္ထရီအား တစ္ဘား ျဖစ္သည္။</string>
+    <string name="accessibility_battery_two_bars">ဘက္ထရီအဆင့္ ႏွစ္ဘားရွိသည္။</string>
+    <string name="accessibility_battery_three_bars">ဘက္ထရီအဆင့္ သံုးဘားရွိသည္။</string>
+    <string name="accessibility_battery_full">ဘက္ထရီအား ျပည့္ပါၿပီ။</string>
+    <string name="accessibility_no_phone">ဖုန္း မရွိပါ။</string>
+    <string name="accessibility_phone_one_bar">ဖုန္း အခ်က္ျပလႈိင္းအား ဘားတစ္ခု။</string>
+    <string name="accessibility_phone_two_bars">ဖုန္း အခ်က္ျပလႈိင္းအား ႏွစ္ဘား။</string>
+    <string name="accessibility_phone_three_bars">ဖုန္း အခ်က္ျပအား သံုးဘားရွိသည္။</string>
+    <string name="accessibility_phone_signal_full">ဖုန္း အခ်က္ျပအား အျပည့္ျဖစ္သည္။</string>
+    <string name="accessibility_no_data">ေဒတာ မရွိပါ။</string>
+    <string name="accessibility_data_one_bar">အခ်က္ျပလႈိင္းအား တစ္ဘား။</string>
+    <string name="accessibility_data_two_bars">အခ်က္ျပအား ႏွစ္ဘားရွိသည္။</string>
+    <string name="accessibility_data_three_bars">အခ်က္ျပလႈိင္းအား သုံးဘား ျဖစ္သည္။</string>
+    <string name="accessibility_data_signal_full">အခ်က္ျပအား အျပည့္ျဖစ္သည္။</string>
+    <string name="accessibility_wifi_off">WLAN ပိတ္။</string>
+    <string name="accessibility_no_wifi">WLAN ခ်ိတ္ဆက္မေနပါ။</string>
+    <string name="accessibility_wifi_one_bar">WLAN ျပင္းအား တစ္ဘား</string>
+    <string name="accessibility_wifi_two_bars">WLAN ျပင္းအား ႏွစ္ဘား</string>
+    <string name="accessibility_wifi_three_bars">WLAN ျပင္းအား သုံးဘား</string>
+    <string name="accessibility_wifi_signal_full">WLAN ျပင္းအား အျပည့္</string>
+    <string name="accessibility_wifi_name">%s သို႔ ခ်ိတ္ဆက္ထားသည္။</string>
+    <string name="accessibility_bluetooth_name">%s သို႔ ခ်ိတ္ဆက္ထားသည္။</string>
+    <string name="accessibility_no_wimax">WiMAX မရွိပါ။</string>
+    <string name="accessibility_wimax_one_bar">WiMAX အခ်က္ျပအား တစ္ဘားရွိသည္။</string>
+    <string name="accessibility_wimax_two_bars">WiMAX အခ်က္ျပအား ႏွစ္ဘားရွိသည္။</string>
+    <string name="accessibility_wimax_three_bars">WiMAX အခ်က္ျပလႈိင္းအား သုံးဘား။</string>
+    <string name="accessibility_wimax_signal_full">WiMAX အခ်က္ျပလႈိင္း အျပည့္။</string>
+    <string name="accessibility_no_signal">အခ်က္ျပအား မရွိပါ။</string>
+    <string name="accessibility_not_connected">ခ်ိတ္ဆက္မထားပါ</string>
+    <string name="accessibility_zero_bars">အခ်က္ျပအား လံုးဝမရွိပါ။</string>
+    <string name="accessibility_one_bar">အခ်က္ျပအား တစ္ဘားရွိသည္။</string>
+    <string name="accessibility_two_bars">အခ်က္ျပအား ႏွစ္ဘားရွိသည္။</string>
+    <string name="accessibility_three_bars">အခ်က္ျပလႈိင္းအား သုံးဘား ျဖစ္သည္။</string>
+    <string name="accessibility_signal_full">အခ်က္ျပအား အျပည့္ျဖစ္သည္။</string>
+    <string name="accessibility_desc_on">ဖြင့္ပါ။</string>
+    <string name="accessibility_desc_off">ပိတ္။</string>
+    <string name="accessibility_desc_connected">ခ်ိတ္ဆက္ထားသည္။</string>
+    <string name="accessibility_desc_connecting">ခ်ိတ္ဆက္ေနဆဲ။</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">အျခားကြန္ယက္သုံးျခင္း</string>
+    <string name="accessibility_data_connection_edge">EDGE</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_no_sim">SIM မရွိပါ။</string>
+    <string name="accessibility_bluetooth_tether">ဘလူးတုသ္ကို အျခားကိရိယာျဖင့္ မွ်သုံးရန္ ခ်ိတ္ဆက္ျခင္း</string>
+    <string name="accessibility_airplane_mode">ပ်ံသန္းအေနအထား။</string>
+    <string name="accessibility_settings_button">စနစ္ သတ္မွတ္ခ်က္မ်ား။</string>
+    <string name="accessibility_notifications_button">သတိေပးခ်က္မ်ား။</string>
+    <string name="accessibility_remove_notification">အသိေပးခ်က္ ရွင္းလင္းပါ။</string>
+    <string name="accessibility_gps_enabled">GPS ဖြင့္ထားသည္။</string>
+    <string name="accessibility_gps_acquiring">GPS ရယူေနသည္။</string>
+    <string name="accessibility_tty_enabled">TTY ကို ဖြင့္ထားသည္။</string>
+    <string name="accessibility_ringer_vibrate">ဖုန္းသံျမည္စက္ တုန္ခါမႈ။</string>
+    <string name="accessibility_ringer_silent">ဖုန္းျမည္သံကို အသံတိတ္ထားသည္။</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s ကို ဖယ္ပစ္ပါ။</string>
+    <string name="accessibility_recents_item_dismissed">%s ကို ဖယ္ပစ္ၿပီးၿပီ။</string>
+    <string name="accessibility_recents_item_launched">%s ကို စတင္ေနဆဲ။</string>
+    <string name="accessibility_notification_dismissed">အသိေပးခ်က္ ပိတ္ထားသည္</string>
+    <string name="accessibility_desc_notification_shade">သတိေပးခ်က္မ်ား</string>
+    <string name="accessibility_desc_quick_settings">အျမန္ သတ္မွတ္ခ်က္မ်ား။</string>
+    <string name="accessibility_desc_lock_screen">ဖန္သားျပင္ ေသာ့ခတ္ပါ။</string>
+    <string name="accessibility_desc_settings">သတ္မွတ္ခ်က္မ်ား</string>
+    <string name="accessibility_desc_recent_apps">ၿခံဳငုံခ်က္။</string>
+    <string name="accessibility_quick_settings_user">သုံးသူ: %s</string>
+    <string name="accessibility_quick_settings_wifi">%1$s</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN ပိတ္ထားသည္။</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN ဖြင့္ထားသည္။</string>
+    <string name="accessibility_quick_settings_mobile">မိုဘိုင္းေဒတာ ကြန္ယက္ : %1$s၊ %2$s၊ %3$s</string>
+    <string name="accessibility_quick_settings_battery">ဘက္ထရီအား အဆင့္: %s</string>
+    <string name="accessibility_quick_settings_airplane_off">ပ်ံသန္းအေနအထား ပိတ္ပါ။</string>
+    <string name="accessibility_quick_settings_airplane_on">ပ်ံသန္းအေနအထား ဖြင့္ပါ။</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">ပ်ံသန္းအေနအထား ပိတ္ထားသည္။</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">ပ်ံသန္းအေနအထား ဖြင့္ထားသည္။</string>
+    <string name="accessibility_quick_settings_bluetooth_off">ဘလူးတုသ္ ပိတ္။</string>
+    <string name="accessibility_quick_settings_bluetooth_on">ဘလူးတုသ္ ဖြင့္။</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">ဘလူးတုသ္ ခ်ိတ္ဆက္ေနဆဲ။</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">ဘလူးတုသ္ ခ်ိတ္ဆက္ထားသည္။</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">ဘလူးတုသ္ ပိတ္ထားသည္။</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">ဘလူးတုသ္ ဖြင့္ထားသည္။</string>
+    <string name="accessibility_quick_settings_location_off">တည္ေနရာရီပို႔ေပးျခင္း ပိတ္။</string>
+    <string name="accessibility_quick_settings_location_on">တည္ေနရာ အစီရင္ခံစာပို႔ျခင္း ဖြင့္ထားသည္။</string>
+    <string name="accessibility_quick_settings_location_changed_off">တည္ေနရာရီပို႔ေပးျခင္း ပိတ္ထားသည္။</string>
+    <string name="accessibility_quick_settings_location_changed_on">တည္ေနရာရီပို႔ေပးျခင္း ဖြင့္ထားသည္။</string>
+    <string name="accessibility_quick_settings_alarm">%s သို႔ ႏႈိးစက္သတ္မွတ္ပါ</string>
+    <string name="accessibility_quick_settings_close">အကန္႔ ပိတ္ပါ။</string>
+    <string name="accessibility_quick_settings_more_time">အခ်ိန္ တိုးထားသည္။</string>
+    <string name="accessibility_quick_settings_less_time">အခ်ိန္ ေလွ်ာ့ထားသည္။</string>
+    <string name="accessibility_quick_settings_flashlight_off">ဖလက္ခ်္မီး ပိတ္။</string>
+    <string name="accessibility_quick_settings_flashlight_on">ဖလက္ခ်္မီး ဖြင့္။</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">ဖလက္ခ်္မီး ပိတ္ထားသည္။</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">ဖလက္ခ်္မီး ဖြင့္ထားသည္။</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">အေရာင္ ေျပာင္းျပန္ထည့္ျခင္း ပိတ္ထားသည္။</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">အေရာင္ ေျပာင္းျပန္ထည့္ျခင္း ဖြင့္ထားသည္။</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">မိုဘိုင္းေဟာ့စေပါ့ ပိတ္ထားသည္။</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">မိုဘိုင္းေဟာ့စေပါ့ ဖြင့္ထားသည္။</string>
+    <string name="accessibility_casting_turned_off">ဖန္သားျပင္ မွ်ေဝသံုးစြဲျခင္းကို ပိတ္ထားသည္။</string>
+    <string name="accessibility_brightness">ေတာက္ပမႈ ျပသပါ</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G ေဒတာ ပိတ္ထားသည္</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G ေဒတာ ပိတ္ထားသည္</string>
+    <string name="data_usage_disabled_dialog_mobile_title">ဆယ္လူလာေဒတာ ပိတ္ထားသည္</string>
+    <string name="data_usage_disabled_dialog_title">ေဒတာ ပိတ္ထားသည္</string>
+    <string name="data_usage_disabled_dialog">"သင့္ကိရိယာက ေဒတာကို ပိတ္လိုက္သည္၊ အေၾကာင္းမွာ ၄င္းက သင္ သတ္မွတ္ထားေသာ အကန္႔အသတ္ကို ေရာက္သြားလို႔ပါ။
+
+၎ကို ျပန္ဖြင့္ပါက၊ သင္၏ ဝန္ေဆာင္မႈေပးသူက က်သင့္ေငြ ေတာင္းခံႏုိင္သည္။"</string>
+    <string name="data_usage_disabled_dialog_enable">ေဒတာ ဖြင့္ပါ</string>
+    <string name="status_bar_settings_signal_meter_disconnected">အင္တာနက္ခ်ိတ္ဆက္မႈ မရွိပါ</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN ခ်ိတ္ဆက္ထားသည္</string>
+    <string name="gps_notification_searching_text">GPS ကိုရွာေဖြေနသည္</string>
+    <string name="gps_notification_found_text">GPS က သတ္မွတ္ေသာ တည္ေနရာ</string>
+    <string name="accessibility_location_active">သြားလာလုပ္ေဆာင္မႈ တည္ေနရာေတာင္းဆိုခ်က္ ေပးပို႔သည့္ အက္ပ္</string>
+    <string name="accessibility_clear_all">သတိေပးခ်က္မ်ားအားလံုး ရွင္းလင္းပါ။</string>
+    <string name="status_bar_notification_inspect_item_title">အသိေပးခ်က္ သတ္မွတ္ခ်က္မ်ား</string>
+    <string name="status_bar_notification_app_settings_title">%s သတ္မွတ္ခ်က္မ်ား</string>
+    <string name="accessibility_rotation_lock_off">ဖန္သားျပင္ အလိုလိုလွည့္လည္သြားမည္။</string>
+    <string name="accessibility_rotation_lock_on_landscape">အလ်ားလိုက္ျမင္ကြင္းအေနအထားတြင္ ဖန္သားျပင္ကို ေသာ့ခ်ထားသည္။</string>
+    <string name="accessibility_rotation_lock_on_portrait">ပံုစံတူအေနအထားတြင္ ဖန္သားျပင္ကို ေသာ့ခ်ထားသည္။</string>
+    <string name="accessibility_rotation_lock_off_changed">ဖန္သားျပင္က ယခု အလိုလို အလွည့္က်လည္လိမ့္မည္။</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">ဖန္သားျပင္ကို ရႈခင္းပုံအသားေပးေနရာတြင္ ယခု ေသာ့ခတ္ထားသည္။</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">ဖန္သားျပင္ကို ပုံတူအသားေပးေနရာတြင္ ယခု ေသာ့ခတ္ထားသည္။</string>
+    <string name="dessert_case">အခ်ိဳပြဲဘူး</string>
+    <string name="start_dreams">တုန္႔ျပန္မႈရွိသည့္ ဖန္သားျပင္ေနာက္ခံပံုရိပ္</string>
+    <string name="ethernet_label">အီတာနက္</string>
+    <string name="quick_settings_airplane_mode_label">ေလယာဥ္ပ်ံ</string>
+    <string name="quick_settings_bluetooth_label">ဘလူးတုသ္</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">ဘလူးတုသ္ (%d ကိရိယာမ်ား)</string>
+    <string name="quick_settings_bluetooth_off_label">ဘလူးတုသ္ ပိတ္</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">သုံးႏိုင္သည့္ အတြဲခ်ိတ္ႏိုင္ေသာ ကိရိယာမ်ား မရွိပါ</string>
+    <string name="quick_settings_brightness_label">ေတာက္ပမႈ</string>
+    <string name="quick_settings_rotation_unlocked_label">အလိုုေလ်ာက္ လွည့္သည္</string>
+    <string name="quick_settings_rotation_locked_label">ျပသတင္ဆက္မႈ ေလာ့ခ္ - ဖြင့္ထားသည္</string>
+    <string name="quick_settings_rotation_locked_portrait_label">ေဒါင္လိုက္</string>
+    <string name="quick_settings_rotation_locked_landscape_label">႐ႈခင္း</string>
+    <string name="quick_settings_ime_label">ထည့္သြင္း နည္းလမ္း</string>
+    <string name="quick_settings_location_label">တည္ေနရာ</string>
+    <string name="quick_settings_location_off_label">တည္ေနရာ ပိတ္</string>
+    <string name="quick_settings_media_device_label">မီဒီယာကိရိယာ</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">အေရးေပၚ ေခၚဆိုမႈမ်ားသာလွ်င္</string>
+    <string name="quick_settings_settings_label">သတ္မွတ္ခ်က္မ်ား</string>
+    <string name="quick_settings_time_label">အခ်ိန္</string>
+    <string name="quick_settings_user_label">ကၽြႏု္ပ္</string>
+    <string name="quick_settings_user_title">သုံးသူ</string>
+    <string name="quick_settings_user_new_user">သုံးသူအသစ္</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_not_connected">ခ်ိတ္ဆက္မထားပါ</string>
+    <string name="quick_settings_wifi_no_network">ကြန္ယက္မရွိပါ</string>
+    <string name="quick_settings_wifi_off_label">WLAN ပိတ္</string>
+    <string name="quick_settings_wifi_detail_empty_text">သိမ္းထားေသာ ကြန္ယက္မ်ားကို မရႏိုင္ပါ</string>
+    <string name="quick_settings_cast_title">မွ်ေဝသံုးစြဲမႈ ဖန္သားျပင္</string>
+    <string name="quick_settings_casting">မွ်ေဝသံုးစြဲျခင္း</string>
+    <string name="quick_settings_cast_device_default_name">အမည္ေပးမထားေသာ ကိရိယာ</string>
+    <string name="quick_settings_cast_device_default_description">မွ်ေဝသံုးစြဲရန္ အဆင္သင့္ျဖစ္သည္</string>
+    <string name="quick_settings_cast_detail_empty_text">သုံးႏိုင္ေသာ ကိရိယာမ်ား မရွိပါ</string>
+    <string name="quick_settings_brightness_dialog_title">ေတာက္ပမႈ</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">အလိုလုိ</string>
+    <string name="quick_settings_inversion_label">အေရာင္မ်ားကုိ ေျပာင္းျပန္လွန္ျခင္း</string>
+    <string name="quick_settings_color_space_label">အေရာင္အမွန္ျပင္ျခင္းသုံးနည္းပုံစံ</string>
+    <string name="quick_settings_more_settings">ေနာက္ထပ္ သတ္မွတ္ခ်က္မ်ား</string>
+    <string name="quick_settings_done">ၿပီးပါၿပီ</string>
+    <string name="quick_settings_connected">ခ်ိတ္ဆက္ထားသည္</string>
+    <string name="quick_settings_connected_via_wfa">WLAN ေထာက္ကူမွတဆင့္ ခ်ိတ္ဆက္ထားသည္</string>
+    <string name="quick_settings_connecting">ခ်ိတ္ဆက္ေနဆဲ...</string>
+    <string name="quick_settings_tethering_label">အျခားကိရိယာျဖင့္ မွ်သုံးရန္ ခ်ိတ္ဆက္ျခင္း</string>
+    <string name="quick_settings_hotspot_label">ေဟာ့စေပါ့</string>
+    <string name="quick_settings_notifications_label">သတိေပးခ်က္မ်ား</string>
+    <string name="quick_settings_flashlight_label">ဖလက္ခ်္မီး</string>
+    <string name="quick_settings_cellular_detail_title">ဆယ္လူလာေဒတာ</string>
+    <string name="quick_settings_cellular_detail_data_usage">ေဒတာအသုံးျပဳမႈ</string>
+    <string name="quick_settings_cellular_detail_remaining_data">က်န္ရွိေသာ ေဒတာ</string>
+    <string name="quick_settings_cellular_detail_over_limit">အကန္႔အသတ္ ေက်ာ္ေနသည္</string>
+    <string name="quick_settings_cellular_detail_data_used">%s ကို သုံးထားၿပီးၿပီ</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s အကန္႔အသတ္</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s သတိေပးျခင္း</string>
+    <string name="recents_empty_message">သင္၏ မၾကာမီက ဖန္သားျပင္မ်ား ဒီမွာ ေပၚလာမည္</string>
+    <string name="recents_app_info_button_label">အပလီေကးရွင္းအင္ဖို</string>
+    <string name="recents_lock_to_app_button_label">အက္ပ္သို႔ ေသာ့ခတ္ပါ</string>
+    <string name="recents_search_bar_label">ရွာပါ</string>
+    <string name="recents_launch_error_message">%s ကို မစတင္ႏိုင္ပါ။</string>
+    <string name="expanded_header_battery_charged">အားအျပည့္ သြင္းထားသည္</string>
+    <string name="expanded_header_battery_charging">အားသြင္းေနဆဲ</string>
+    <string name="expanded_header_battery_charging_with_time">အားျပည့္သည္အထိ %s</string>
+    <string name="expanded_header_battery_not_charging">အားသြင္းမေနပါ</string>
+    <string name="ssl_ca_cert_warning">"ကြန္ယက္ကို
+ေစာင့္ၾကည့္ထားႏိုင္သည္"</string>
+    <string name="description_target_search">ရွာပါ</string>
+    <string name="description_direction_up">%s အတြက္ အထက္သို႔ ဆြဲတင္ပါ။</string>
+    <string name="description_direction_left">%s အတြက္ ဘယ္သို႔ ပြတ္ဆြဲပါ။</string>
+    <string name="zen_no_interruptions_with_warning">အေႏွာင့္အယွက္မ်ား မရွိပါ။ ႏႈိးစက္အသံေတာင္ပင္ မၾကားရပါ</string>
+    <string name="zen_no_interruptions">အေႏွာင့္အယွက္မ်ား မရွိပါ</string>
+    <string name="zen_important_interruptions">ဦးစားေပးေသာ အေႏွာင့္အယွက္မ်ား သာလွ်င္</string>
+    <string name="zen_alarm_information_time">သင္၏ ေနာက္ႏႈိးစက္အခ်ိန္မွာ %s</string>
+    <string name="zen_alarm_information_day_time">သင္၏ ေနာက္ႏႈိးစက္အခ်ိန္မွာ %s ျဖစ္သည္</string>
+    <string name="zen_alarm_warning">သင့္ႏႈိးစက္အသံကို %s၌ ၾကားရလိမ့္မည္မဟုတ္ပါ</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">အေရးမႀကီးေသာ သတိေပးခ်က္မ်ားက ေအာက္မွာရွိသည္</string>
+    <string name="notification_tap_again">ဖြင့္ရန္ ေနာက္တစ္ႀကိမ္ေခါက္ပါ</string>
+    <string name="keyguard_unlock">ေသာ့ဖြင့္ရန္ အေပၚသို႔ ပြတ္တင္ပါ</string>
+    <string name="phone_hint">ဖုန္းအတြက္ ညာဘက္သို႔ ပြတ္ဆြဲပါ</string>
+    <string name="camera_hint">ကင္မရာအတြက္ ဘယ္သို႔ ပြတ္ဆြဲပါ</string>
+    <string name="interruption_level_none">တစ္ခုမွမဟုတ္</string>
+    <string name="interruption_level_priority">ဦးစားေပး</string>
+    <string name="interruption_level_all">အားလုံး</string>
+    <string name="keyguard_indication_charging_time">အားသြင္းေနဆဲ (ျပည့္သည္အထိ %s)</string>
+    <string name="accessibility_multi_user_switch_switcher">သုံးသူ ကူးေျပာင္းပါ</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">အသုံးျပဳသူ ကူးေျပာင္းပါ၊ လက္ရွိ အသုံးျပဳသူမွာ %s ျဖစ္သည္</string>
+    <string name="accessibility_multi_user_switch_quick_contact">ပ႐ိုဖိုင္ ျပပါ</string>
+    <string name="user_add_user">သုံးသူ ေပါင္းထည့္ပါ</string>
+    <string name="user_new_user_name">သုံးသူအသစ္</string>
+    <string name="guest_nickname">ဧည့္သည္</string>
+    <string name="guest_new_guest">ဧည့္သည့္ ေပါင္းထည့္ပါ</string>
+    <string name="guest_exit_guest">ဧည့္သည္ဖယ္ရွားပါ</string>
+    <string name="guest_exit_guest_dialog_title">ဧည့္သည္ ဖယ္ရွားမလား။</string>
+    <string name="guest_exit_guest_dialog_message">ဤအခန္းရွိ အက္ပ္မ်ားႏွင့္ ေဒတာအားလံုးတို႔ကို ဖ်က္ပစ္လိမ့္မည္။</string>
+    <string name="guest_exit_guest_dialog_remove">ဖယ္ရွားပါ</string>
+    <string name="guest_wipe_session_title">ျပန္လာတာ ႀကိဳဆိုပါတယ္၊ ဧည့္သည္။</string>
+    <string name="guest_wipe_session_message">သင့္ဆက္ရွင္ကို ဆက္လက္လုပ္ေဆာင္လိုသလား။</string>
+    <string name="guest_wipe_session_wipe">အစက ျပန္စပါ</string>
+    <string name="guest_wipe_session_dontwipe">ဟုတ္ကဲ့၊ ဆက္လက္လုပ္ေဆာင္မည္</string>
+    <string name="user_add_user_title">သုံးသူအသစ္ ေပါင္းထည့္မလား။</string>
+    <string name="user_add_user_message_short">"သုံးသူအသစ္တစ္ဦးကို သင္ ေပါင္းထည့္ေသာအခါ၊ ထိုသူက မိမိတို႔၏ ေနရာလြတ္ကို သတ္မွတ္ရန္ လိုအပ္သည္။
+
+ သုံးသူတိုင္းသည္ အျခားသုံးသူမ်ားအတြက္ အက္ပ္မ်ားကို အပ္ဒိတ္လုပ္ေပးႏိုင္သည္။"</string>
+    <string name="battery_saver_notification_title">ဘက္ထရီေခၽြတာနည္းကို ဖြင့္ထားသည္</string>
+    <string name="battery_saver_notification_text">စြမ္းေဆာင္ရည္ႏွင့္ ေနာက္ခံျမင္ကြင္းတို႔ကို ေလွ်ာ့ခ်ပါ</string>
+    <string name="battery_saver_notification_action_text">ဘက္ထရီေခၽြတာနည္းကို ပိတ္ပါ</string>
+    <string name="notification_hidden_text">သင့္တြင္ မက္ေဆ့ခ်္အသစ္ 1 ေစာင္ရွိသည္</string>
+    <string name="media_projection_dialog_text">%s သည္ သင့္ဖန္သားျပင္ေပၚတြင္ ျပသထားေသာ အရာရာတိုင္းကို စတင္ ႐ိုက္ကူးလိမ့္မည္။</string>
+    <string name="media_projection_remember_text">ထပ္မျပပါႏွင့္။</string>
+    <string name="clear_all_notifications_text">အားလုံး ရွင္းပစ္ပါ</string>
+    <string name="media_projection_action_text">ယခု စတင္ပါ</string>
+    <string name="empty_shade_text">သတိေပးခ်က္မ်ား မရွိပါ</string>
+    <string name="device_owned_footer">ကိရိယာကို ေစာင့္ၾကည့္စစ္ေဆးေနႏိုင္သည္</string>
+    <string name="profile_owned_footer">ပ႐ုိဖုိင္ကုိ ေစာင့္ၾကည့္စီမံေနႏုိင္သည္</string>
+    <string name="vpn_footer">ကြန္ယက္ကို ေစာင့္ၾကည့္စီမံေနႏိုင္သည္</string>
+    <string name="monitoring_title_device_owned">ကိရိယာေစာင့္ၾကည့္စစ္ေဆးျခင္း</string>
+    <string name="monitoring_title_profile_owned">ပ႐ိုဖိုင္ေစာင့္ၾကည့္စီမံျခင္း</string>
+    <string name="monitoring_title">ကြန္ယက္ေစာင့္ၾကည့္စီမံျခင္း</string>
+    <string name="disable_vpn">VPN ပိတ္ပါ</string>
+    <string name="disconnect_vpn">VPN ခ်ိတ္ဆက္ျဖဳတ္ပါ</string>
+    <string name="monitoring_description_device_owned">"ဤကိရိယာကို :
+%1$sမွ စီမံပါသည္
+
+သင္၏ စီမံခန္႔ခြဲသူသည္ အီးေမးလ္မ်ား၊ အက္ပ္မ်ားႏွင့္ လံုၿခံဳေသာ ဝဘ္ဆိုဒ္မ်ား အပါအဝင္ သင့္ကိရိယာႏွင့္ ကြန္ယက္လုပ္ေဆာင္ခ်က္ကို ေစာင့္ၾကည့္စီမံႏိုင္စြမ္းရွိသည္။
+
+ေနာက္ထပ္ အခ်က္အလက္အတြက္၊ သင္၏ စီမံခန္႔ခြဲသူကို ဆက္သြယ္ပါ။"</string>
+    <string name="monitoring_description_vpn">"သင္သည္ \"%1$s\" ကို VPN ခ်ိတ္ဆက္မႈတစ္ခု ျပဳလုပ္ရန္ ခြင့္ျပဳခ်က္ေပးခဲ့သည္။
+
+ဒီအက္ပ္က အီးေမးလ္မ်ား၊ အက္ပ္ႏွင့္ လံုၿခံဳေသာ ဝဘ္ဆိုဒ္မ်ား အပါအဝင္၊ သင့္ကိရိယာႏွင့္ ကြန္ယက္လုပ္ေဆာင္ခ်က္ကို ေစာင့္ၾကည့္စီမံႏိုင္သည္။"</string>
+    <string name="monitoring_description_legacy_vpn">"သင္သည္ VPN (\"%1$s\") တစ္ခုျဖင့္ ခ်ိတ္ဆက္ထားသည္။
+
+ သင္၏ VPN ဝန္ေဆာင္မႈစီစဥ္ေပးသူက အီးေမးလ္မ်ား၊ အက္မ်ားႏွင့္ လံုၿခံဳေသာ ဝဘ္ဆိုဒ္မ်ား အပါအဝင္ သင့္ကိရိယာႏွင့္ ကြန္ယက္လုပ္ေဆာင္ခ်က္ကို ေစာင့္ၾကည့္စီမံႏိုင္သည္။"</string>
+    <string name="monitoring_description_vpn_device_owned">"ဤပ႐ိုဖိုင္ကို :
+%1$sမွ စီမံပါသည္။
+
+သင္၏ စီမံခန္႔ခြဲသူသည္ အီးေမးလ္မ်ား၊ အက္ပ္မ်ားႏွင့္ လံုၿခံဳေသာ ဝဘ္ဆိုဒ္မ်ား အပါအဝင္ သင္၏ ကြန္ယက္လုပ္ေဆာင္ခ်က္ကို ေစာင့္ၾကည့္စီမံႏိုင္စြမ္းရွိသည္။ ေနာက္ထပ္ အခ်က္အလက္အတြက္၊ သင္၏ စီမံခန္႔ခြဲသူကို ဆက္သြယ္ပါ။
+
+သင္သည္ \"%2$s\" ကို VPN ခ်ိတ္ဆက္မႈတစ္ခု ျပဳလုပ္ရန္လည္း ခြင့္ျပဳခ်က္ေပးခဲ့သည္။ ဒီအက္ပ္သည္ ကြန္ယက္လုပ္ေဆာင္မႈမ်ားကိုလည္းပဲ ေစာင့္ၾကည့္စီမံႏိုင္သည္။"</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"ဒီကိရိယာကို စီမံကွပ်ကဲသူမှာ:
+%1$s
+
+သင်၏  စီမံအုပ်ချုပ်သူက သင်၏ ကွန်ရက် လှုပ်ရှားမှုကို၊ အီးမေးလ်များ၊ appများ နှင့် လုံခြုံသည့် ဝက်ဘ်ဆိုက်များ အပါအဝင်ကို၊ စောင့်ကြပ် နိုင်ပါသည်။ အချက်အလက်များ ပိုပြီး ရယူရန်၊ သင်၏ စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။
+
+ထို့အပြင်၊ သင်သည် VPN  (\"%2$s\") သို့ ချိတ်ဆက်ထားသည်။ သင်၏ VPN ဝန်ဆောင်မှုကို စီမံပေးသူကပါ ကွန်ရက် လှုပ်ရှားမှုများကို စောင့်ကြပ်နိုင်သေးသည်။"</string>
+    <string name="monitoring_description_profile_owned">"ဤပ႐ိုင္ဖိုင္ကို :
+%1$sမွ စီမံပါသည္
+
+သင္၏ စီမံခန္႔ခြဲသူသည္ အီးေမးလ္မ်ား၊ အက္ပ္မ်ားႏွင့္ လံုၿခံဳေသာ ဝဘ္ဆိုဒ္မ်ား အပါအဝင္ သင္၏ ကြန္ယက္လုပ္ေဆာင္ခ်က္ကို ေစာင့္ၾကည့္စီမံႏိုင္စြမ္းရွိသည္။
+
+ေနာက္ထပ္ အခ်က္အလက္အတြက္၊ သင္၏ စီမံခန္႔ခြဲသူကို ဆက္သြယ္ပါ။"</string>
+    <string name="monitoring_description_device_and_profile_owned">"ဤကိရိယာကို :
+%1$sမွ စီမံပါသည္
+သင့္ပ႐ိုင္ဖိုင္ကို :
+%2$sမွ စီမံပါသည္
+
+သင္၏ စီမံခန္႔ခြဲသူသည္ အီးေမးလ္မ်ား၊ အက္ပ္မ်ားႏွင့္ လံုၿခံဳေသာ ဝဘ္ဆိုဒ္မ်ား အပါအဝင္ သင္၏ ကြန္ယက္လုပ္ေဆာင္ခ်က္ကို ေစာင့္ၾကည့္စီမံႏိုင္စြမ္းရွိသည္။
+
+ေနာက္ထပ္ အခ်က္အလက္အတြက္၊ သင္၏ စီမံခန္႔ခြဲသူကို ဆက္သြယ္ပါ။"</string>
+    <string name="monitoring_description_vpn_profile_owned">"ဤပ႐ိုဖိုင္ကို :
+%1$sမွ စီမံပါသည္။
+
+သင္၏ စီမံခန္႔ခြဲသူသည္ အီးေမးလ္မ်ား၊ အက္ပ္မ်ားႏွင့္ လံုၿခံဳေသာ ဝဘ္ဆိုဒ္မ်ား အပါအဝင္ သင္၏ ကြန္ယက္လုပ္ေဆာင္ခ်က္ကို ေစာင့္ၾကည့္စီမံႏိုင္စြမ္းရွိသည္။ ေနာက္ထပ္ အခ်က္အလက္အတြက္၊ သင္၏ စီမံခန္႔ခြဲသူကို ဆက္သြယ္ပါ။
+
+သင္သည္ \"%2$s\" ကို VPN ခ်ိတ္ဆက္မႈတစ္ခု ျပဳလုပ္ရန္လည္း ခြင့္ျပဳခ်က္ေပးခဲ့သည္။ ဒီအက္ပ္သည္ ကြန္ယက္လုပ္ေဆာင္မႈမ်ားကိုလည္းပဲ ေစာင့္ၾကည့္စီမံႏိုင္သည္။"</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"ပရိုဖိုင်ကို စီမံပေးသူ:
+%1$s
+
+သင့်စီမံအုပ်ချုပ်သူက သင့် ကိရိယာ နှင့် ကွန်ရက် လှုပ်ရှားမှု၊ အီးမေးလ်များ၊ appများ နှင့် လုံခြုံသည့် ဝက်ဘ်ဆိုက်များ အပါအဝင်ကို စောင့်ကြပ်နိုင်သည်။ ထပ် သိလိုလျှင်၊ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။
+
+သင်သည် VPN (\"%2$s\") သို့ပါ ချိတ်ထားသည်။ သင်၏ VPN စီမံပေးသူကပါ ကွန်ရက် လှုပ်ရှားမှုကို စောင့်ကြပ်နိုင်သည်။"</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"ဤကိရိယာကို :
+%1$sမွ စီမံပါသည္။
+သင့္ပ႐ိုင္ဖုိင္ကို :
+%2$sမွ စီမံပါသည္
+
+သင္၏ စီမံခန္႔ခြဲသူသည္ အီးေမးလ္မ်ား၊ အက္ပ္မ်ားႏွင့္ လံုၿခံဳေသာ ဝဘ္ဆိုဒ္မ်ား အပါအဝင္ သင္၏ ကြန္ယက္လုပ္ေဆာင္ခ်က္ကို ေစာင့္ၾကည့္စီမံႏိုင္စြမ္းရွိသည္။ ေနာက္ထပ္ အခ်က္အလက္အတြက္၊ သင္၏ စီမံခန္႔ခြဲသူကို ဆက္သြယ္ပါ။
+
+သင္သည္ VPN (\"%3$s\") တစ္ခုျဖင့္လည္း ခ်ိတ္ဆက္ထားသည္။ သင့္ VPN ဝန္ေဆာင္မႈစီစဥ္ေပးသူက ကြန္ယက္လုပ္ေဆာင္မႈမ်ားကိုလည္းပဲ ေစာင့္ၾကည့္စီမံႏိုင္သည္။"</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"ဒီကိရိယာ စီမံပေးသူ:
+%1$s
+သင့် ပရိုဖိုင် စီမံပေးသူ:
+%2$s
+
+ စီမံအုပ်ချုပ်သူသည် သင့် ကိရိယာ နှင့် ကွန်ရက် လှုပ်ရှားမှု၊ အီးမေးလ်များ၊ appများ နှင့် လုံခြုံသည့် ဝက်ဘ်ဆိုက်များ အပါအဝင်ကို စောင့်ကြပ်နိုင်သည်။
+
+ထပ် သိလိုလျှင်၊ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။ သင်သည် VPN (\"%3$s\") သို့ပါ ချိတ်ထားသည်။ သင်၏ VPN စီမံပေးသူကပါ ကွန်ရက် လှုပ်ရှားမှုကို စောင့်ကြပ်နိုင်သည်။"</string>
+    <string name="keyguard_indication_trust_disabled">ကိရိယာကို သင္ကိုယ္တိုင္ ေသာ့မဖြင့္မခ်င္း၊ ၎က ေသာ့ပိတ္ေနလိမ့္မည္။</string>
+    <string name="hidden_notifications_title">သတိေပးခ်က္မ်ားကို ပို၍ျမန္စြာ ရယူပါ</string>
+    <string name="hidden_notifications_text">သင္ ေသာ့မဖြင့္မီ၊ ၎တို႔ကို ၾကည့္ပါ</string>
+    <string name="hidden_notifications_cancel">ရပါၿပီ၊ ေက်းဇူးတင္ပါတယ္</string>
+    <string name="hidden_notifications_setup">တပ္ဆင္ပါ</string>
+    <string name="zen_mode_and_condition">%1$s (%2$s)</string>
+    <string name="screen_pinning_title">ဖန္သားျပင္ကိုပင္ထိုးထားသည္</string>
+    <string name="screen_pinning_description">ဤအရာက သင္ ပင္ကို မျဖဳတ္မခ်င္း ၎ကိုျမင္ကြင္းထဲမွာ ဆက္ထားထားမည္။ ပင္ျဖဳတ္ရန္ ဘက္ျပန္ႏွင့္ၿခံဳငုံခ်က္ကို တစ္ၿပိဳင္တည္း ထိ၍ကိုင္ထားပါ။</string>
+    <string name="screen_pinning_description_accessible">ဤအရာသည္ သင္ ပင္ကို မျဖဳတ္မခ်င္း ၎ကိုျမင္ကြင္းထဲမွာ ဆက္ထားထားမည္။ ပင္ျဖဳတ္ရန္ ၿခံဳငုံခ်က္ကို ထိ၍ကိုင္ထားပါ။</string>
+    <string name="screen_pinning_positive">၎ကိုရခဲ့သည္</string>
+    <string name="screen_pinning_negative">ရပါၿပီ၊ ေက်းဇူးတင္ပါတယ္</string>
+    <string name="quick_settings_reset_confirmation_title">%1$s ကုိ ကြယ္ဝွက္မလား။</string>
+    <string name="quick_settings_reset_confirmation_message">၎သည္ ေနာက္တစ္ႀကိမ္ သင္ သတ္မွတ္ခ်က္မ်ားထဲတြင္ ဖြင့္ေသာအခါ ျပန္လည္ေပၚလာလိမ့္မည္။</string>
+    <string name="quick_settings_reset_confirmation_button">ဝွက္ပါ</string>
+    <string name="accessibility_ime_switch_button">ျဖည့္သြင္းခ်က္နည္းလမ္းခလုတ္ကို ကူးေျပာင္းပါ</string>
+    <string name="app_name">ကီးလုံၿခံဳေရးကိရိယာ</string>
+    <string name="keyguard_password_enter_pin_code">PIN ကုဒ္ ႐ိုက္ထည့္ပါ</string>
+    <string name="keyguard_password_enter_puk_code">SIM PUK ႏွင့္ PIN ကုဒ္အသစ္ကို ႐ိုက္ထည့္ပါ</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM PUK ကုဒ္</string>
+    <string name="keyguard_password_enter_pin_prompt">SIM PIN ကုဒ္အသစ္</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">စကားဝွက္ ထည့္သြင္းရန္ တို႔ထိပါ</font></string>
+    <string name="keyguard_password_enter_password_code">ေသာ့ဖြင့္ရန္ စကားဝွက္ ထည့္ပါ</string>
+    <string name="keyguard_password_enter_pin_password_code">ေသာ့ဖြင့္ရန္ PIN ႐ိုက္ထည့္ပါ</string>
+    <string name="keyguard_password_wrong_pin_code">မမွန္ေသာ PIN ကုဒ္</string>
+    <string name="keyguard_label_text">ေသာ့ဖြင့္ရန္၊ မီႏူးကို ႏွိပ္ၿပီးေနာက္ 0 ကိုႏွိပ္ပါ။</string>
+    <string name="faceunlock_multiple_failures">မ်က္ႏွာေသာ့ဖြင့္ျခင္းအားထုတ္မႈ အမ်ားဆုံးအႀကိမ္ေရကို ေက်ာ္သြားပါၿပီ</string>
+    <string name="keyguard_charged">အားအျပည့္ သြင္းထားသည္</string>
+    <string name="keyguard_plugged_in">အားသြင္းေနဆဲ</string>
+    <string name="keyguard_low_battery">သင္၏ အားသြင္းကိရိယာသို႔ ခ်ိတ္ဆက္ပါ။</string>
+    <string name="keyguard_instructions_when_pattern_disabled">ေလာခ့္ဖြင့္ရန္ မီႏူးကို ႏွိပ္ပါ။</string>
+    <string name="keyguard_network_locked_message">ကြန္ယက္ ေသာ့ခ်ထားသည္</string>
+    <string name="keyguard_missing_sim_message_short">SIM ကဒ္ မရွိပါ</string>
+    <string name="keyguard_missing_sim_message">SIM ကဒ္ ထည့္သြင္းမထားပါ။</string>
+    <string name="keyguard_missing_sim_instructions">SIM ကဒ္တစ္ခု ထည့္ပါ။</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM ကဒ္ ေပ်ာက္ေနသည္ (သို႔) ဖတ္မရပါ။ SIM ကဒ္တစ္ခု ထည့္ပါ။</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">အသံုးမျပဳႏိုင္သည့္ SIM ကဒ္။</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"သင္၏ SIM ကဒ္ကို အၿပီးသတ္ ပိတ္ထားသည္။
+ အျခား SIM ကဒ္အတြက္ သင္၏ ၀ိုင္ယာလက္ဝန္ေဆာင္မႈ စီစဥ္ေပးသူကို ဆက္သြယ္ပါ။"</string>
+    <string name="keyguard_sim_locked_message">SIM ကဒ္ ေလာခ့္ခ်ထားသည္။</string>
+    <string name="keyguard_sim_puk_locked_message">SIM ကဒ္ကို PUK ေလာခ့္ခ်ထားသည္။</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM ကတ္ကို ပိတ္ဆို႔ထားသည္မွ ဖြင့္ေနဆဲ…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s။ ဝဒ္ဂ်က္ %3$d ၏%2$d။</string>
+    <string name="keyguard_accessibility_add_widget">ဝဒ္ဂ်က္ ထည့္ပါ</string>
+    <string name="keyguard_accessibility_widget_empty_slot">အလြတ္</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">ေသာ့ဖြင့္ဧရိယာကို ခ်ဲ႕ၿပီးၿပီ။</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">ေသာ့ဖြင့္ထားသည့္ဧရိယာ ေခါက္သိမ္းထားသည္။</string>
+    <string name="keyguard_accessibility_widget">%1$s ဝဒ္ဂ်က္။</string>
+    <string name="keyguard_accessibility_user_selector">အသံုးျပဳသူ ေရြးခ်ယ္သူ</string>
+    <string name="keyguard_accessibility_camera">ကင္မရာ</string>
+    <string name="keygaurd_accessibility_media_controls">မီဒီယာ ထိန္းခ်ဳပ္မႈမ်ား</string>
+    <string name="keyguard_accessibility_widget_reorder_start">ဝဒ္ဂ်က္ ျပန္လည္စီစဥ္မႈ စတင္ထားသည္။</string>
+    <string name="keyguard_accessibility_widget_reorder_end">ဝဒ္ဂ်က္ ျပန္လည္စီစဥ္မႈ ၿပီးဆံုးပါၿပီ။</string>
+    <string name="keyguard_accessibility_widget_deleted">ဝဒ္ဂ်က္ %1$s ဖ်က္ထားသည္။</string>
+    <string name="keyguard_accessibility_expand_lock_area">ေသာ့ဖြင့္ဧရိယာကို ခ်ဲ႕ပါ။</string>
+    <string name="keyguard_accessibility_slide_unlock">ေသာ့ဖြင့္ရန္ ပြတ္ဆြဲပါ။</string>
+    <string name="keyguard_accessibility_pattern_unlock">ပုံစံျဖင့္ ေသာ့ဖြင့္ပါ။</string>
+    <string name="keyguard_accessibility_face_unlock">မ်က္ႏွာျဖင့္ ေသာ့ဖြင့္ျခင္း။</string>
+    <string name="keyguard_accessibility_pin_unlock">Pin ျဖင့္ ေသာ့ဖြင့္ပါ။</string>
+    <string name="keyguard_accessibility_password_unlock">စကားဝွက္ျဖင့္ ေသာ့ဖြင့္ပါ။</string>
+    <string name="keyguard_accessibility_pattern_area">ပံုစံ ဧရိယာ။</string>
+    <string name="keyguard_accessibility_slide_area">ပြတ္ဆြဲဧရိယာ။</string>
+    <string name="keyguard_accessibility_pin_area">PIN ဧရိယာ</string>
+    <string name="keyguard_accessibility_sim_pin_area">SIM PIN ဧရိယာ</string>
+    <string name="keyguard_accessibility_sim_puk_area">SIM PUK ဧရိယာ</string>
+    <string name="keyguard_accessibility_transport_prev_description">ယခင္ သီခ်င္းခလုတ္</string>
+    <string name="keyguard_accessibility_transport_next_description">ေနာက္သီခ်င္းခလုတ္</string>
+    <string name="keyguard_accessibility_transport_pause_description">ရပ္တန္႔ ခလုတ္</string>
+    <string name="keyguard_accessibility_transport_play_description">ဖြင့္ခလုတ္</string>
+    <string name="keyguard_accessibility_transport_stop_description">ရပ္ခလုတ္</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Thumbs up</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Thumbs down</string>
+    <string name="keyguard_accessibility_transport_heart_description">ႏွလုံး</string>
+    <string name="keyguard_accessibility_show_bouncer">ဆက္လုပ္ရန္ ေသာ့ဖြင့္ပါ</string>
+    <string name="keyguard_accessibility_hide_bouncer">အစပ်ိဳးမႈကို ပယ္ဖ်က္ထားသည္</string>
+    <string name="keyguard_accessibility_delete_widget_start">ဖ်က္ပစ္ရန္ %1$s ကိုခ်န္ထားပါ။</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s အား ဖ်က္သြားမည္မဟုတ္ပါ။</string>
+    <string name="keyguard_accessibility_next_alarm">%1$s အတြက္ သတ္မွတ္ထားေသာ ေနာက္ႏႈိးစက္</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">Alt</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">ပယ္ဖ်က္ပါ</string>
+    <string name="keyboardview_keycode_delete">ဖ်က္ပစ္ပါ</string>
+    <string name="keyboardview_keycode_done">ၿပီးပါၿပီ</string>
+    <string name="keyboardview_keycode_mode_change">အေနအထား ေျပာင္းမႈ</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">ထည့္သြင္းပါ</string>
+    <string name="description_target_unlock">ေသာ့ဖြင့္ပါ</string>
+    <string name="description_target_camera">ကင္မရာ</string>
+    <string name="description_target_silent">အသံေဖ်ာက္ပါ</string>
+    <string name="description_target_soundon">အသံ ဖြင့္</string>
+    <string name="description_direction_down">%s အတြက္ ေအာက္သို႔ ဆြဲခ်ပါ။</string>
+    <string name="description_direction_right">%s အတြက္ ညာသို႔ ပြတ္ဆြဲပါ။</string>
+    <string name="user_switched">လက္ရွိ အသံုးျပဳသူမွာ %1$s ျဖစ္သည္။</string>
+    <string name="kg_emergency_call_label">အေရးေပၚ ေခၚဆိုမႈ</string>
+    <string name="kg_forgot_pattern_button_text">ပုံစံ ေမ့ေနသည္</string>
+    <string name="kg_wrong_pattern">ပံုစံ မွားယြင္းသည္</string>
+    <string name="kg_wrong_password">စကားဝွက္ မမွန္ကန္ပါ</string>
+    <string name="kg_wrong_pin">PIN မွားယြင္းသည္</string>
+    <string name="kg_too_many_failed_attempts_countdown">ေက်းဇူးျပဳ၍ %d စကၠန္႔ၾကာၿပီးေနာက္တြင္ စကား၀ွက္ကို ေနာက္တစ္ႀကိမ္ ျပန္ထည့္ေပးပါ။</string>
+    <string name="kg_pattern_instructions">သင္၏ ပုံစံကို ဆြဲပါ</string>
+    <string name="kg_sim_pin_instructions">SIM PIN ထည့္သြင္းပါ</string>
+    <string name="kg_sim_pin_instructions_multi">\"%1$s\" အတြက္ SIM PIN ထည့္သြင္းပါ</string>
+    <string name="kg_pin_instructions">PIN ထည့္သြင္းပါ</string>
+    <string name="kg_password_instructions">စကားဝွက္ ထည့္ပါ</string>
+    <string name="kg_puk_enter_puk_hint">SIM ကို ယခု ပိတ္ထားသည္။ ဆက္လုပ္ရန္ PUK ကုဒ္ ထည့္ပါ။ အေသးစိတ္မ်ားအတြက္ ဝန္ေဆာင္မႈေပးသူကို ဆက္သြယ္ပါ။</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM \"%1$s\" ကို ယခု ပိတ္ထားသည္။ ဆက္လုပ္ရန္ PUK ကုဒ္ ထည့္သြင္းပါ။ အေသးစိတ္မ်ားအတြက္ ဝန္ေဆာင္မႈေပးသူကို ဆက္သြယ္ပါ။</string>
+    <string name="kg_puk_enter_pin_hint">အလိုရွိေသာ PIN ကုဒ္ကို ထည့္ပါ</string>
+    <string name="kg_enter_confirm_pin_hint">အလိုရွိေသာ PIN ကုဒ္အား အတည္ျပဳပါ</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM ကတ္ကို ပိတ္ဆို႔ထားသည္မွ ဖြင့္ေနဆဲ…</string>
+    <string name="kg_invalid_sim_pin_hint">ဂဏန္း 4 လုံးမွ 8 လုံးအထိ ပါေသာ PIN တစ္ခု ႐ိုက္ထည့္ပါ။</string>
+    <string name="kg_invalid_sim_puk_hint">PUK ကုဒ္သည္ ဂဏန္း 8 လုံး (သို႔) ၎ထက္ ေက်ာ္ရမည္။</string>
+    <string name="kg_invalid_puk">မွန္ေသာ PUK ကုဒ္ ျပန္-ထည့္ပါ။ ထပ္ခါထပ္ခါ အားထုတ္ျခင္းသည္ SIM ကဒ္ကို အၿပီိးသတ္ အၿမဲ ပိတ္သြားေစႏိုင္သည္။</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN ကုဒ္မ်ား မကိုက္ညီပါ</string>
+    <string name="kg_login_too_many_attempts">အလြန္မ်ားျပားသည့္ ပံုစံျဖင့္ ႀကိဳးစားမႈမ်ား</string>
+    <string name="kg_login_instructions">ေသာ့ဖြင့္ရန္၊ သင္၏ Google အေကာင့္ျဖင့္ ဝင္ေရာက္ပါ။</string>
+    <string name="kg_login_username_hint">သုံးသူအမည္ (အီးေမးလ္)</string>
+    <string name="kg_login_password_hint">စကားဝွက္</string>
+    <string name="kg_login_submit_button">ဝင္ေရာက္ပါ</string>
+    <string name="kg_login_invalid_input">အသံုးျပဳသူအမည္ (သို႔) စကားဝွက္ ေဘာင္မဝင္ပါ။</string>
+    <string name="kg_login_account_recovery_hint">"သင္၏ အသံုးျပဳသူအမည္ (သို႔) စကားဝွက္ကို ေမ့ေနပါသလား?
+ "<b>google.com/accounts/recovery</b> သို႔သြားေရာက္ၾကည့္႐ႈပါ။</string>
+    <string name="kg_login_checking_password">အေကာင့္ကို စစ္ေဆးေနဆဲ…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"သင္၏ PIN ကို %d ခါ မမွန္မကန္ ႐ိုက္ထည့္ထားသည္။
+
+%d စကၠန္႔ အၾကာမွာ ထပ္ႀကိဳးစားပါ။"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"သင္သည္ စကားဝွက္ကို %d ခါ မမွန္မကန္ ထည့္သြင္းထားသည္။
+
+%d စကၠန္႔ ၾကာၿပီးမွ ထပ္ႀကိဳးစားပါ။"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"သင္သည္ ေသာ့ဖြင့္ပံုစံကို မမွန္ကန္စြာ %d ႀကိမ္ ေရးဆြဲထားသည္။ 
+
+%d စကၠန္႔ၾကာၿပီးေနာက္ ျပန္လည္ႀကိဳးစားပါ။"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">သင္သည္ ဖုန္းေသာ့ဖြင့္ရန္ %d ခါ မမွန္မကန္ အားထုတ္ခဲ့သည္။ ေနာက္ထပ္ မေအာင္ျမင္ေသာ အားထုတ္မႈမ်ိဳး %d ခါ အားထုတ္ၿပီးေနာက္မွာ၊ ဒီဖုန္းကို ျပန္သတ္မွတ္မည္ျဖစ္ၿပီး၊ ၎၏ေဒတာအားလုံးကို ဖ်က္ပစ္ပါလိမ့္မည္။္</string>
+    <string name="kg_failed_attempts_now_wiping">သင္သည္ ဖုန္းေသာ့ဖြင့္ရန္ %d ခါ မမွန္မကန္ အားထုတ္ခဲ့သည္။ ဒီဖုန္းကို ျပန္သတ္မွတ္မည္ျဖစ္ၿပီး၊ ၎၏ေဒတာအားလုံးကို ဖ်က္ပစ္ပါလိမ့္မည္။</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">သင္သည္ ဖုန္းေသာ့ဖြင့္ရန္ %d ခါ မမွန္မကန္ အားထုတ္ခဲ့သည္။ ေနာက္ထပ္ မေအာင္ျမင္ေသာ အားထုတ္မႈမ်ိဳး %d ခါ အားထုတ္ၿပီးေနာက္မွာ၊ ဒီသုံးသူကို ဖယ္ရွားမည္ျဖစ္ၿပီး၊ ဤဖယ္ရွားမႈက သုံးသူေဒတာအားလုံးကို ဖ်က္ပစ္လိမ့္မည္။</string>
+    <string name="kg_failed_attempts_now_erasing_user">ဖုန္းအား ေသာ့ဖြင့္ရန္ သင္ %d ႀကိမ္ ႀကိဳးစားရာ မမွန္ကန္ခဲ့ပါ။ ဤအသံုးျပဳသူအား ဖယ္ထုတ္မည္ျဖစ္ျပီး၊ အသံုးျပဳသူေဒတာအားလံုး ပ်က္သြားမည္ျဖစ္သည္။</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">သင္သည္ ဖုန္းေသာ့ဖြင့္ရန္ %d ခါ မမွန္မကန္ အားထုတ္ခဲ့သည္။ ေနာက္ထပ္ မေအာင္ျမင္ေသာ အားထုတ္မႈမ်ိဳး %d ခါ အားထုတ္ၿပီးေနာက္မွာ၊ လုပ္ငန္းပ႐ိုဖိုင္ကို ဖယ္ရွားမည္ျဖစ္ၿပီး၊ ဤဖယ္ရွားမႈက ပ႐ိုဖိုင္ေဒတာအားလုံးကို ဖ်က္ပစ္ပါလိမ့္မည္။</string>
+    <string name="kg_failed_attempts_now_erasing_profile">သင္သည္ ဖုန္းေသာ့ဖြင့္ရန္ %d ခါ မမွန္မကန္ အားထုတ္ခဲ့သည္။ လုပ္ငန္းပ႐ိုဖိုင္ကို ဖယ္ရွားမည္ျဖစ္ၿပီး၊ ဤဖယ္ရွားမႈက ပ႐ိုဖိုင္ေဒတာအားလုံးကို ဖ်က္ပစ္ပါလိမ့္မည္။</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"သင္သည္ ေသာ့ဖြင့္ပံုစံကို %d ႀကိမ္ မမွန္ကန္စြာ ေရးဆြဲထားသည္။
+မေအာင္ျမင္သည့္ ႀကိဳးစားမႈ(မ်ား) %d ႀကိမ္ ႀကိဳးစားၿပီးေနာက္၊ အီးေမးလ္ကို အသံုးျပဳ၍ သင္၏ဖုန္းကိုေသာ့ဖြင့္ရန္ သင့္ကိုေတာင္းဆိုသြားမည္။
+
+%d စကၠန္႔ၾကာၿပီးေနာက္ ျပန္လည္ႀကိဳးစားပါ။"</string>
+    <string name="kg_reordering_delete_drop_target_text">ဖယ္ရွားပါ</string>
+    <string name="kg_password_wrong_pin_code_pukked">မမွန္ေသာ SIM PIN ကုဒ္၊ သင့္ကိရိယာ ေသာ့ဖြင့္ရန္အတြက္ သင့္ဝန္ေဆာင္မႈေပးသူကို ယခု ဆက္သြယ္ရမည္။</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM သုံး၍မရႏိုင္ေတာ့ပါ။ သင္၏ဝန္ေဆာင္မႈ ေပးသူကိုဆက္သြယ္ပါ။</string>
+    <string name="kg_password_pin_failed">SIM PIN လုပ္ေဆာင္ခ်က္ မေအာင္ျမင္ပါ!</string>
+    <string name="kg_password_puk_failed">SIM PUK လုပ္ေဆာင္ခ်က္ မေအာင္ျမင္ပါ!</string>
+    <string name="kg_pin_accepted">ကုဒ္ လက္ခံထားသည္!</string>
+    <string name="keyguard_transport_prev_description">ယခင္ သီခ်င္းခလုတ္</string>
+    <string name="keyguard_transport_next_description">ေနာက္သီခ်င္းခလုတ္</string>
+    <string name="keyguard_transport_pause_description">ရပ္တန္႔ ခလုတ္</string>
+    <string name="keyguard_transport_play_description">ဖြင့္ခလုတ္</string>
+    <string name="keyguard_transport_stop_description">ရပ္ခလုတ္</string>
+    <string name="keyguard_carrier_default">ဝန္ေဆာင္မႈ မရွိပါ။</string>
+</resources>

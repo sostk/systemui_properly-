@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyme.systemui.statusbar.phone.AdvertTickerView android:orientation="horizontal" android:id="@id/ticker_ext" android:animationCache="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageSwitcher android:id="@id/tickerIcon_ext" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:inAnimation="@anim/slide_in_bottom" android:outAnimation="@anim/slide_out_up" android:layout_marginEnd="2.0dip">
+        <com.android.systemui.statusbar.AnimatedImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        <com.android.systemui.statusbar.AnimatedImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    </ImageSwitcher>
+    <TextSwitcher android:id="@id/tickerText_ext" android:layout_width="0.0dip" android:layout_height="fill_parent" android:inAnimation="@anim/slide_in_bottom" android:outAnimation="@anim/slide_out_up" android:layout_weight="1.0" android:paddingEnd="10.0dip">
+        <com.flyme.systemui.statusbar.phone.MarqueeTextView android:textAppearance="@style/TextAppearance.StatusBar.PhoneTicker" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" />
+        <com.flyme.systemui.statusbar.phone.MarqueeTextView android:textAppearance="@style/TextAppearance.StatusBar.PhoneTicker" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" />
+    </TextSwitcher>
+</com.flyme.systemui.statusbar.phone.AdvertTickerView>

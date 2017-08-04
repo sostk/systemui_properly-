@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:meizu="http://schemas.android.com/apk/res-auto">
+    <com.meizu.common.widget.LoadingView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" meizu:mcLBackground="#26ffffff" meizu:mcLForeground="#ffffffff" />
+</LinearLayout>

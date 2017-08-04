@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.flyme.systemui.recents.views.RecentsExtendView android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/recents_extend" android:visibility="invisible" android:layout_width="132.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/recents_extend_top_padding">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/recents_extend_button_width" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <ImageView android:id="@id/recents_lock" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/recents_lock_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/recents_extend_lock" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/recents_extend_button_width" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/recents_secret" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/recents_secret_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/recents_extend_secret" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:visibility="gone" android:layout_width="@dimen/recents_extend_button_width" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/recents_multi" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/recents_multi_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/recents_extend_multi" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </com.flyme.systemui.recents.views.RecentsExtendView>
+</merge>

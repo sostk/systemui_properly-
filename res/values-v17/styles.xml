@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Flyme.Light" parent="@style/Base.V17.Theme.Flyme.Light" />
+    <style name="Theme.Flyme.Light.Dialog.Alert" parent="@style/Base.V17.Flyme.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Base.V17.Flyme.Light.Dialog.Alert" parent="@style/Base.Theme.Flyme.Light.Dialog.Alert">
+        <item name="android:checkedTextViewStyle">@style/Widget.Flyme.Light.CheckedTextView</item>
+    </style>
+    <style name="Base.V17.Theme.Flyme.Light" parent="@style/Base.Theme.Flyme.Light">
+        <item name="android:listPreferredItemPaddingStart">@dimen/mz_list_item_content_padding_left</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/mz_list_item_content_padding_right</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.Flyme.Light.CheckedTextView</item>
+    </style>
+</resources>

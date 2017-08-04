@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:common="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="47.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mc_custom_date_picker_selected_tab_color" android:gravity="center" android:id="@id/gregorian" android:layout_width="@dimen/mc_custom_picker_tab_text_width" android:layout_height="fill_parent" android:layout_marginLeft="75.0dip" android:text="@string/mc_custom_date_time_gregorian" android:singleLine="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="75.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/mc_custom_date_picker_unselected_tab_color" android:gravity="center" android:id="@id/lunar" android:layout_width="@dimen/mc_custom_picker_tab_text_width" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:text="@string/mc_custom_date_time_lunar" android:singleLine="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="3.0dip" />
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@id/indicator" android:layout_width="@dimen/mc_custom_picker_dicator_width" android:layout_height="@dimen/mc_custom_picker_dicator_height" android:layout_marginLeft="@dimen/mc_custom_picker_dicator_margin_left" android:layout_marginBottom="3.0dip" />
+    </FrameLayout>
+    <View android:background="@color/mc_custom_date_picker_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="16.0sp" android:textColor="#66000000" android:layout_gravity="center_horizontal" android:id="@id/time_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginBottom="16.0dip" android:fontFamily="sans-serif-medium" />
+    <com.meizu.common.widget.DatePicker android:layout_gravity="center_horizontal" android:id="@id/datePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:spinnersShown="true" android:calendarViewShown="false" common:mcInternalLayout="@layout/mc_custom_date_picker" common:mcVisibleRow="5" />
+</LinearLayout>

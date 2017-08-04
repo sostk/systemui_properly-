@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyme.systemui.wallpaper.WallpaperView android:id="@id/wallpaper_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/wallpaper_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_above="@id/wallpaper_content" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/wallpaper_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginRight="29.0dip" android:layout_alignParentBottom="true" android:lineSpacingExtra="4.0dip" />
+</com.flyme.systemui.wallpaper.WallpaperView>
